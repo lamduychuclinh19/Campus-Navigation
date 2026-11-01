@@ -1,0 +1,129 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "access_connector",
+        "place_id": "B"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.682087,
+            10.75948
+          ],
+          [
+            106.68209,
+            10.759472
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "w9_part09",
+        "way_id": "w9",
+        "kind": "walkway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.68209,
+            10.759472
+          ],
+          [
+            106.68233709978648,
+            10.759567700532063
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "w10_part02",
+        "way_id": "w10",
+        "kind": "walkway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.68233711346254,
+            10.75956770499744
+          ],
+          [
+            106.682397,
+            10.759412
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "w10_part03",
+        "way_id": "w10",
+        "kind": "walkway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.682397,
+            10.759412
+          ],
+          [
+            106.68239750316411,
+            10.759412191996836
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "edge_id": "w17_part01",
+        "way_id": "w17",
+        "kind": "walkway"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.682401,
+            10.759407
+          ],
+          [
+            106.6824712810599,
+            10.75922739284695
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "access_connector",
+        "place_id": "A"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.6824682,
+            10.7592262
+          ],
+          [
+            106.6824932,
+            10.7591489
+          ]
+        ]
+      }
+    }
+  ]
+}

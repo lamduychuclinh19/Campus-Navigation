@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+
+# Generated/legacy exports and local diary document
+/campus_map.html
+/data/Nhậtkys.docx
+/data/routing/edge_connections.csv
+/data/routing/place_access_candidates.csv
