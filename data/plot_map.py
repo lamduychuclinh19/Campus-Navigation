@@ -37,13 +37,20 @@ class MapRequestHandler(SimpleHTTPRequestHandler):
         if request.path == "/api/route":
             params = parse_qs(request.query)
             try:
-                latitude = float(params["lat"][0])
-                longitude = float(params["lon"][0])
                 destination = params["destination"][0]
-                if not -90 <= latitude <= 90 or not -180 <= longitude <= 180:
-                    raise ValueError("Latitude or longitude is out of range.")
                 if Path(destination).name != destination or destination in (".", ".."):
                     raise ValueError("Invalid destination ID.")
+                start_place = params.get("start_place", [""])[0].strip()
+                if start_place:
+                    if Path(start_place).name != start_place or start_place in (".", ".."):
+                        raise ValueError("Invalid start place ID.")
+                    route_args = [start_place, destination]
+                else:
+                    latitude = float(params["lat"][0])
+                    longitude = float(params["lon"][0])
+                    if not -90 <= latitude <= 90 or not -180 <= longitude <= 180:
+                        raise ValueError("Latitude or longitude is out of range.")
+                    route_args = [destination, "--start-coordinate", str(latitude), str(longitude)]
             except (KeyError, IndexError, ValueError) as error:
                 self._send_json(400, {"error": f"Invalid route request: {error}"})
                 return
@@ -52,8 +59,7 @@ class MapRequestHandler(SimpleHTTPRequestHandler):
             with ROUTE_LOCK:
                 try:
                     result = subprocess.run(
-                        [sys.executable, str(route_script), destination,
-                         "--start-coordinate", str(latitude), str(longitude)],
+                        [sys.executable, str(route_script), *route_args],
                         cwd=DATA_FOLDER.parent,
                         capture_output=True,
                         text=True,

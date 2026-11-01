@@ -27,12 +27,15 @@
 <body>
   <div id="map"></div>
   <section class="route-panel">
-    <label for="destination">Tìm điểm đến</label>
-    <input id="destination" list="destination-options" placeholder="Nhập mã/tên địa điểm, ví dụ KTH">
-    <datalist id="destination-options"></datalist>
+    <label for="start">Điểm xuất phát</label>
+    <input id="start" list="place-options" placeholder="Chọn địa điểm, GPS hoặc điểm trên bản đồ">
+    <label for="destination">Điểm đến</label>
+    <input id="destination" list="place-options" placeholder="Nhập mã/tên địa điểm, ví dụ KTH">
+    <datalist id="place-options"></datalist>
     <button id="gps-button" type="button">Dùng vị trí GPS hiện tại</button>
     <button id="map-pick-button" type="button">Chọn điểm xuất phát trên bản đồ</button>
-    <div id="route-message" role="status">Chọn điểm đến, sau đó dùng GPS hoặc chọn điểm trên bản đồ.</div>
+    <button id="route-button" type="button">Tìm đường</button>
+    <div id="route-message" role="status">Chọn điểm xuất phát và điểm đến, sau đó bấm “Tìm đường”.</div>
   </section>
   <div class="status" id="status">Đang tải dữ liệu GeoJSON…</div>
 
@@ -58,12 +61,16 @@
     L.control.layers(null, overlayLayers, { collapsed: false }).addTo(map);
 
     const status = document.getElementById("status");
+    const startInput = document.getElementById("start");
     const destinationInput = document.getElementById("destination");
     const routeMessage = document.getElementById("route-message");
     const gpsButton = document.getElementById("gps-button");
     const mapPickButton = document.getElementById("map-pick-button");
+    const routeButton = document.getElementById("route-button");
     let choosingStartOnMap = false;
     let startMarker = null;
+    let selectedStartCoordinate = null;
+    let selectedStartLabel = "";
 
     function cleanDestination(value) {
       return value.trim().replace(/\.geojson$/i, "");
@@ -76,22 +83,28 @@
       }).addTo(map).bindTooltip(label).openTooltip();
     }
 
-    async function calculateRoute(latlng, sourceLabel) {
+    async function calculateRoute() {
+      const startPlace = selectedStartCoordinate ? "" : cleanDestination(startInput.value);
       const destination = cleanDestination(destinationInput.value);
-      if (!destination) {
-        routeMessage.textContent = "Nhập hoặc chọn điểm đến trước nhé.";
+      if ((!startPlace && !selectedStartCoordinate) || !destination) {
+        routeMessage.textContent = "Chọn cả điểm xuất phát lẫn điểm đến trước nhé.";
         return;
       }
 
       routeLayer.clearLayers();
       routeLayer.addTo(map);
-      routeMessage.textContent = `Đang tính tuyến từ ${sourceLabel}…`;
+      routeMessage.textContent = `Đang tính tuyến từ ${selectedStartLabel || startPlace} tới ${destination}…`;
       gpsButton.disabled = true;
       mapPickButton.disabled = true;
+      routeButton.disabled = true;
       try {
-        const params = new URLSearchParams({
-          lat: String(latlng.lat), lon: String(latlng.lng), destination
-        });
+        const params = new URLSearchParams({ destination });
+        if (selectedStartCoordinate) {
+          params.set("lat", String(selectedStartCoordinate.lat));
+          params.set("lon", String(selectedStartCoordinate.lng));
+        } else {
+          params.set("start_place", startPlace);
+        }
         const response = await fetch(`/api/route?${params.toString()}`);
         const result = await response.json();
         if (!response.ok) throw new Error(result.error || `HTTP ${response.status}`);
@@ -111,12 +124,26 @@
       } finally {
         gpsButton.disabled = false;
         mapPickButton.disabled = false;
+        routeButton.disabled = false;
       }
     }
+
+    routeButton.addEventListener("click", calculateRoute);
+    startInput.addEventListener("input", () => {
+      selectedStartCoordinate = null;
+      selectedStartLabel = "";
+      routeLayer.clearLayers();
+      if (startMarker) {
+        startMarker.remove();
+        startMarker = null;
+      }
+    });
+    destinationInput.addEventListener("input", () => routeLayer.clearLayers());
 
     gpsButton.addEventListener("click", () => {
       choosingStartOnMap = false;
       mapPickButton.textContent = "Chọn điểm xuất phát trên bản đồ";
+      routeLayer.clearLayers();
       if (!navigator.geolocation) {
         routeMessage.textContent = "Trình duyệt này không hỗ trợ lấy vị trí GPS. Hãy chọn điểm trên bản đồ.";
         return;
@@ -125,8 +152,11 @@
       navigator.geolocation.getCurrentPosition(
         position => {
           const latlng = L.latLng(position.coords.latitude, position.coords.longitude);
+          selectedStartCoordinate = latlng;
+          selectedStartLabel = "GPS hiện tại";
+          startInput.value = `GPS ${latlng.lat.toFixed(6)}, ${latlng.lng.toFixed(6)}`;
           setStartMarker(latlng, `Vị trí GPS (sai số khoảng ${Math.round(position.coords.accuracy)} m)`);
-          calculateRoute(latlng, "vị trí GPS");
+          routeMessage.textContent = "Đã điền điểm xuất phát GPS. Chọn điểm đến rồi bấm “Tìm đường”.";
         },
         error => {
           const messages = {
@@ -154,8 +184,12 @@
       if (!choosingStartOnMap) return;
       choosingStartOnMap = false;
       mapPickButton.textContent = "Chọn điểm xuất phát trên bản đồ";
+      selectedStartCoordinate = event.latlng;
+      selectedStartLabel = "điểm đã chọn trên bản đồ";
+      startInput.value = `Map ${event.latlng.lat.toFixed(6)}, ${event.latlng.lng.toFixed(6)}`;
+      routeLayer.clearLayers();
       setStartMarker(event.latlng, "Điểm xuất phát đã chọn trên bản đồ");
-      calculateRoute(event.latlng, "điểm đã chọn trên bản đồ");
+      routeMessage.textContent = "Đã điền điểm xuất phát trên bản đồ. Chọn điểm đến rồi bấm “Tìm đường”.";
     });
 
     async function loadGeoJson(folder, filename, targetLayer, style) {
@@ -185,7 +219,7 @@
         const placeId = filename.replace(/\.geojson$/i, "");
         const option = document.createElement("option");
         option.value = placeId;
-        document.getElementById("destination-options").appendChild(option);
+        document.getElementById("place-options").appendChild(option);
       }
 
       for (const filename of files.ways || []) {
