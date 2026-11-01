@@ -7,6 +7,16 @@
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
   <style>
     html, body, #map { height: 100%; margin: 0; }
+    .route-panel {
+      position: absolute; z-index: 1000; top: 12px; left: 52px; width: min(330px, calc(100vw - 76px));
+      padding: 12px; border-radius: 8px; background: #fff; box-shadow: 0 1px 8px #777;
+      font: 14px/1.4 Arial, sans-serif;
+    }
+    .route-panel label { display: block; margin-bottom: 5px; font-weight: 600; }
+    .route-panel input, .route-panel button { box-sizing: border-box; width: 100%; margin: 4px 0; padding: 8px; }
+    .route-panel button { cursor: pointer; }
+    .route-panel button:disabled { cursor: wait; opacity: 0.65; }
+    #route-message { margin-top: 6px; white-space: pre-line; }
     .status {
       position: absolute; z-index: 1000; left: 50%; bottom: 18px;
       transform: translateX(-50%); padding: 8px 12px; border-radius: 6px;
@@ -16,6 +26,14 @@
 </head>
 <body>
   <div id="map"></div>
+  <section class="route-panel">
+    <label for="destination">Tìm điểm đến</label>
+    <input id="destination" list="destination-options" placeholder="Nhập mã/tên địa điểm, ví dụ KTH">
+    <datalist id="destination-options"></datalist>
+    <button id="gps-button" type="button">Dùng vị trí GPS hiện tại</button>
+    <button id="map-pick-button" type="button">Chọn điểm xuất phát trên bản đồ</button>
+    <div id="route-message" role="status">Chọn điểm đến, sau đó dùng GPS hoặc chọn điểm trên bản đồ.</div>
+  </section>
   <div class="status" id="status">Đang tải dữ liệu GeoJSON…</div>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -40,6 +58,106 @@
     L.control.layers(null, overlayLayers, { collapsed: false }).addTo(map);
 
     const status = document.getElementById("status");
+    const destinationInput = document.getElementById("destination");
+    const routeMessage = document.getElementById("route-message");
+    const gpsButton = document.getElementById("gps-button");
+    const mapPickButton = document.getElementById("map-pick-button");
+    let choosingStartOnMap = false;
+    let startMarker = null;
+
+    function cleanDestination(value) {
+      return value.trim().replace(/\.geojson$/i, "");
+    }
+
+    function setStartMarker(latlng, label) {
+      if (startMarker) startMarker.remove();
+      startMarker = L.circleMarker(latlng, {
+        radius: 8, color: "#111827", weight: 3, fillColor: "#facc15", fillOpacity: 1
+      }).addTo(map).bindTooltip(label).openTooltip();
+    }
+
+    async function calculateRoute(latlng, sourceLabel) {
+      const destination = cleanDestination(destinationInput.value);
+      if (!destination) {
+        routeMessage.textContent = "Nhập hoặc chọn điểm đến trước nhé.";
+        return;
+      }
+
+      routeLayer.clearLayers();
+      routeLayer.addTo(map);
+      routeMessage.textContent = `Đang tính tuyến từ ${sourceLabel}…`;
+      gpsButton.disabled = true;
+      mapPickButton.disabled = true;
+      try {
+        const params = new URLSearchParams({
+          lat: String(latlng.lat), lon: String(latlng.lng), destination
+        });
+        const response = await fetch(`/api/route?${params.toString()}`);
+        const result = await response.json();
+        if (!response.ok) throw new Error(result.error || `HTTP ${response.status}`);
+
+        L.geoJSON(result.route, {
+          style: feature => ["access_connector", "gps_connector"].includes(feature.properties?.kind)
+            ? { color: "#f59e0b", weight: 4, dashArray: "7 6" }
+            : { color: "#e11d48", weight: 7, opacity: 0.95 }
+        }).addTo(routeLayer);
+        const bounds = routeLayer.getBounds();
+        if (bounds.isValid()) map.fitBounds(bounds.pad(0.12));
+        const summary = result.summary.split("\n").filter(line => line.startsWith("Shortest route") || line.startsWith("Start point snaps"));
+        routeMessage.textContent = summary.join("\n") || "Đã tìm được tuyến.";
+      } catch (error) {
+        routeLayer.clearLayers();
+        routeMessage.textContent = error.message;
+      } finally {
+        gpsButton.disabled = false;
+        mapPickButton.disabled = false;
+      }
+    }
+
+    gpsButton.addEventListener("click", () => {
+      choosingStartOnMap = false;
+      mapPickButton.textContent = "Chọn điểm xuất phát trên bản đồ";
+      if (!navigator.geolocation) {
+        routeMessage.textContent = "Trình duyệt này không hỗ trợ lấy vị trí GPS. Hãy chọn điểm trên bản đồ.";
+        return;
+      }
+      routeMessage.textContent = "Đang xin quyền lấy vị trí hiện tại…";
+      navigator.geolocation.getCurrentPosition(
+        position => {
+          const latlng = L.latLng(position.coords.latitude, position.coords.longitude);
+          setStartMarker(latlng, `Vị trí GPS (sai số khoảng ${Math.round(position.coords.accuracy)} m)`);
+          calculateRoute(latlng, "vị trí GPS");
+        },
+        error => {
+          const messages = {
+            1: "Chưa được cấp quyền vị trí. Cho phép location trong trình duyệt hoặc chọn điểm trên bản đồ.",
+            2: "Không xác định được vị trí hiện tại. Thử lại hoặc chọn điểm trên bản đồ.",
+            3: "Lấy vị trí quá lâu. Thử lại hoặc chọn điểm trên bản đồ."
+          };
+          routeMessage.textContent = messages[error.code] || "Không lấy được GPS. Hãy chọn điểm trên bản đồ.";
+        },
+        { enableHighAccuracy: true, timeout: 12000, maximumAge: 0 }
+      );
+    });
+
+    mapPickButton.addEventListener("click", () => {
+      choosingStartOnMap = !choosingStartOnMap;
+      mapPickButton.textContent = choosingStartOnMap
+        ? "Đang chờ chọn điểm… (bấm để hủy)"
+        : "Chọn điểm xuất phát trên bản đồ";
+      routeMessage.textContent = choosingStartOnMap
+        ? "Bấm vào một vị trí trên bản đồ để đặt điểm xuất phát."
+        : "Đã hủy chọn điểm trên bản đồ.";
+    });
+
+    map.on("click", event => {
+      if (!choosingStartOnMap) return;
+      choosingStartOnMap = false;
+      mapPickButton.textContent = "Chọn điểm xuất phát trên bản đồ";
+      setStartMarker(event.latlng, "Điểm xuất phát đã chọn trên bản đồ");
+      calculateRoute(event.latlng, "điểm đã chọn trên bản đồ");
+    });
+
     async function loadGeoJson(folder, filename, targetLayer, style) {
       const url = `${folder}/${encodeURIComponent(filename)}`;
       const response = await fetch(url);
@@ -63,6 +181,12 @@
       const response = await fetch("/api/files");
       if (!response.ok) throw new Error(`Không lấy được danh sách file: HTTP ${response.status}`);
       const files = await response.json();
+      for (const filename of files.nodes || []) {
+        const placeId = filename.replace(/\.geojson$/i, "");
+        const option = document.createElement("option");
+        option.value = placeId;
+        document.getElementById("destination-options").appendChild(option);
+      }
 
       for (const filename of files.ways || []) {
         try {
@@ -95,20 +219,6 @@
         }
       } catch (error) {
         console.info("Graph preview not generated yet; run build_routing_graph.py.");
-      }
-
-      try {
-        const routeResponse = await fetch("routing/route_result.geojson");
-        if (routeResponse.ok) {
-          const routeData = await routeResponse.json();
-          L.geoJSON(routeData, {
-            style: feature => feature.properties?.kind === "access_connector"
-              ? { color: "#f59e0b", weight: 4, dashArray: "7 6" }
-              : { color: "#e11d48", weight: 7, opacity: 0.95 }
-          }).addTo(routeLayer);
-        }
-      } catch (error) {
-        console.info("No Dijkstra route preview yet; run route_between_places.py.");
       }
 
       try {
