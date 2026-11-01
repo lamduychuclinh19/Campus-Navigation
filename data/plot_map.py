@@ -93,13 +93,16 @@ class MapRequestHandler(SimpleHTTPRequestHandler):
 
 
 if __name__ == "__main__":
+    for stream in (sys.stdout, sys.stderr):
+        if hasattr(stream, "reconfigure"):
+            stream.reconfigure(errors="backslashreplace")
     os.chdir(DATA_FOLDER)
     server = ThreadingHTTPServer((HOST, PORT), MapRequestHandler)
-    print(f"Mở bản đồ tại: http://{HOST}:{PORT}/map.html")
-    print("Nhấn Ctrl+C để dừng web server.")
+    print(f"Open map at: http://{HOST}:{PORT}/map.html")
+    print("Press Ctrl+C to stop the local server.")
     try:
         server.serve_forever()
     except KeyboardInterrupt:
-        print("\nĐã dừng web server.")
+        print("\nLocal server stopped.")
     finally:
         server.server_close()
