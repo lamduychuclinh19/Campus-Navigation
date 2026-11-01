@@ -1,0 +1,13 @@
+[     599ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:8000/favicon.ico:0
+[   33191ms] TypeError: Cannot set properties of null (setting 'textContent')
+    at HTMLSelectElement.<anonymous> (http://127.0.0.1:8000/map.html:441:33)
+    at eval (eval at <anonymous> (eval at evaluate (:370:30)), <anonymous>:1:77)
+    at eval (eval at evaluate (:370:30), <anonymous>:4:50)
+    at UtilityScript.evaluate (<anonymous>:372:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+[   33193ms] TypeError: Cannot set properties of null (setting 'textContent')
+    at HTMLSelectElement.<anonymous> (http://127.0.0.1:8000/map.html:513:168)
+    at eval (eval at <anonymous> (eval at evaluate (:370:30)), <anonymous>:1:301)
+    at eval (eval at evaluate (:370:30), <anonymous>:4:50)
+    at UtilityScript.evaluate (<anonymous>:372:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)

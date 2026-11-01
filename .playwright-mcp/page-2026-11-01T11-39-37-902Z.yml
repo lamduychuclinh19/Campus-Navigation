@@ -1,0 +1,165 @@
+- generic [active] [ref=f1e1]:
+  - generic [ref=f1e2]:
+    - generic:
+      - generic:
+        - img:
+          - generic:
+            - generic [ref=f1e3] [cursor=pointer]
+            - generic [ref=f1e4] [cursor=pointer]
+            - generic [ref=f1e5] [cursor=pointer]
+            - generic [ref=f1e70] [cursor=pointer]
+            - generic [ref=f1e71] [cursor=pointer]
+            - generic [ref=f1e72] [cursor=pointer]
+            - generic [ref=f1e73] [cursor=pointer]
+            - generic [ref=f1e74] [cursor=pointer]
+            - generic [ref=f1e75] [cursor=pointer]
+            - generic [ref=f1e76] [cursor=pointer]
+            - generic [ref=f1e77] [cursor=pointer]
+            - generic [ref=f1e78] [cursor=pointer]
+            - generic [ref=f1e79] [cursor=pointer]
+            - generic [ref=f1e80] [cursor=pointer]
+            - generic [ref=f1e81] [cursor=pointer]
+            - generic [ref=f1e82] [cursor=pointer]
+            - generic [ref=f1e83] [cursor=pointer]
+            - generic [ref=f1e84] [cursor=pointer]
+            - generic [ref=f1e85] [cursor=pointer]
+            - generic [ref=f1e86] [cursor=pointer]
+            - generic [ref=f1e87] [cursor=pointer]
+            - generic [ref=f1e88] [cursor=pointer]
+            - generic [ref=f1e89] [cursor=pointer]
+            - generic [ref=f1e90] [cursor=pointer]
+            - generic [ref=f1e91] [cursor=pointer]
+            - generic [ref=f1e92] [cursor=pointer]
+            - generic [ref=f1e93] [cursor=pointer]
+            - generic [ref=f1e94] [cursor=pointer]
+            - generic [ref=f1e95] [cursor=pointer]
+            - generic [ref=f1e96] [cursor=pointer]
+            - generic [ref=f1e97] [cursor=pointer]
+            - generic [ref=f1e98] [cursor=pointer]
+            - generic [ref=f1e99] [cursor=pointer]
+            - generic [ref=f1e100] [cursor=pointer]
+            - generic [ref=f1e101] [cursor=pointer]
+            - generic [ref=f1e102] [cursor=pointer]
+            - generic [ref=f1e103] [cursor=pointer]
+            - generic [ref=f1e104] [cursor=pointer]
+            - generic [ref=f1e105] [cursor=pointer]
+            - generic [ref=f1e106] [cursor=pointer]
+            - generic [ref=f1e107] [cursor=pointer]
+            - generic [ref=f1e108] [cursor=pointer]
+            - generic [ref=f1e109] [cursor=pointer]
+            - generic [ref=f1e110] [cursor=pointer]
+            - generic [ref=f1e111] [cursor=pointer]
+            - generic [ref=f1e112] [cursor=pointer]
+    - generic:
+      - generic [ref=f1e6]:
+        - button "Zoom in" [disabled] [ref=f1e7]: +
+        - button "Zoom out" [ref=f1e8] [cursor=pointer]: −
+      - generic [ref=f1e11]:
+        - generic [ref=f1e13]:
+          - checkbox "Ways / Đường đi" [checked] [ref=f1e14]
+          - text: Ways / Đường đi
+        - generic [ref=f1e16]:
+          - checkbox "Nodes / Khu vực" [checked] [ref=f1e17]
+          - text: Nodes / Khu vực
+        - generic [ref=f1e19]:
+          - checkbox "Routing graph nodes" [ref=f1e20]
+          - text: Routing graph nodes
+        - generic [ref=f1e22]:
+          - checkbox "Routing graph edges" [ref=f1e23]
+          - text: Routing graph edges
+        - generic [ref=f1e25]:
+          - checkbox "Building access points / connectors" [ref=f1e26]
+          - text: Building access points / connectors
+        - generic [ref=f1e28]:
+          - checkbox "Dijkstra route" [checked] [ref=f1e29]
+          - text: Dijkstra route
+        - generic [ref=f1e31]:
+          - checkbox "Way junction candidates (review)" [ref=f1e32]
+          - text: Way junction candidates (review)
+        - generic [ref=f1e34]:
+          - checkbox "GPS position and snap" [checked] [ref=f1e35]
+          - text: GPS position and snap
+        - generic [ref=f1e37]:
+          - checkbox "GPS projection" [checked] [ref=f1e38]
+          - text: GPS projection
+        - generic [ref=f1e40]:
+          - checkbox "Dual GPS · Nearest Edge route" [checked] [ref=f1e41]
+          - text: Dual GPS · Nearest Edge route
+        - generic [ref=f1e43]:
+          - checkbox "Dual GPS · Nearest Node route" [checked] [ref=f1e44]
+          - text: Dual GPS · Nearest Node route
+        - generic [ref=f1e46]:
+          - checkbox "Dual GPS · Selected route" [checked] [ref=f1e47]
+          - text: Dual GPS · Selected route
+        - generic [ref=f1e49]:
+          - checkbox "Dual GPS · Connectors" [checked] [ref=f1e50]
+          - text: Dual GPS · Connectors
+      - generic [ref=f1e51]:
+        - link "Leaflet" [ref=f1e52] [cursor=pointer]:
+          - /url: https://leafletjs.com
+        - text: "| ©"
+        - link "OpenStreetMap" [ref=f1e57] [cursor=pointer]:
+          - /url: https://www.openstreetmap.org/copyright
+        - text: contributors
+  - region "Điều khiển tìm đường" [ref=f1e58]:
+    - generic [ref=f1e59]: Chế độ tìm đường
+    - combobox "Chế độ tìm đường" [ref=f1e60]:
+      - option "Tòa nhà → Tòa nhà"
+      - option "GPS → Tòa nhà" [selected]
+    - generic [ref=f1e113]:
+      - button "Lấy vị trí hiện tại" [ref=f1e114] [cursor=pointer]
+      - generic [ref=f1e115]: "GPS mô phỏng · lat 10.7600286, lon 106.6820140 · Accuracy: không có (vị trí mô phỏng)"
+      - button "Chọn GPS trên bản đồ" [ref=f1e116] [cursor=pointer]
+      - button "Xóa vị trí đã chọn" [ref=f1e117] [cursor=pointer]
+      - generic [ref=f1e118]: Điểm đích
+      - combobox "Điểm đích" [ref=f1e119]:
+        - option "A"
+        - option "B"
+        - option "BĐá"
+        - option "C"
+        - option "Cantin"
+        - option "D"
+        - option "E"
+        - option "HB"
+        - option "HTA"
+        - option "KLF"
+        - option "KTH" [selected]
+        - option "KTH1"
+        - option "sgu2"
+        - option "sgu3"
+        - option "sgu4"
+        - option "sgu5"
+        - option "sport"
+      - button "Tìm đường (tự đánh giá hai phương án)" [ref=f1e120] [cursor=pointer]
+      - generic [ref=f1e121]:
+        - text: "SUCCESS · selected: nearest_nodeOnly candidate without a confirmed geographic violation has a route; connector walkability may remain unverified.Selected route is UNVERIFIED; do not treat it as a field-verified safe walking route."
+        - table [ref=f1e122]:
+          - rowgroup [ref=f1e123]:
+            - row [ref=f1e124]:
+              - columnheader "Method" [ref=f1e125]
+              - columnheader "Status" [ref=f1e126]
+              - columnheader "Connector m" [ref=f1e127]
+              - columnheader "Graph + access m" [ref=f1e128]
+              - columnheader "Total m" [ref=f1e129]
+              - columnheader "Obstacle status" [ref=f1e130]
+              - columnheader "Time ms" [ref=f1e131]
+          - rowgroup [ref=f1e132]:
+            - row [ref=f1e133]:
+              - cell "nearest_edge" [ref=f1e134]
+              - cell "FAILED" [ref=f1e135]
+              - cell "6.53" [ref=f1e136]
+              - cell "57.27" [ref=f1e137]
+              - cell "63.8" [ref=f1e138]
+              - cell "INVALID" [ref=f1e139]
+              - cell "5.701" [ref=f1e140]
+            - row [ref=f1e141]:
+              - cell "nearest_node" [ref=f1e142]
+              - cell "PASS" [ref=f1e143]
+              - cell "15.76" [ref=f1e144]
+              - cell "49.46" [ref=f1e145]
+              - cell "65.22" [ref=f1e146]
+              - cell "UNVERIFIED" [ref=f1e147]
+              - cell "12.873" [ref=f1e148]
+    - button "Bật Edit Graph Mode" [ref=f1e67] [cursor=pointer]
+  - generic [ref=f1e68]: "Con trỏ: lat —, lon —"
+  - generic [ref=f1e69]: "Dual GPS: SUCCESS; selected nearest_node · UNVERIFIED"

@@ -11,12 +11,20 @@
         "IX003",
         "IX048",
         "w1:v1",
+<<<<<<< HEAD
+=======
+        "w2:v1",
+>>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
         "w3:v1"
       ]
     },
     "N001": {
       "coordinates": [
+<<<<<<< HEAD
         106.6828523,
+=======
+        106.6828524,
+>>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
         10.7595858
       ],
       "endpoint_refs": [
@@ -28,9 +36,19 @@
         "IX029",
         "IX034",
         "w10:end",
+<<<<<<< HEAD
         "w11:end",
         "w12:end",
         "w13:end",
+=======
+        "w10:v2",
+        "w11:end",
+        "w11:v4",
+        "w12:end",
+        "w12:v5",
+        "w13:end",
+        "w13:v7",
+>>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
         "w17:end"
       ]
     },
@@ -50,8 +68,13 @@
     },
     "N027": {
       "coordinates": [
+<<<<<<< HEAD
         106.6823371,
         10.7595677
+=======
+        106.68236642289278,
+        10.759507188339843
+>>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
       ],
       "endpoint_refs": [
         "IX011"
@@ -132,11 +155,20 @@
     },
     "N034": {
       "coordinates": [
+<<<<<<< HEAD
         106.68248,
         10.7592257
       ],
       "endpoint_refs": [
         "IX041"
+=======
+        106.6824805,
+        10.7592218
+      ],
+      "endpoint_refs": [
+        "IX041",
+        "w16:v2"
+>>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
       ]
     },
     "N035": {
@@ -175,6 +207,10 @@
       ],
       "endpoint_refs": [
         "IX046",
+<<<<<<< HEAD
+=======
+        "w18:v2",
+>>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
         "w19:v2"
       ]
     },
@@ -210,8 +246,13 @@
     },
     "N002": {
       "coordinates": [
+<<<<<<< HEAD
         106.682337,
         10.759568
+=======
+        106.68241201847937,
+        10.759591479696883
+>>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
       ],
       "endpoint_refs": [
         "w10:start"
@@ -226,6 +267,7 @@
         "w10:v1"
       ]
     },
+<<<<<<< HEAD
     "N039": {
       "coordinates": [
         106.682853,
@@ -239,6 +281,12 @@
       "coordinates": [
         106.682571,
         10.75967
+=======
+    "N003": {
+      "coordinates": [
+        106.6825381039364,
+        10.759670540534579
+>>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
       ],
       "endpoint_refs": [
         "w11:start"
@@ -253,6 +301,7 @@
         "w11:v2"
       ]
     },
+<<<<<<< HEAD
     "N041": {
       "coordinates": [
         106.682853,
@@ -262,6 +311,8 @@
         "w11:v4"
       ]
     },
+=======
+>>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
     "N042": {
       "coordinates": [
         106.682657,
@@ -289,6 +340,7 @@
         "w12:v3"
       ]
     },
+<<<<<<< HEAD
     "N045": {
       "coordinates": [
         106.682853,
@@ -298,6 +350,8 @@
         "w12:v5"
       ]
     },
+=======
+>>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
     "N005": {
       "coordinates": [
         106.682497,
@@ -343,6 +397,7 @@
         "w13:v5"
       ]
     },
+<<<<<<< HEAD
     "N050": {
       "coordinates": [
         106.682853,
@@ -352,13 +407,20 @@
         "w13:v7"
       ]
     },
+=======
+>>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
     "N006": {
       "coordinates": [
         106.681629,
         10.759381
       ],
       "endpoint_refs": [
+<<<<<<< HEAD
         "w14:end"
+=======
+        "w14:end",
+        "w14:v3"
+>>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
       ]
     },
     "N051": {
@@ -379,6 +441,7 @@
         "w14:v2"
       ]
     },
+<<<<<<< HEAD
     "N053": {
       "coordinates": [
         106.681629,
@@ -388,6 +451,8 @@
         "w14:v3"
       ]
     },
+=======
+>>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
     "N008": {
       "coordinates": [
         106.681865,
@@ -460,6 +525,7 @@
         "w16:v1"
       ]
     },
+<<<<<<< HEAD
     "N059": {
       "coordinates": [
         106.682481,
@@ -469,6 +535,8 @@
         "w16:v2"
       ]
     },
+=======
+>>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
     "N060": {
       "coordinates": [
         106.682473,
@@ -505,6 +573,7 @@
         "w18:v1"
       ]
     },
+<<<<<<< HEAD
     "N063": {
       "coordinates": [
         106.683376,
@@ -514,6 +583,8 @@
         "w18:v2"
       ]
     },
+=======
+>>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
     "N013": {
       "coordinates": [
         106.683491,
@@ -566,6 +637,7 @@
         10.758954
       ],
       "endpoint_refs": [
+<<<<<<< HEAD
         "w20:end"
       ]
     },
@@ -575,6 +647,9 @@
         10.758954
       ],
       "endpoint_refs": [
+=======
+        "w20:end",
+>>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
         "w20:v1"
       ]
     },
@@ -588,6 +663,7 @@
         "w3:start"
       ]
     },
+<<<<<<< HEAD
     "N066": {
       "coordinates": [
         106.682067,
@@ -597,6 +673,8 @@
         "w2:v1"
       ]
     },
+=======
+>>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
     "N020": {
       "coordinates": [
         106.682158,
@@ -638,8 +716,13 @@
     },
     "N023": {
       "coordinates": [
+<<<<<<< HEAD
         106.68209,
         10.759472
+=======
+        106.68227254656058,
+        10.759541417636736
+>>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
       ],
       "endpoint_refs": [
         "w6:end",
@@ -677,8 +760,13 @@
     },
     "N071": {
       "coordinates": [
+<<<<<<< HEAD
         106.682329,
         10.759569
+=======
+        106.68233424326795,
+        10.759588835401049
+>>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
       ],
       "endpoint_refs": [
         "w8:v1"
@@ -713,12 +801,27 @@
     },
     "N075": {
       "coordinates": [
+<<<<<<< HEAD
         106.682578,
         10.759661
+=======
+        106.6825997790104,
+        10.759591510064439
+>>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
       ],
       "endpoint_refs": [
         "w9:v4"
       ]
+<<<<<<< HEAD
+=======
+    },
+    "N076": {
+      "coordinates": [
+        106.68222109587208,
+        10.759357507778526
+      ],
+      "endpoint_refs": []
+>>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
     }
   },
   "edges": [
@@ -764,6 +867,7 @@
       "file": "w10.geojson",
       "from": "N002",
       "to": "N027",
+<<<<<<< HEAD
       "length_m": 0.04,
       "coordinates": [
         [
@@ -773,6 +877,17 @@
         [
           106.68233711346254,
           10.75956770499744
+=======
+      "length_m": 10.61,
+      "coordinates": [
+        [
+          106.68241201847937,
+          10.759591479696883
+        ],
+        [
+          106.68236642289278,
+          10.759507188339843
+>>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
         ]
       ]
     },
@@ -782,11 +897,19 @@
       "file": "w10.geojson",
       "from": "N027",
       "to": "N038",
+<<<<<<< HEAD
       "length_m": 18.51,
       "coordinates": [
         [
           106.68233711346254,
           10.75956770499744
+=======
+      "length_m": 11.1,
+      "coordinates": [
+        [
+          106.68236642289278,
+          10.759507188339843
+>>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
         ],
         [
           106.682397,
@@ -872,6 +995,7 @@
       "file": "w11.geojson",
       "from": "N003",
       "to": "N030",
+<<<<<<< HEAD
       "length_m": 0.37,
       "coordinates": [
         [
@@ -881,6 +1005,17 @@
         [
           106.68257421153771,
           10.759671169418631
+=======
+      "length_m": 3.94,
+      "coordinates": [
+        [
+          106.6825381039364,
+          10.759670540534579
+        ],
+        [
+          106.6825742,
+          10.7596712
+>>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
         ]
       ]
     },
@@ -961,7 +1096,11 @@
       "way_id": "w11",
       "file": "w11.geojson",
       "from": "N028",
+<<<<<<< HEAD
       "to": "N041",
+=======
+      "to": "N001",
+>>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
       "length_m": 6.19,
       "coordinates": [
         [
@@ -1087,7 +1226,11 @@
       "way_id": "w12",
       "file": "w12.geojson",
       "from": "N028",
+<<<<<<< HEAD
       "to": "N045",
+=======
+      "to": "N001",
+>>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
       "length_m": 6.19,
       "coordinates": [
         [
@@ -1267,7 +1410,11 @@
       "way_id": "w13",
       "file": "w13.geojson",
       "from": "N028",
+<<<<<<< HEAD
       "to": "N050",
+=======
+      "to": "N001",
+>>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
       "length_m": 6.19,
       "coordinates": [
         [
@@ -1321,7 +1468,11 @@
       "way_id": "w14",
       "file": "w14.geojson",
       "from": "N052",
+<<<<<<< HEAD
       "to": "N053",
+=======
+      "to": "N006",
+>>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
       "length_m": 33.04,
       "coordinates": [
         [
@@ -1879,7 +2030,11 @@
       "way_id": "w20",
       "file": "w20.geojson",
       "from": "N035",
+<<<<<<< HEAD
       "to": "N065",
+=======
+      "to": "N017",
+>>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
       "length_m": 30.94,
       "coordinates": [
         [
@@ -2042,15 +2197,24 @@
       "file": "w6.geojson",
       "from": "N069",
       "to": "N023",
+<<<<<<< HEAD
       "length_m": 38.44,
+=======
+      "length_m": 43.59,
+>>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
       "coordinates": [
         [
           106.68197,
           10.759797
         ],
         [
+<<<<<<< HEAD
           106.68209,
           10.759472
+=======
+          106.68227254656058,
+          10.759541417636736
+>>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
         ]
       ]
     },
@@ -2096,15 +2260,24 @@
       "file": "w7.geojson",
       "from": "N070",
       "to": "N023",
+<<<<<<< HEAD
       "length_m": 14.73,
+=======
+      "length_m": 36.11,
+>>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
       "coordinates": [
         [
           106.681966,
           10.75942
         ],
         [
+<<<<<<< HEAD
           106.68209,
           10.759472
+=======
+          106.68227254656058,
+          10.759541417636736
+>>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
         ]
       ]
     },
@@ -2114,6 +2287,7 @@
       "file": "w8.geojson",
       "from": "N025",
       "to": "N071",
+<<<<<<< HEAD
       "length_m": 40.19,
       "coordinates": [
         [
@@ -2123,6 +2297,17 @@
         [
           106.682329,
           10.759569
+=======
+      "length_m": 38.32,
+      "coordinates": [
+        [
+          106.68221,
+          10.7599111
+        ],
+        [
+          106.68233424326795,
+          10.759588835401049
+>>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
         ]
       ]
     },
@@ -2132,6 +2317,7 @@
       "file": "w8.geojson",
       "from": "N071",
       "to": "N023",
+<<<<<<< HEAD
       "length_m": 28.25,
       "coordinates": [
         [
@@ -2141,6 +2327,17 @@
         [
           106.68209,
           10.759472
+=======
+      "length_m": 8.56,
+      "coordinates": [
+        [
+          106.68233424326795,
+          10.759588835401049
+        ],
+        [
+          106.68227254656058,
+          10.759541417636736
+>>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
         ]
       ]
     },
@@ -2258,6 +2455,7 @@
       "file": "w9.geojson",
       "from": "N030",
       "to": "N075",
+<<<<<<< HEAD
       "length_m": 1.21,
       "coordinates": [
         [
@@ -2267,6 +2465,17 @@
         [
           106.682578,
           10.759661
+=======
+      "length_m": 9.29,
+      "coordinates": [
+        [
+          106.6825742,
+          10.7596712
+        ],
+        [
+          106.6825997790104,
+          10.759591510064439
+>>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
         ]
       ]
     },
@@ -2276,6 +2485,7 @@
       "file": "w9.geojson",
       "from": "N075",
       "to": "N027",
+<<<<<<< HEAD
       "length_m": 28.29,
       "coordinates": [
         [
@@ -2285,6 +2495,17 @@
         [
           106.68233709978648,
           10.759567700532063
+=======
+      "length_m": 27.16,
+      "coordinates": [
+        [
+          106.6825997790104,
+          10.759591510064439
+        ],
+        [
+          106.68236642289278,
+          10.759507188339843
+>>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
         ]
       ]
     },
@@ -2294,6 +2515,7 @@
       "file": "w9.geojson",
       "from": "N027",
       "to": "N023",
+<<<<<<< HEAD
       "length_m": 29.02,
       "coordinates": [
         [
@@ -2303,8 +2525,59 @@
         [
           106.68209,
           10.759472
+=======
+      "length_m": 10.94,
+      "coordinates": [
+        [
+          106.68236642289278,
+          10.759507188339843
+        ],
+        [
+          106.68227254656058,
+          10.759541417636736
+        ]
+      ]
+    },
+    {
+      "edge_id": "edit_001",
+      "way_id": "manual_edit",
+      "file": "manual_edit",
+      "from": "N076",
+      "to": "N027",
+      "length_m": 23.0,
+      "coordinates": [
+        [
+          106.68222109587208,
+          10.759357507778526
+        ],
+        [
+          106.68236642289278,
+          10.759507188339843
+        ]
+      ]
+    },
+    {
+      "edge_id": "edit_002",
+      "way_id": "manual_edit",
+      "file": "manual_edit",
+      "from": "N027",
+      "to": "N071",
+      "length_m": 9.74,
+      "coordinates": [
+        [
+          106.68236642289278,
+          10.759507188339843
+        ],
+        [
+          106.68233424326795,
+          10.759588835401049
+>>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
         ]
       ]
     }
   ]
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
