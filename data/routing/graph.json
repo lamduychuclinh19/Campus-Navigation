@@ -1,489 +1,771 @@
 {
   "directed": false,
   "nodes": {
-    "N026": {
+    "N001": {
       "coordinates": [
-        106.682067,
-        10.760239
+        106.681928,
+        10.7605869
       ],
       "endpoint_refs": [
         "IX002",
-        "IX003",
-        "IX048",
-        "w1:v1",
-<<<<<<< HEAD
-=======
-        "w2:v1",
->>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
-        "w3:v1"
-      ]
-    },
-    "N001": {
-      "coordinates": [
-<<<<<<< HEAD
-        106.6828523,
-=======
-        106.6828524,
->>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
-        10.7595858
-      ],
-      "endpoint_refs": [
-        "IX004",
         "IX005",
-        "IX006",
-        "IX010",
-        "IX018",
-        "IX029",
-        "IX034",
-        "w10:end",
-<<<<<<< HEAD
-        "w11:end",
-        "w12:end",
-        "w13:end",
-=======
-        "w10:v2",
-        "w11:end",
-        "w11:v4",
-        "w12:end",
-        "w12:v5",
-        "w13:end",
-        "w13:v7",
->>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
-        "w17:end"
-      ]
-    },
-    "N007": {
-      "coordinates": [
-        106.6823985,
-        10.759411
-      ],
-      "endpoint_refs": [
-        "IX007",
         "IX008",
-        "IX009",
-        "w14:start",
-        "w15:start",
-        "w17:start"
-      ]
-    },
-    "N027": {
-      "coordinates": [
-<<<<<<< HEAD
-        106.6823371,
-        10.7595677
-=======
-        106.68236642289278,
-        10.759507188339843
->>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
-      ],
-      "endpoint_refs": [
-        "IX011"
-      ]
-    },
-    "N028": {
-      "coordinates": [
-        106.6828323,
-        10.7596392
-      ],
-      "endpoint_refs": [
+        "IX011",
         "IX014",
         "IX017",
-        "IX021",
+        "IX020",
+        "IX023",
+        "IX026",
+        "IX029",
         "IX032",
-        "IX037",
-        "w11:v3",
-        "w12:v4",
-        "w13:v6"
-      ]
-    },
-    "N029": {
-      "coordinates": [
-        106.682755,
-        10.759737
-      ],
-      "endpoint_refs": [
-        "IX015",
-        "w11:v1",
-        "w13:v4"
-      ]
-    },
-    "N030": {
-      "coordinates": [
-        106.6825742,
-        10.7596712
-      ],
-      "endpoint_refs": [
-        "IX022"
-      ]
-    },
-    "N031": {
-      "coordinates": [
-        106.682635,
-        10.7599811
-      ],
-      "endpoint_refs": [
-        "IX024"
-      ]
-    },
-    "N004": {
-      "coordinates": [
-        106.6825096,
-        10.7599413
-      ],
-      "endpoint_refs": [
-        "IX033",
-        "w12:start"
-      ]
-    },
-    "N032": {
-      "coordinates": [
-        106.6824998,
-        10.7600018
-      ],
-      "endpoint_refs": [
-        "IX038"
-      ]
-    },
-    "N033": {
-      "coordinates": [
-        106.6820151,
-        10.7592291
-      ],
-      "endpoint_refs": [
-        "IX039"
-      ]
-    },
-    "N034": {
-      "coordinates": [
-<<<<<<< HEAD
-        106.68248,
-        10.7592257
-      ],
-      "endpoint_refs": [
-        "IX041"
-=======
-        106.6824805,
-        10.7592218
-      ],
-      "endpoint_refs": [
+        "IX035",
+        "IX038",
         "IX041",
-        "w16:v2"
->>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
-      ]
-    },
-    "N035": {
-      "coordinates": [
-        106.6824696,
-        10.7592134
-      ],
-      "endpoint_refs": [
-        "IX042"
-      ]
-    },
-    "N012": {
-      "coordinates": [
-        106.6829292,
-        10.7593989
-      ],
-      "endpoint_refs": [
         "IX044",
-        "w18:start"
-      ]
-    },
-    "N018": {
-      "coordinates": [
-        106.6824682,
-        10.7592262
-      ],
-      "endpoint_refs": [
-        "IX045",
-        "w20:start"
-      ]
-    },
-    "N036": {
-      "coordinates": [
-        106.683376,
-        10.759627
-      ],
-      "endpoint_refs": [
-        "IX046",
-<<<<<<< HEAD
-=======
-        "w18:v2",
->>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
-        "w19:v2"
-      ]
-    },
-    "N037": {
-      "coordinates": [
-        106.6833939,
-        10.7595806
-      ],
-      "endpoint_refs": [
-        "IX047"
-      ]
-    },
-    "N021": {
-      "coordinates": [
-        106.6818866,
-        10.7596212
-      ],
-      "endpoint_refs": [
+        "IX047",
         "IX050",
-        "w4:start"
-      ]
-    },
-    "N025": {
-      "coordinates": [
-        106.68221,
-        10.7599111
-      ],
-      "endpoint_refs": [
-        "IX052",
+        "IX053",
+        "IX056",
+        "IX069",
+        "IX071",
+        "IX085",
+        "IX087",
+        "IX098",
+        "IX101",
+        "IX118",
+        "IX122",
+        "IX141",
+        "IX145",
+        "IX159",
+        "IX163",
+        "IX176",
+        "IX179",
+        "IX196",
+        "IX198",
+        "IX217",
+        "IX218",
+        "IX220",
+        "IX223",
+        "IX225",
+        "IX227",
+        "IX229",
+        "IX231",
+        "IX234",
+        "IX237",
+        "IX238",
+        "IX240",
+        "IX241",
+        "IX243",
+        "IX245",
+        "IX247",
+        "IX251",
+        "IX253",
+        "w10:start",
+        "w11:start",
+        "w12:start",
+        "w13:start",
+        "w14:start",
+        "w15:start",
+        "w16:start",
+        "w16_2:start",
+        "w17:start",
+        "w18:start",
+        "w1:start",
+        "w2:start",
+        "w3:start",
+        "w4:start",
+        "w5:start",
+        "w5_2:start",
+        "w6:start",
+        "w7:start",
         "w8:start",
         "w9:start"
       ]
     },
-    "N002": {
+    "N007": {
       "coordinates": [
-<<<<<<< HEAD
-        106.682337,
-        10.759568
-=======
-        106.68241201847937,
-        10.759591479696883
->>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
+        106.6819811,
+        10.760462
       ],
       "endpoint_refs": [
-        "w10:start"
+        "IX003",
+        "IX006",
+        "IX009",
+        "IX012",
+        "IX015",
+        "IX018"
       ]
     },
-    "N038": {
+    "N012": {
       "coordinates": [
-        106.682397,
-        10.759412
+        106.682073,
+        10.7602411
       ],
       "endpoint_refs": [
-        "w10:v1"
+        "IX004",
+        "IX007",
+        "IX010",
+        "IX013",
+        "IX016",
+        "IX019",
+        "IX022",
+        "IX025",
+        "IX028",
+        "IX031",
+        "IX037",
+        "IX040",
+        "IX043",
+        "IX046",
+        "IX049",
+        "IX052",
+        "IX055",
+        "IX058"
       ]
     },
-<<<<<<< HEAD
-    "N039": {
+    "N004": {
       "coordinates": [
-        106.682853,
-        10.759586
+        106.6819955,
+        10.7604247
       ],
       "endpoint_refs": [
-        "w10:v2"
+        "IX021",
+        "IX024",
+        "IX033",
+        "IX036",
+        "IX039",
+        "IX042",
+        "IX045",
+        "IX048",
+        "IX051",
+        "IX057"
       ]
     },
-    "N003": {
+    "N135": {
       "coordinates": [
-        106.682571,
-        10.75967
-=======
-    "N003": {
-      "coordinates": [
-        106.6825381039364,
-        10.759670540534579
->>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
+        106.6819454,
+        10.7605547
       ],
       "endpoint_refs": [
-        "w11:start"
+        "IX027",
+        "IX030"
       ]
     },
-    "N040": {
+    "N026": {
       "coordinates": [
-        106.682798,
-        10.759626
+        106.6820679,
+        10.7602509
       ],
       "endpoint_refs": [
-        "w11:v2"
+        "IX034",
+        "IX174",
+        "IX181",
+        "IX182",
+        "IX184",
+        "IX185",
+        "IX187",
+        "IX189",
+        "IX191",
+        "IX195",
+        "IX200",
+        "IX201",
+        "IX202",
+        "IX204",
+        "IX206",
+        "IX208",
+        "IX210",
+        "IX213",
+        "IX254",
+        "IX255",
+        "IX256",
+        "IX257",
+        "IX258",
+        "IX259",
+        "IX260",
+        "IX261",
+        "IX262",
+        "IX264",
+        "IX266",
+        "IX268",
+        "IX270",
+        "IX273",
+        "IX275",
+        "IX277",
+        "IX279",
+        "IX280",
+        "IX284",
+        "IX286",
+        "IX288",
+        "IX289",
+        "IX293",
+        "IX295",
+        "IX296",
+        "IX300",
+        "IX302",
+        "IX306",
+        "IX307",
+        "w16:v1",
+        "w16_2:v1",
+        "w2:v1",
+        "w3:v1",
+        "w4:v1",
+        "w5:v1",
+        "w5_2:v1",
+        "w6:v1",
+        "w7:v1",
+        "w9:v1"
       ]
     },
-<<<<<<< HEAD
-    "N041": {
+    "N087": {
       "coordinates": [
-        106.682853,
-        10.759586
+        106.6820373,
+        10.760316
       ],
       "endpoint_refs": [
+        "IX054"
+      ]
+    },
+    "N020": {
+      "coordinates": [
+        106.68216,
+        10.760043
+      ],
+      "endpoint_refs": [
+        "IX059",
+        "IX064",
+        "IX065",
+        "IX066",
+        "IX067",
+        "IX076",
+        "IX077",
+        "IX078",
+        "IX081",
+        "IX092",
+        "IX093",
+        "IX095",
+        "IX111",
+        "IX113",
+        "IX133",
+        "w10:v1",
+        "w11:v1",
+        "w12:v1",
+        "w13:v1",
+        "w14:v1",
+        "w15:v1"
+      ]
+    },
+    "N018": {
+      "coordinates": [
+        106.6822109,
+        10.7599085
+      ],
+      "endpoint_refs": [
+        "IX060",
+        "IX103",
+        "IX108",
+        "IX109",
+        "IX124",
+        "IX129",
+        "IX130",
+        "IX147",
+        "IX152",
+        "IX153",
+        "IX165",
+        "IX170",
+        "IX171",
+        "IX215",
+        "w10:v2",
+        "w11:v2",
+        "w17:v1",
+        "w18:v1"
+      ]
+    },
+    "N036": {
+      "coordinates": [
+        106.682484,
+        10.760017
+      ],
+      "endpoint_refs": [
+        "IX061",
+        "w10:v3",
+        "w11:v3"
+      ]
+    },
+    "N037": {
+      "coordinates": [
+        106.682611,
+        10.760038
+      ],
+      "endpoint_refs": [
+        "IX062",
+        "w10:v4",
         "w11:v4"
       ]
     },
-=======
->>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
-    "N042": {
+    "N086": {
       "coordinates": [
-        106.682657,
-        10.759989
+        106.682647,
+        10.759986
       ],
       "endpoint_refs": [
-        "w12:v1"
+        "IX063",
+        "w10:v5",
+        "w11:v5"
       ]
     },
-    "N043": {
+    "N023": {
       "coordinates": [
-        106.682755,
-        10.759737
+        106.6821615,
+        10.7600239
       ],
       "endpoint_refs": [
-        "w12:v2"
-      ]
-    },
-    "N044": {
-      "coordinates": [
-        106.682798,
-        10.759626
-      ],
-      "endpoint_refs": [
-        "w12:v3"
-      ]
-    },
-<<<<<<< HEAD
-    "N045": {
-      "coordinates": [
-        106.682853,
-        10.759586
-      ],
-      "endpoint_refs": [
-        "w12:v5"
-      ]
-    },
-=======
->>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
-    "N005": {
-      "coordinates": [
-        106.682497,
-        10.760001
-      ],
-      "endpoint_refs": [
-        "w13:start"
-      ]
-    },
-    "N046": {
-      "coordinates": [
-        106.682618,
-        10.760035
-      ],
-      "endpoint_refs": [
-        "w13:v1"
+        "IX068",
+        "IX073",
+        "IX084",
+        "IX089",
+        "IX097",
+        "IX105",
+        "IX117",
+        "IX126",
+        "IX140",
+        "IX149",
+        "IX158",
+        "IX167",
+        "IX175",
+        "IX183",
+        "IX197",
+        "IX199",
+        "IX203",
+        "IX205",
+        "IX207",
+        "IX209",
+        "IX211",
+        "IX212",
+        "IX214",
+        "IX219",
+        "IX239",
+        "IX263",
+        "IX265",
+        "IX267",
+        "IX269",
+        "IX271",
+        "IX272",
+        "IX274",
+        "w16_2:end",
+        "w3:end"
       ]
     },
     "N047": {
       "coordinates": [
-        106.682635,
-        10.759981
+        106.6820298,
+        10.760348
       ],
       "endpoint_refs": [
-        "w13:v2"
+        "IX070",
+        "IX072",
+        "IX086",
+        "IX088",
+        "IX099",
+        "IX102",
+        "IX119",
+        "IX123",
+        "IX142",
+        "IX146",
+        "IX160",
+        "IX164"
+      ]
+    },
+    "N093": {
+      "coordinates": [
+        106.68249,
+        10.760018
+      ],
+      "endpoint_refs": [
+        "IX074",
+        "IX075",
+        "IX090",
+        "IX091",
+        "IX304",
+        "w7:v3"
+      ]
+    },
+    "N090": {
+      "coordinates": [
+        106.68284,
+        10.7595732
+      ],
+      "endpoint_refs": [
+        "IX079",
+        "IX082"
+      ]
+    },
+    "N136": {
+      "coordinates": [
+        106.682846,
+        10.7595725
+      ],
+      "endpoint_refs": [
+        "IX080",
+        "IX083",
+        "IX135"
+      ]
+    },
+    "N091": {
+      "coordinates": [
+        106.6823962,
+        10.7594144
+      ],
+      "endpoint_refs": [
+        "IX094",
+        "IX096",
+        "IX112",
+        "IX114",
+        "IX134",
+        "IX139",
+        "IX157",
+        "w13:v2",
+        "w14:v2",
+        "w15:v2"
+      ]
+    },
+    "N089": {
+      "coordinates": [
+        106.6823404,
+        10.7595656
+      ],
+      "endpoint_refs": [
+        "IX100",
+        "IX104",
+        "IX110",
+        "IX120",
+        "IX121",
+        "IX125",
+        "IX132",
+        "IX143",
+        "IX144",
+        "IX148",
+        "IX155",
+        "IX161",
+        "IX162",
+        "IX166",
+        "IX173",
+        "IX178",
+        "IX180",
+        "IX194",
+        "IX216",
+        "IX233",
+        "IX252",
+        "w17:end",
+        "w18:end",
+        "w8:end"
+      ]
+    },
+    "N073": {
+      "coordinates": [
+        106.6822693,
+        10.7597428
+      ],
+      "endpoint_refs": [
+        "IX106",
+        "IX107",
+        "IX127",
+        "IX128",
+        "IX150",
+        "IX151",
+        "IX168",
+        "IX169",
+        "IX186",
+        "IX188",
+        "IX276",
+        "IX278",
+        "IX285",
+        "IX287",
+        "IX292",
+        "IX294",
+        "IX299",
+        "IX301",
+        "w4:v2",
+        "w5:v2",
+        "w5_2:v2",
+        "w9:v2"
+      ]
+    },
+    "N137": {
+      "coordinates": [
+        106.682014,
+        10.7592592
+      ],
+      "endpoint_refs": [
+        "IX115"
+      ]
+    },
+    "N138": {
+      "coordinates": [
+        106.6823672,
+        10.7594883
+      ],
+      "endpoint_refs": [
+        "IX116",
+        "IX138",
+        "IX156"
+      ]
+    },
+    "N139": {
+      "coordinates": [
+        106.6823052,
+        10.7596545
+      ],
+      "endpoint_refs": [
+        "IX131",
+        "IX154",
+        "IX172"
+      ]
+    },
+    "N097": {
+      "coordinates": [
+        106.68292,
+        10.759393
+      ],
+      "endpoint_refs": [
+        "IX136"
+      ]
+    },
+    "N140": {
+      "coordinates": [
+        106.683401,
+        10.759568
+      ],
+      "endpoint_refs": [
+        "IX137"
+      ]
+    },
+    "N082": {
+      "coordinates": [
+        106.6822045,
+        10.7599057
+      ],
+      "endpoint_refs": [
+        "IX177",
+        "IX190",
+        "IX192",
+        "IX222",
+        "IX224",
+        "IX226",
+        "IX228",
+        "IX230",
+        "IX232",
+        "IX236",
+        "IX303",
+        "w16:v2",
+        "w6:v2",
+        "w7:v2"
+      ]
+    },
+    "N141": {
+      "coordinates": [
+        106.6822486,
+        10.7597941
+      ],
+      "endpoint_refs": [
+        "IX193"
+      ]
+    },
+    "N142": {
+      "coordinates": [
+        106.6820221,
+        10.7596609
+      ],
+      "endpoint_refs": [
+        "IX221",
+        "IX235"
+      ]
+    },
+    "N118": {
+      "coordinates": [
+        106.6825148,
+        10.759828
+      ],
+      "endpoint_refs": [
+        "IX242",
+        "IX244",
+        "IX290",
+        "IX297",
+        "w5:end",
+        "w5_2:end"
+      ]
+    },
+    "N143": {
+      "coordinates": [
+        106.6824466,
+        10.7600006
+      ],
+      "endpoint_refs": [
+        "IX246",
+        "IX248"
+      ]
+    },
+    "N144": {
+      "coordinates": [
+        106.6825262,
+        10.7597986
+      ],
+      "endpoint_refs": [
+        "IX249"
+      ]
+    },
+    "N145": {
+      "coordinates": [
+        106.6825529,
+        10.7597307
+      ],
+      "endpoint_refs": [
+        "IX250"
+      ]
+    },
+    "N146": {
+      "coordinates": [
+        106.6821904,
+        10.7599379
+      ],
+      "endpoint_refs": [
+        "IX281",
+        "IX291",
+        "IX298",
+        "IX308"
+      ]
+    },
+    "N117": {
+      "coordinates": [
+        106.6818867,
+        10.759616
+      ],
+      "endpoint_refs": [
+        "IX282",
+        "IX283",
+        "w4:end"
+      ]
+    },
+    "N147": {
+      "coordinates": [
+        106.6825106,
+        10.7599672
+      ],
+      "endpoint_refs": [
+        "IX305",
+        "w6:end"
+      ]
+    },
+    "N098": {
+      "coordinates": [
+        106.682702,
+        10.759752
+      ],
+      "endpoint_refs": [
+        "w10:end"
+      ]
+    },
+    "N099": {
+      "coordinates": [
+        106.682726,
+        10.759802
+      ],
+      "endpoint_refs": [
+        "w10:v6"
+      ]
+    },
+    "N100": {
+      "coordinates": [
+        106.682933,
+        10.759575
+      ],
+      "endpoint_refs": [
+        "w11:end"
+      ]
+    },
+    "N101": {
+      "coordinates": [
+        106.682841,
+        10.759571
+      ],
+      "endpoint_refs": [
+        "w11:v6"
+      ]
+    },
+    "N102": {
+      "coordinates": [
+        106.6825009,
+        10.7591517
+      ],
+      "endpoint_refs": [
+        "w12:end"
+      ]
+    },
+    "N103": {
+      "coordinates": [
+        106.68211,
+        10.759171
+      ],
+      "endpoint_refs": [
+        "w13:end"
       ]
     },
     "N048": {
       "coordinates": [
-        106.682657,
-        10.759989
+        106.682011,
+        10.759262
       ],
       "endpoint_refs": [
         "w13:v3"
       ]
     },
-    "N049": {
-      "coordinates": [
-        106.682798,
-        10.759626
-      ],
-      "endpoint_refs": [
-        "w13:v5"
-      ]
-    },
-<<<<<<< HEAD
-    "N050": {
-      "coordinates": [
-        106.682853,
-        10.759586
-      ],
-      "endpoint_refs": [
-        "w13:v7"
-      ]
-    },
-=======
->>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
     "N006": {
       "coordinates": [
-        106.681629,
-        10.759381
+        106.68348,
+        10.759562
       ],
       "endpoint_refs": [
-<<<<<<< HEAD
         "w14:end"
-=======
-        "w14:end",
-        "w14:v3"
->>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
       ]
     },
-    "N051": {
+    "N081": {
       "coordinates": [
-        106.681995,
-        10.759261
-      ],
-      "endpoint_refs": [
-        "w14:v1"
-      ]
-    },
-    "N052": {
-      "coordinates": [
-        106.681907,
-        10.759498
-      ],
-      "endpoint_refs": [
-        "w14:v2"
-      ]
-    },
-<<<<<<< HEAD
-    "N053": {
-      "coordinates": [
-        106.681629,
-        10.759381
+        106.682845,
+        10.759575
       ],
       "endpoint_refs": [
         "w14:v3"
       ]
     },
-=======
->>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
+    "N104": {
+      "coordinates": [
+        106.68292,
+        10.759393
+      ],
+      "endpoint_refs": [
+        "w14:v4"
+      ]
+    },
+    "N105": {
+      "coordinates": [
+        106.683401,
+        10.759568
+      ],
+      "endpoint_refs": [
+        "w14:v5"
+      ]
+    },
     "N008": {
       "coordinates": [
-        106.681865,
-        10.758851
+        106.683427,
+        10.759703
       ],
       "endpoint_refs": [
         "w15:end"
       ]
     },
-    "N054": {
-      "coordinates": [
-        106.682007,
-        10.759258
-      ],
-      "endpoint_refs": [
-        "w15:v1"
-      ]
-    },
-    "N055": {
-      "coordinates": [
-        106.68202,
-        10.759231
-      ],
-      "endpoint_refs": [
-        "w15:v2"
-      ]
-    },
     "N056": {
       "coordinates": [
-        106.681663,
-        10.759095
+        106.682845,
+        10.759575
       ],
       "endpoint_refs": [
         "w15:v3"
@@ -491,125 +773,128 @@
     },
     "N057": {
       "coordinates": [
-        106.681759,
-        10.758815
+        106.68292,
+        10.759393
       ],
       "endpoint_refs": [
         "w15:v4"
       ]
     },
+    "N106": {
+      "coordinates": [
+        106.683401,
+        10.759568
+      ],
+      "endpoint_refs": [
+        "w15:v5"
+      ]
+    },
+    "N107": {
+      "coordinates": [
+        106.68337,
+        10.759627
+      ],
+      "endpoint_refs": [
+        "w15:v6"
+      ]
+    },
     "N009": {
       "coordinates": [
-        106.682483,
-        10.759218
+        106.681716,
+        10.758946
       ],
       "endpoint_refs": [
         "w16:end"
       ]
     },
-    "N010": {
+    "N108": {
       "coordinates": [
-        106.682012,
-        10.759237
+        106.682398,
+        10.759409
       ],
       "endpoint_refs": [
-        "w16:start"
+        "w16:v3"
       ]
     },
-    "N058": {
+    "N109": {
       "coordinates": [
-        106.682083,
-        10.759059
+        106.682015,
+        10.75926
       ],
       "endpoint_refs": [
-        "w16:v1"
+        "w16:v4"
       ]
     },
-<<<<<<< HEAD
-    "N059": {
+    "N110": {
       "coordinates": [
-        106.682481,
-        10.759218
+        106.681948,
+        10.759204
       ],
       "endpoint_refs": [
-        "w16:v2"
+        "w16:v5"
       ]
     },
-=======
->>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
-    "N060": {
+    "N111": {
       "coordinates": [
-        106.682473,
-        10.759223
+        106.681659,
+        10.759093
       ],
       "endpoint_refs": [
-        "w17:v1"
+        "w16:v6"
       ]
     },
-    "N061": {
+    "N148": {
       "coordinates": [
-        106.682927,
-        10.759396
+        106.681965,
+        10.759817
       ],
       "endpoint_refs": [
         "w17:v2"
       ]
     },
-    "N011": {
+    "N149": {
       "coordinates": [
-        106.683743,
-        10.759755
+        106.682093,
+        10.759467
       ],
       "endpoint_refs": [
-        "w18:end"
+        "w17:v3"
       ]
     },
-    "N062": {
+    "N150": {
       "coordinates": [
-        106.683395,
-        10.759581
+        106.682347,
+        10.75957
       ],
       "endpoint_refs": [
-        "w18:v1"
+        "w17:v4"
       ]
     },
-<<<<<<< HEAD
-    "N063": {
+    "N151": {
       "coordinates": [
-        106.683376,
-        10.759627
+        106.682446,
+        10.760002
       ],
       "endpoint_refs": [
         "w18:v2"
       ]
     },
-=======
->>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
-    "N013": {
+    "N152": {
       "coordinates": [
-        106.683491,
-        10.759328
+        106.68258,
+        10.759662
       ],
       "endpoint_refs": [
-        "w19:end"
+        "w18:v3"
       ]
     },
-    "N014": {
+    "N153": {
       "coordinates": [
-        106.682828,
-        10.759636
+        106.682347,
+        10.75957
       ],
       "endpoint_refs": [
-        "w19:start"
-      ]
-    },
-    "N064": {
-      "coordinates": [
-        106.683296,
-        10.759827
-      ],
-      "endpoint_refs": [
-        "w19:v1"
+        "w18:v4"
       ]
     },
     "N015": {
@@ -618,182 +903,85 @@
         10.760351
       ],
       "endpoint_refs": [
-        "w1:end",
-        "w2:end"
+        "w1:end"
       ]
     },
-    "N016": {
-      "coordinates": [
-        106.681931,
-        10.760592
-      ],
-      "endpoint_refs": [
-        "w1:start"
-      ]
-    },
-    "N017": {
-      "coordinates": [
-        106.682572,
-        10.758954
-      ],
-      "endpoint_refs": [
-<<<<<<< HEAD
-        "w20:end"
-      ]
-    },
-    "N065": {
-      "coordinates": [
-        106.682572,
-        10.758954
-      ],
-      "endpoint_refs": [
-=======
-        "w20:end",
->>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
-        "w20:v1"
-      ]
-    },
-    "N019": {
-      "coordinates": [
-        106.681875,
-        10.760165
-      ],
-      "endpoint_refs": [
-        "w2:start",
-        "w3:start"
-      ]
-    },
-<<<<<<< HEAD
-    "N066": {
+    "N115": {
       "coordinates": [
         106.682067,
         10.760239
       ],
       "endpoint_refs": [
-        "w2:v1"
+        "w1:v1"
       ]
     },
-=======
->>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
-    "N020": {
+    "N116": {
       "coordinates": [
-        106.682158,
-        10.76002
+        106.681886,
+        10.760175
       ],
       "endpoint_refs": [
-        "w3:end",
-        "w4:end",
-        "w5:end"
+        "w2:end"
       ]
     },
-    "N067": {
+    "N119": {
       "coordinates": [
-        106.681784,
-        10.759879
+        106.68249,
+        10.760018
       ],
       "endpoint_refs": [
-        "w4:v1"
+        "w6:v3"
       ]
     },
-    "N022": {
+    "N120": {
       "coordinates": [
-        106.681857,
-        10.759757
+        106.682604,
+        10.759716
       ],
       "endpoint_refs": [
-        "w5:start",
-        "w6:start"
+        "w7:end"
       ]
     },
-    "N068": {
+    "N121": {
       "coordinates": [
-        106.682213,
-        10.759893
+        106.682523,
+        10.759939
       ],
       "endpoint_refs": [
-        "w5:v1"
+        "w7:v4"
       ]
     },
-    "N023": {
+    "N122": {
       "coordinates": [
-<<<<<<< HEAD
-        106.68209,
-        10.759472
-=======
-        106.68227254656058,
-        10.759541417636736
->>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
+        106.682479,
+        10.759922
       ],
       "endpoint_refs": [
-        "w6:end",
-        "w7:end",
-        "w8:end",
+        "w7:v5"
+      ]
+    },
+    "N123": {
+      "coordinates": [
+        106.682552,
+        10.759731
+      ],
+      "endpoint_refs": [
+        "w7:v6"
+      ]
+    },
+    "N124": {
+      "coordinates": [
+        106.68162,
+        10.759377
+      ],
+      "endpoint_refs": [
         "w9:end"
-      ]
-    },
-    "N069": {
-      "coordinates": [
-        106.68197,
-        10.759797
-      ],
-      "endpoint_refs": [
-        "w6:v1"
-      ]
-    },
-    "N024": {
-      "coordinates": [
-        106.681839,
-        10.759745
-      ],
-      "endpoint_refs": [
-        "w7:start"
-      ]
-    },
-    "N070": {
-      "coordinates": [
-        106.681966,
-        10.75942
-      ],
-      "endpoint_refs": [
-        "w7:v1"
-      ]
-    },
-    "N071": {
-      "coordinates": [
-<<<<<<< HEAD
-        106.682329,
-        10.759569
-=======
-        106.68233424326795,
-        10.759588835401049
->>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
-      ],
-      "endpoint_refs": [
-        "w8:v1"
-      ]
-    },
-    "N072": {
-      "coordinates": [
-        106.682492,
-        10.760022
-      ],
-      "endpoint_refs": [
-        "w9:v1"
-      ]
-    },
-    "N073": {
-      "coordinates": [
-        106.682519,
-        10.759952
-      ],
-      "endpoint_refs": [
-        "w9:v2"
       ]
     },
     "N074": {
       "coordinates": [
-        106.682478,
-        10.75993
+        106.681886,
+        10.759616
       ],
       "endpoint_refs": [
         "w9:v3"
@@ -801,27 +989,12 @@
     },
     "N075": {
       "coordinates": [
-<<<<<<< HEAD
-        106.682578,
-        10.759661
-=======
-        106.6825997790104,
-        10.759591510064439
->>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
+        106.681934,
+        10.759494
       ],
       "endpoint_refs": [
         "w9:v4"
       ]
-<<<<<<< HEAD
-=======
-    },
-    "N076": {
-      "coordinates": [
-        106.68222109587208,
-        10.759357507778526
-      ],
-      "endpoint_refs": []
->>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
     }
   },
   "edges": [
@@ -829,17 +1002,17 @@
       "edge_id": "w1_part01",
       "way_id": "w1",
       "file": "w1.geojson",
-      "from": "N016",
-      "to": "N026",
-      "length_m": 41.97,
+      "from": "N001",
+      "to": "N001",
+      "length_m": 0.81,
       "coordinates": [
         [
           106.681931,
           10.760592
         ],
         [
-          106.682067,
-          10.760238999999999
+          106.6819336173452,
+          10.760585206449637
         ]
       ]
     },
@@ -847,13 +1020,211 @@
       "edge_id": "w1_part02",
       "way_id": "w1",
       "file": "w1.geojson",
+      "from": "N001",
+      "to": "N135",
+      "length_m": 3.63,
+      "coordinates": [
+        [
+          106.6819336173452,
+          10.760585206449637
+        ],
+        [
+          106.68194537423001,
+          10.7605546904177
+        ]
+      ]
+    },
+    {
+      "edge_id": "w1_part03",
+      "way_id": "w1",
+      "file": "w1.geojson",
+      "from": "N135",
+      "to": "N007",
+      "length_m": 11.02,
+      "coordinates": [
+        [
+          106.68194537423001,
+          10.7605546904177
+        ],
+        [
+          106.68198108686722,
+          10.760461995116716
+        ]
+      ]
+    },
+    {
+      "edge_id": "w1_part04",
+      "way_id": "w1",
+      "file": "w1.geojson",
+      "from": "N007",
+      "to": "N004",
+      "length_m": 4.44,
+      "coordinates": [
+        [
+          106.68198108686722,
+          10.760461995116716
+        ],
+        [
+          106.68199546109723,
+          10.760424685534415
+        ]
+      ]
+    },
+    {
+      "edge_id": "w1_part05",
+      "way_id": "w1",
+      "file": "w1.geojson",
+      "from": "N004",
+      "to": "N087",
+      "length_m": 12.92,
+      "coordinates": [
+        [
+          106.68199546109723,
+          10.760424685534415
+        ],
+        [
+          106.6820373299824,
+          10.760316011148637
+        ]
+      ]
+    },
+    {
+      "edge_id": "w1_part06",
+      "way_id": "w1",
+      "file": "w1.geojson",
+      "from": "N087",
+      "to": "N026",
+      "length_m": 7.97,
+      "coordinates": [
+        [
+          106.6820373299824,
+          10.760316011148637
+        ],
+        [
+          106.68206315391137,
+          10.760248982862425
+        ]
+      ]
+    },
+    {
+      "edge_id": "w1_part07",
+      "way_id": "w1",
+      "file": "w1.geojson",
       "from": "N026",
-      "to": "N015",
-      "length_m": 37.21,
+      "to": "N115",
+      "length_m": 1.19,
+      "coordinates": [
+        [
+          106.68206315391137,
+          10.760248982862425
+        ],
+        [
+          106.682067,
+          10.760239
+        ]
+      ]
+    },
+    {
+      "edge_id": "w1_part08",
+      "way_id": "w1",
+      "file": "w1.geojson",
+      "from": "N115",
+      "to": "N012",
+      "length_m": 0.15,
       "coordinates": [
         [
           106.682067,
-          10.760238999999999
+          10.760239
+        ],
+        [
+          106.68206831490087,
+          10.760239458781614
+        ]
+      ]
+    },
+    {
+      "edge_id": "w1_part09",
+      "way_id": "w1",
+      "file": "w1.geojson",
+      "from": "N012",
+      "to": "N012",
+      "length_m": 0.43,
+      "coordinates": [
+        [
+          106.68206831490087,
+          10.760239458781614
+        ],
+        [
+          106.68207198569914,
+          10.760240739558576
+        ]
+      ]
+    },
+    {
+      "edge_id": "w1_part10",
+      "way_id": "w1",
+      "file": "w1.geojson",
+      "from": "N012",
+      "to": "N012",
+      "length_m": 0.01,
+      "coordinates": [
+        [
+          106.68207198569914,
+          10.760240739558576
+        ],
+        [
+          106.6820721066004,
+          10.760240781742196
+        ]
+      ]
+    },
+    {
+      "edge_id": "w1_part11",
+      "way_id": "w1",
+      "file": "w1.geojson",
+      "from": "N012",
+      "to": "N012",
+      "length_m": 0.15,
+      "coordinates": [
+        [
+          106.6820721066004,
+          10.760240781742196
+        ],
+        [
+          106.68207338939935,
+          10.760241229323137
+        ]
+      ]
+    },
+    {
+      "edge_id": "w1_part12",
+      "way_id": "w1",
+      "file": "w1.geojson",
+      "from": "N012",
+      "to": "N012",
+      "length_m": 0.2,
+      "coordinates": [
+        [
+          106.68207338939935,
+          10.760241229323137
+        ],
+        [
+          106.68207509159949,
+          10.760241823237203
+        ]
+      ]
+    },
+    {
+      "edge_id": "w1_part13",
+      "way_id": "w1",
+      "file": "w1.geojson",
+      "from": "N012",
+      "to": "N015",
+      "length_m": 36.27,
+      "coordinates": [
+        [
+          106.68207509159949,
+          10.760241823237203
         ],
         [
           106.682388,
@@ -865,29 +1236,17 @@
       "edge_id": "w10_part01",
       "way_id": "w10",
       "file": "w10.geojson",
-      "from": "N002",
-      "to": "N027",
-<<<<<<< HEAD
-      "length_m": 0.04,
+      "from": "N001",
+      "to": "N001",
+      "length_m": 0.11,
       "coordinates": [
         [
-          106.682337,
-          10.759568
+          106.681926,
+          10.760591
         ],
         [
-          106.68233711346254,
-          10.75956770499744
-=======
-      "length_m": 10.61,
-      "coordinates": [
-        [
-          106.68241201847937,
-          10.759591479696883
-        ],
-        [
-          106.68236642289278,
-          10.759507188339843
->>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
+          106.68192638665502,
+          10.76059009450022
         ]
       ]
     },
@@ -895,25 +1254,17 @@
       "edge_id": "w10_part02",
       "way_id": "w10",
       "file": "w10.geojson",
-      "from": "N027",
-      "to": "N038",
-<<<<<<< HEAD
-      "length_m": 18.51,
+      "from": "N001",
+      "to": "N001",
+      "length_m": 0.81,
       "coordinates": [
         [
-          106.68233711346254,
-          10.75956770499744
-=======
-      "length_m": 11.1,
-      "coordinates": [
-        [
-          106.68236642289278,
-          10.759507188339843
->>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
+          106.68192638665502,
+          10.76059009450022
         ],
         [
-          106.682397,
-          10.759412
+          106.6819292384832,
+          10.76058341585985
         ]
       ]
     },
@@ -921,17 +1272,17 @@
       "edge_id": "w10_part03",
       "way_id": "w10",
       "file": "w10.geojson",
-      "from": "N038",
+      "from": "N001",
       "to": "N007",
-      "length_m": 0.06,
+      "length_m": 14.64,
       "coordinates": [
         [
-          106.682397,
-          10.759412
+          106.6819292384832,
+          10.76058341585985
         ],
         [
-          106.68239750316411,
-          10.759412191996836
+          106.68198108634466,
+          10.760461994372314
         ]
       ]
     },
@@ -940,16 +1291,16 @@
       "way_id": "w10",
       "file": "w10.geojson",
       "from": "N007",
-      "to": "N007",
-      "length_m": 0.15,
+      "to": "N047",
+      "length_m": 13.75,
       "coordinates": [
         [
-          106.68239750316411,
-          10.759412191996836
+          106.68198108634466,
+          10.760461994372314
         ],
         [
-          106.68239880452016,
-          10.759412688566904
+          106.68202976834446,
+          10.760347986953999
         ]
       ]
     },
@@ -957,17 +1308,17 @@
       "edge_id": "w10_part05",
       "way_id": "w10",
       "file": "w10.geojson",
-      "from": "N007",
-      "to": "N001",
-      "length_m": 53.03,
+      "from": "N047",
+      "to": "N012",
+      "length_m": 12.8,
       "coordinates": [
         [
-          106.68239880452016,
-          10.759412688566904
+          106.68202976834446,
+          10.760347986953999
         ],
         [
-          106.68285128237133,
-          10.75958534458907
+          106.68207510931045,
+          10.760241803837056
         ]
       ]
     },
@@ -975,17 +1326,161 @@
       "edge_id": "w10_part06",
       "way_id": "w10",
       "file": "w10.geojson",
-      "from": "N001",
-      "to": "N001",
-      "length_m": 0.2,
+      "from": "N012",
+      "to": "N020",
+      "length_m": 23.97,
       "coordinates": [
         [
-          106.68285128237133,
-          10.75958534458907
+          106.68207510931045,
+          10.760241803837056
         ],
         [
-          106.682853,
-          10.759586
+          106.68215999999998,
+          10.760043
+        ]
+      ]
+    },
+    {
+      "edge_id": "w10_part07",
+      "way_id": "w10",
+      "file": "w10.geojson",
+      "from": "N020",
+      "to": "N023",
+      "length_m": 2.03,
+      "coordinates": [
+        [
+          106.68215999999998,
+          10.760043
+        ],
+        [
+          106.68216679999999,
+          10.760025999999998
+        ]
+      ]
+    },
+    {
+      "edge_id": "w10_part08",
+      "way_id": "w10",
+      "file": "w10.geojson",
+      "from": "N023",
+      "to": "N018",
+      "length_m": 13.5,
+      "coordinates": [
+        [
+          106.68216679999999,
+          10.760025999999998
+        ],
+        [
+          106.68221199999999,
+          10.759913
+        ]
+      ]
+    },
+    {
+      "edge_id": "w10_part09",
+      "way_id": "w10",
+      "file": "w10.geojson",
+      "from": "N018",
+      "to": "N036",
+      "length_m": 31.88,
+      "coordinates": [
+        [
+          106.68221199999999,
+          10.759913
+        ],
+        [
+          106.682484,
+          10.760017000000001
+        ]
+      ]
+    },
+    {
+      "edge_id": "w10_part10",
+      "way_id": "w10",
+      "file": "w10.geojson",
+      "from": "N036",
+      "to": "N093",
+      "length_m": 0.66,
+      "coordinates": [
+        [
+          106.682484,
+          10.760017000000001
+        ],
+        [
+          106.68249000131186,
+          10.760017992342904
+        ]
+      ]
+    },
+    {
+      "edge_id": "w10_part11",
+      "way_id": "w10",
+      "file": "w10.geojson",
+      "from": "N093",
+      "to": "N037",
+      "length_m": 13.4,
+      "coordinates": [
+        [
+          106.68249000131186,
+          10.760017992342904
+        ],
+        [
+          106.682611,
+          10.760037999999998
+        ]
+      ]
+    },
+    {
+      "edge_id": "w10_part12",
+      "way_id": "w10",
+      "file": "w10.geojson",
+      "from": "N037",
+      "to": "N086",
+      "length_m": 6.99,
+      "coordinates": [
+        [
+          106.682611,
+          10.760037999999998
+        ],
+        [
+          106.682647,
+          10.759986000000001
+        ]
+      ]
+    },
+    {
+      "edge_id": "w10_part13",
+      "way_id": "w10",
+      "file": "w10.geojson",
+      "from": "N086",
+      "to": "N099",
+      "length_m": 22.21,
+      "coordinates": [
+        [
+          106.682647,
+          10.759986000000001
+        ],
+        [
+          106.682726,
+          10.759802
+        ]
+      ]
+    },
+    {
+      "edge_id": "w10_part14",
+      "way_id": "w10",
+      "file": "w10.geojson",
+      "from": "N099",
+      "to": "N098",
+      "length_m": 6.15,
+      "coordinates": [
+        [
+          106.682726,
+          10.759802
+        ],
+        [
+          106.682702,
+          10.759752
         ]
       ]
     },
@@ -993,29 +1488,17 @@
       "edge_id": "w11_part01",
       "way_id": "w11",
       "file": "w11.geojson",
-      "from": "N003",
-      "to": "N030",
-<<<<<<< HEAD
-      "length_m": 0.37,
+      "from": "N001",
+      "to": "N001",
+      "length_m": 0.11,
       "coordinates": [
         [
-          106.682571,
-          10.75967
+          106.681926,
+          10.760591
         ],
         [
-          106.68257421153771,
-          10.759671169418631
-=======
-      "length_m": 3.94,
-      "coordinates": [
-        [
-          106.6825381039364,
-          10.759670540534579
-        ],
-        [
-          106.6825742,
-          10.7596712
->>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
+          106.68192638665502,
+          10.760590094500209
         ]
       ]
     },
@@ -1023,17 +1506,17 @@
       "edge_id": "w11_part02",
       "way_id": "w11",
       "file": "w11.geojson",
-      "from": "N030",
-      "to": "N029",
-      "length_m": 21.06,
+      "from": "N001",
+      "to": "N001",
+      "length_m": 0.81,
       "coordinates": [
         [
-          106.68257421153771,
-          10.759671169418631
+          106.68192638665502,
+          10.760590094500209
         ],
         [
-          106.682755,
-          10.759737000000001
+          106.6819292384832,
+          10.760583415859848
         ]
       ]
     },
@@ -1041,17 +1524,17 @@
       "edge_id": "w11_part03",
       "way_id": "w11",
       "file": "w11.geojson",
-      "from": "N029",
-      "to": "N040",
-      "length_m": 13.21,
+      "from": "N001",
+      "to": "N007",
+      "length_m": 14.64,
       "coordinates": [
         [
-          106.682755,
-          10.759737000000001
+          106.6819292384832,
+          10.760583415859848
         ],
         [
-          106.682798,
-          10.759626
+          106.68198108634466,
+          10.760461994372308
         ]
       ]
     },
@@ -1059,17 +1542,17 @@
       "edge_id": "w11_part04",
       "way_id": "w11",
       "file": "w11.geojson",
-      "from": "N040",
-      "to": "N028",
-      "length_m": 4.03,
+      "from": "N007",
+      "to": "N047",
+      "length_m": 13.75,
       "coordinates": [
         [
-          106.682798,
-          10.759626
+          106.68198108634466,
+          10.760461994372308
         ],
         [
-          106.68283199999999,
-          10.75964
+          106.68202976834446,
+          10.76034798695399
         ]
       ]
     },
@@ -1077,17 +1560,17 @@
       "edge_id": "w11_part05",
       "way_id": "w11",
       "file": "w11.geojson",
-      "from": "N028",
-      "to": "N028",
-      "length_m": 0.24,
+      "from": "N047",
+      "to": "N012",
+      "length_m": 12.8,
       "coordinates": [
         [
-          106.68283199999999,
-          10.75964
+          106.68202976834446,
+          10.76034798695399
         ],
         [
-          106.68283278060827,
-          10.759637992721606
+          106.68207510931045,
+          10.760241803837058
         ]
       ]
     },
@@ -1095,21 +1578,197 @@
       "edge_id": "w11_part06",
       "way_id": "w11",
       "file": "w11.geojson",
-      "from": "N028",
-<<<<<<< HEAD
-      "to": "N041",
-=======
-      "to": "N001",
->>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
-      "length_m": 6.19,
+      "from": "N012",
+      "to": "N020",
+      "length_m": 23.97,
       "coordinates": [
         [
-          106.68283278060827,
-          10.759637992721606
+          106.68207510931045,
+          10.760241803837058
         ],
         [
-          106.682853,
-          10.759586
+          106.68216,
+          10.760043
+        ]
+      ]
+    },
+    {
+      "edge_id": "w11_part07",
+      "way_id": "w11",
+      "file": "w11.geojson",
+      "from": "N020",
+      "to": "N023",
+      "length_m": 2.03,
+      "coordinates": [
+        [
+          106.68216,
+          10.760043
+        ],
+        [
+          106.68216679999999,
+          10.760025999999996
+        ]
+      ]
+    },
+    {
+      "edge_id": "w11_part08",
+      "way_id": "w11",
+      "file": "w11.geojson",
+      "from": "N023",
+      "to": "N018",
+      "length_m": 13.5,
+      "coordinates": [
+        [
+          106.68216679999999,
+          10.760025999999996
+        ],
+        [
+          106.682212,
+          10.759913
+        ]
+      ]
+    },
+    {
+      "edge_id": "w11_part09",
+      "way_id": "w11",
+      "file": "w11.geojson",
+      "from": "N018",
+      "to": "N036",
+      "length_m": 31.88,
+      "coordinates": [
+        [
+          106.682212,
+          10.759913
+        ],
+        [
+          106.682484,
+          10.760017000000001
+        ]
+      ]
+    },
+    {
+      "edge_id": "w11_part10",
+      "way_id": "w11",
+      "file": "w11.geojson",
+      "from": "N036",
+      "to": "N093",
+      "length_m": 0.66,
+      "coordinates": [
+        [
+          106.682484,
+          10.760017000000001
+        ],
+        [
+          106.68249000131186,
+          10.760017992342904
+        ]
+      ]
+    },
+    {
+      "edge_id": "w11_part11",
+      "way_id": "w11",
+      "file": "w11.geojson",
+      "from": "N093",
+      "to": "N037",
+      "length_m": 13.4,
+      "coordinates": [
+        [
+          106.68249000131186,
+          10.760017992342904
+        ],
+        [
+          106.682611,
+          10.760037999999998
+        ]
+      ]
+    },
+    {
+      "edge_id": "w11_part12",
+      "way_id": "w11",
+      "file": "w11.geojson",
+      "from": "N037",
+      "to": "N086",
+      "length_m": 6.99,
+      "coordinates": [
+        [
+          106.682611,
+          10.760037999999998
+        ],
+        [
+          106.682647,
+          10.759986000000001
+        ]
+      ]
+    },
+    {
+      "edge_id": "w11_part13",
+      "way_id": "w11",
+      "file": "w11.geojson",
+      "from": "N086",
+      "to": "N090",
+      "length_m": 50.51,
+      "coordinates": [
+        [
+          106.682647,
+          10.759986000000001
+        ],
+        [
+          106.68283997651874,
+          10.759573189405806
+        ]
+      ]
+    },
+    {
+      "edge_id": "w11_part14",
+      "way_id": "w11",
+      "file": "w11.geojson",
+      "from": "N090",
+      "to": "N101",
+      "length_m": 0.27,
+      "coordinates": [
+        [
+          106.68283997651874,
+          10.759573189405806
+        ],
+        [
+          106.682841,
+          10.759571
+        ]
+      ]
+    },
+    {
+      "edge_id": "w11_part15",
+      "way_id": "w11",
+      "file": "w11.geojson",
+      "from": "N101",
+      "to": "N136",
+      "length_m": 0.6,
+      "coordinates": [
+        [
+          106.682841,
+          10.759571
+        ],
+        [
+          106.68284649824068,
+          10.759571239053942
+        ]
+      ]
+    },
+    {
+      "edge_id": "w11_part16",
+      "way_id": "w11",
+      "file": "w11.geojson",
+      "from": "N136",
+      "to": "N100",
+      "length_m": 9.46,
+      "coordinates": [
+        [
+          106.68284649824068,
+          10.759571239053942
+        ],
+        [
+          106.682933,
+          10.759575
         ]
       ]
     },
@@ -1117,17 +1776,17 @@
       "edge_id": "w12_part01",
       "way_id": "w12",
       "file": "w12.geojson",
-      "from": "N004",
-      "to": "N031",
-      "length_m": 14.3,
+      "from": "N001",
+      "to": "N001",
+      "length_m": 0.11,
       "coordinates": [
         [
-          106.682512,
-          10.759937
+          106.681926,
+          10.760591
         ],
         [
-          106.68263499660816,
-          10.759981109128441
+          106.68192638665502,
+          10.760590094500214
         ]
       ]
     },
@@ -1135,17 +1794,17 @@
       "edge_id": "w12_part02",
       "way_id": "w12",
       "file": "w12.geojson",
-      "from": "N031",
-      "to": "N042",
-      "length_m": 2.56,
+      "from": "N001",
+      "to": "N001",
+      "length_m": 0.81,
       "coordinates": [
         [
-          106.68263499660816,
-          10.759981109128441
+          106.68192638665502,
+          10.760590094500214
         ],
         [
-          106.682657,
-          10.759989
+          106.6819292384832,
+          10.760583415859855
         ]
       ]
     },
@@ -1153,17 +1812,17 @@
       "edge_id": "w12_part03",
       "way_id": "w12",
       "file": "w12.geojson",
-      "from": "N042",
-      "to": "N043",
-      "length_m": 30.0,
+      "from": "N001",
+      "to": "N007",
+      "length_m": 14.64,
       "coordinates": [
         [
-          106.682657,
-          10.759989
+          106.6819292384832,
+          10.760583415859855
         ],
         [
-          106.682755,
-          10.759737
+          106.68198108634466,
+          10.760461994372315
         ]
       ]
     },
@@ -1171,17 +1830,17 @@
       "edge_id": "w12_part04",
       "way_id": "w12",
       "file": "w12.geojson",
-      "from": "N043",
-      "to": "N044",
-      "length_m": 13.21,
+      "from": "N007",
+      "to": "N047",
+      "length_m": 13.75,
       "coordinates": [
         [
-          106.682755,
-          10.759737
+          106.68198108634466,
+          10.760461994372315
         ],
         [
-          106.682798,
-          10.759626
+          106.68202976834445,
+          10.76034798695399
         ]
       ]
     },
@@ -1189,17 +1848,17 @@
       "edge_id": "w12_part05",
       "way_id": "w12",
       "file": "w12.geojson",
-      "from": "N044",
-      "to": "N028",
-      "length_m": 4.03,
+      "from": "N047",
+      "to": "N012",
+      "length_m": 12.8,
       "coordinates": [
         [
-          106.682798,
-          10.759626
+          106.68202976834445,
+          10.76034798695399
         ],
         [
-          106.682832,
-          10.75964
+          106.68207510931045,
+          10.760241803837056
         ]
       ]
     },
@@ -1207,17 +1866,17 @@
       "edge_id": "w12_part06",
       "way_id": "w12",
       "file": "w12.geojson",
-      "from": "N028",
-      "to": "N028",
-      "length_m": 0.24,
+      "from": "N012",
+      "to": "N020",
+      "length_m": 23.97,
       "coordinates": [
         [
-          106.682832,
-          10.75964
+          106.68207510931045,
+          10.760241803837056
         ],
         [
-          106.68283278060828,
-          10.759637992721611
+          106.68215999999997,
+          10.760043
         ]
       ]
     },
@@ -1225,21 +1884,161 @@
       "edge_id": "w12_part07",
       "way_id": "w12",
       "file": "w12.geojson",
-      "from": "N028",
-<<<<<<< HEAD
-      "to": "N045",
-=======
-      "to": "N001",
->>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
-      "length_m": 6.19,
+      "from": "N020",
+      "to": "N023",
+      "length_m": 2.04,
       "coordinates": [
         [
-          106.68283278060828,
-          10.759637992721611
+          106.68215999999997,
+          10.760043
         ],
         [
-          106.682853,
-          10.759586
+          106.68216658122186,
+          10.76002579306816
+        ]
+      ]
+    },
+    {
+      "edge_id": "w12_part08",
+      "way_id": "w12",
+      "file": "w12.geojson",
+      "from": "N023",
+      "to": "N018",
+      "length_m": 13.78,
+      "coordinates": [
+        [
+          106.68216658122186,
+          10.76002579306816
+        ],
+        [
+          106.68221095239596,
+          10.759909782427263
+        ]
+      ]
+    },
+    {
+      "edge_id": "w12_part09",
+      "way_id": "w12",
+      "file": "w12.geojson",
+      "from": "N018",
+      "to": "N018",
+      "length_m": 0.39,
+      "coordinates": [
+        [
+          106.68221095239596,
+          10.759909782427263
+        ],
+        [
+          106.68221220687218,
+          10.759906502536825
+        ]
+      ]
+    },
+    {
+      "edge_id": "w12_part10",
+      "way_id": "w12",
+      "file": "w12.geojson",
+      "from": "N018",
+      "to": "N073",
+      "length_m": 19.24,
+      "coordinates": [
+        [
+          106.68221220687218,
+          10.759906502536825
+        ],
+        [
+          106.68227417265864,
+          10.759744489907106
+        ]
+      ]
+    },
+    {
+      "edge_id": "w12_part11",
+      "way_id": "w12",
+      "file": "w12.geojson",
+      "from": "N073",
+      "to": "N089",
+      "length_m": 20.97,
+      "coordinates": [
+        [
+          106.68227417265864,
+          10.759744489907106
+        ],
+        [
+          106.68234167865585,
+          10.759567992120937
+        ]
+      ]
+    },
+    {
+      "edge_id": "w12_part12",
+      "way_id": "w12",
+      "file": "w12.geojson",
+      "from": "N089",
+      "to": "N089",
+      "length_m": 0.01,
+      "coordinates": [
+        [
+          106.68234167865585,
+          10.759567992120937
+        ],
+        [
+          106.68234171217135,
+          10.759567904492986
+        ]
+      ]
+    },
+    {
+      "edge_id": "w12_part13",
+      "way_id": "w12",
+      "file": "w12.geojson",
+      "from": "N089",
+      "to": "N089",
+      "length_m": 0.77,
+      "coordinates": [
+        [
+          106.68234171217135,
+          10.759567904492986
+        ],
+        [
+          106.68234419998032,
+          10.759561399992736
+        ]
+      ]
+    },
+    {
+      "edge_id": "w12_part14",
+      "way_id": "w12",
+      "file": "w12.geojson",
+      "from": "N089",
+      "to": "N091",
+      "length_m": 17.3,
+      "coordinates": [
+        [
+          106.68234419998032,
+          10.759561399992736
+        ],
+        [
+          106.68239988978509,
+          10.75941579622923
+        ]
+      ]
+    },
+    {
+      "edge_id": "w12_part15",
+      "way_id": "w12",
+      "file": "w12.geojson",
+      "from": "N091",
+      "to": "N102",
+      "length_m": 31.37,
+      "coordinates": [
+        [
+          106.68239988978509,
+          10.75941579622923
+        ],
+        [
+          106.6825009,
+          10.7591517
         ]
       ]
     },
@@ -1247,17 +2046,17 @@
       "edge_id": "w13_part01",
       "way_id": "w13",
       "file": "w13.geojson",
-      "from": "N005",
-      "to": "N032",
-      "length_m": 0.32,
+      "from": "N001",
+      "to": "N001",
+      "length_m": 0.11,
       "coordinates": [
         [
-          106.682497,
-          10.760001
+          106.681926,
+          10.760591
         ],
         [
-          106.68249980355866,
-          10.760001787776813
+          106.68192638665504,
+          10.760590094500209
         ]
       ]
     },
@@ -1265,17 +2064,17 @@
       "edge_id": "w13_part02",
       "way_id": "w13",
       "file": "w13.geojson",
-      "from": "N032",
-      "to": "N046",
-      "length_m": 13.43,
+      "from": "N001",
+      "to": "N001",
+      "length_m": 0.81,
       "coordinates": [
         [
-          106.68249980355866,
-          10.760001787776813
+          106.68192638665504,
+          10.760590094500209
         ],
         [
-          106.682618,
-          10.760035
+          106.6819292384832,
+          10.760583415859875
         ]
       ]
     },
@@ -1283,17 +2082,17 @@
       "edge_id": "w13_part03",
       "way_id": "w13",
       "file": "w13.geojson",
-      "from": "N046",
-      "to": "N031",
-      "length_m": 6.27,
+      "from": "N001",
+      "to": "N007",
+      "length_m": 14.64,
       "coordinates": [
         [
-          106.682618,
-          10.760035
+          106.6819292384832,
+          10.760583415859875
         ],
         [
-          106.68263497126695,
-          10.759981091269685
+          106.68198108634468,
+          10.760461994372307
         ]
       ]
     },
@@ -1301,17 +2100,17 @@
       "edge_id": "w13_part04",
       "way_id": "w13",
       "file": "w13.geojson",
-      "from": "N031",
+      "from": "N007",
       "to": "N047",
-      "length_m": 0.01,
+      "length_m": 13.75,
       "coordinates": [
         [
-          106.68263497126695,
-          10.759981091269685
+          106.68198108634468,
+          10.760461994372307
         ],
         [
-          106.682635,
-          10.759981
+          106.68202976834448,
+          10.760347986953972
         ]
       ]
     },
@@ -1320,16 +2119,16 @@
       "way_id": "w13",
       "file": "w13.geojson",
       "from": "N047",
-      "to": "N048",
-      "length_m": 2.56,
+      "to": "N012",
+      "length_m": 12.8,
       "coordinates": [
         [
-          106.682635,
-          10.759981
+          106.68202976834448,
+          10.760347986953972
         ],
         [
-          106.682657,
-          10.759989
+          106.68207510931045,
+          10.760241803837063
         ]
       ]
     },
@@ -1337,17 +2136,17 @@
       "edge_id": "w13_part06",
       "way_id": "w13",
       "file": "w13.geojson",
-      "from": "N048",
-      "to": "N029",
-      "length_m": 30.0,
+      "from": "N012",
+      "to": "N020",
+      "length_m": 23.97,
       "coordinates": [
         [
-          106.682657,
-          10.759989
+          106.68207510931045,
+          10.760241803837063
         ],
         [
-          106.68275500000001,
-          10.759737000000001
+          106.68216000000001,
+          10.760043
         ]
       ]
     },
@@ -1355,17 +2154,17 @@
       "edge_id": "w13_part07",
       "way_id": "w13",
       "file": "w13.geojson",
-      "from": "N029",
-      "to": "N049",
-      "length_m": 13.21,
+      "from": "N020",
+      "to": "N023",
+      "length_m": 2.05,
       "coordinates": [
         [
-          106.68275500000001,
-          10.759737000000001
+          106.68216000000001,
+          10.760043
         ],
         [
-          106.682798,
-          10.759626
+          106.6821664677753,
+          10.760025688380178
         ]
       ]
     },
@@ -1373,17 +2172,17 @@
       "edge_id": "w13_part08",
       "way_id": "w13",
       "file": "w13.geojson",
-      "from": "N049",
-      "to": "N028",
-      "length_m": 4.03,
+      "from": "N023",
+      "to": "N018",
+      "length_m": 13.77,
       "coordinates": [
         [
-          106.682798,
-          10.759626
+          106.6821664677753,
+          10.760025688380178
         ],
         [
-          106.682832,
-          10.75964
+          106.68220991246956,
+          10.759909404496366
         ]
       ]
     },
@@ -1391,17 +2190,17 @@
       "edge_id": "w13_part09",
       "way_id": "w13",
       "file": "w13.geojson",
-      "from": "N028",
-      "to": "N028",
-      "length_m": 0.24,
+      "from": "N018",
+      "to": "N018",
+      "length_m": 0.39,
       "coordinates": [
         [
-          106.682832,
-          10.75964
+          106.68220991246956,
+          10.759909404496366
         ],
         [
-          106.68283278060828,
-          10.759637992721615
+          106.68221115334424,
+          10.759906083176508
         ]
       ]
     },
@@ -1409,21 +2208,179 @@
       "edge_id": "w13_part10",
       "way_id": "w13",
       "file": "w13.geojson",
-      "from": "N028",
-<<<<<<< HEAD
-      "to": "N050",
-=======
-      "to": "N001",
->>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
-      "length_m": 6.19,
+      "from": "N018",
+      "to": "N073",
+      "length_m": 19.23,
       "coordinates": [
         [
-          106.68283278060828,
-          10.759637992721615
+          106.68221115334424,
+          10.759906083176508
         ],
         [
-          106.682853,
-          10.759586
+          106.68227181863429,
+          10.759743706719286
+        ]
+      ]
+    },
+    {
+      "edge_id": "w13_part11",
+      "way_id": "w13",
+      "file": "w13.geojson",
+      "from": "N073",
+      "to": "N139",
+      "length_m": 10.57,
+      "coordinates": [
+        [
+          106.68227181863429,
+          10.759743706719286
+        ],
+        [
+          106.68230515334423,
+          10.759654483176517
+        ]
+      ]
+    },
+    {
+      "edge_id": "w13_part12",
+      "way_id": "w13",
+      "file": "w13.geojson",
+      "from": "N139",
+      "to": "N089",
+      "length_m": 10.4,
+      "coordinates": [
+        [
+          106.68230515334423,
+          10.759654483176517
+        ],
+        [
+          106.68233794399373,
+          10.759566715863595
+        ]
+      ]
+    },
+    {
+      "edge_id": "w13_part13",
+      "way_id": "w13",
+      "file": "w13.geojson",
+      "from": "N089",
+      "to": "N089",
+      "length_m": 0.04,
+      "coordinates": [
+        [
+          106.68233794399373,
+          10.759566715863595
+        ],
+        [
+          106.68233806651432,
+          10.759566387925487
+        ]
+      ]
+    },
+    {
+      "edge_id": "w13_part14",
+      "way_id": "w13",
+      "file": "w13.geojson",
+      "from": "N089",
+      "to": "N089",
+      "length_m": 0.74,
+      "coordinates": [
+        [
+          106.68233806651432,
+          10.759566387925487
+        ],
+        [
+          106.68234041387065,
+          10.759560105001572
+        ]
+      ]
+    },
+    {
+      "edge_id": "w13_part15",
+      "way_id": "w13",
+      "file": "w13.geojson",
+      "from": "N089",
+      "to": "N138",
+      "length_m": 8.5,
+      "coordinates": [
+        [
+          106.68234041387065,
+          10.759560105001572
+        ],
+        [
+          106.68236723600762,
+          10.759488312983885
+        ]
+      ]
+    },
+    {
+      "edge_id": "w13_part16",
+      "way_id": "w13",
+      "file": "w13.geojson",
+      "from": "N138",
+      "to": "N091",
+      "length_m": 8.8,
+      "coordinates": [
+        [
+          106.68236723600762,
+          10.759488312983885
+        ],
+        [
+          106.68239500000001,
+          10.759414
+        ]
+      ]
+    },
+    {
+      "edge_id": "w13_part17",
+      "way_id": "w13",
+      "file": "w13.geojson",
+      "from": "N091",
+      "to": "N048",
+      "length_m": 45.23,
+      "coordinates": [
+        [
+          106.68239500000001,
+          10.759414
+        ],
+        [
+          106.682011,
+          10.759262
+        ]
+      ]
+    },
+    {
+      "edge_id": "w13_part18",
+      "way_id": "w13",
+      "file": "w13.geojson",
+      "from": "N048",
+      "to": "N137",
+      "length_m": 0.45,
+      "coordinates": [
+        [
+          106.682011,
+          10.759262
+        ],
+        [
+          106.68201402154405,
+          10.759259222621138
+        ]
+      ]
+    },
+    {
+      "edge_id": "w13_part19",
+      "way_id": "w13",
+      "file": "w13.geojson",
+      "from": "N137",
+      "to": "N103",
+      "length_m": 14.36,
+      "coordinates": [
+        [
+          106.68201402154405,
+          10.759259222621138
+        ],
+        [
+          106.68211,
+          10.759171
         ]
       ]
     },
@@ -1431,17 +2388,17 @@
       "edge_id": "w14_part01",
       "way_id": "w14",
       "file": "w14.geojson",
-      "from": "N007",
-      "to": "N051",
-      "length_m": 47.08,
+      "from": "N001",
+      "to": "N001",
+      "length_m": 0.11,
       "coordinates": [
         [
-          106.682398,
-          10.759411
+          106.681926,
+          10.760591
         ],
         [
-          106.681995,
-          10.759261
+          106.68192638665504,
+          10.760590094500209
         ]
       ]
     },
@@ -1449,17 +2406,17 @@
       "edge_id": "w14_part02",
       "way_id": "w14",
       "file": "w14.geojson",
-      "from": "N051",
-      "to": "N052",
-      "length_m": 28.05,
+      "from": "N001",
+      "to": "N001",
+      "length_m": 0.81,
       "coordinates": [
         [
-          106.681995,
-          10.759261
+          106.68192638665504,
+          10.760590094500209
         ],
         [
-          106.681907,
-          10.759498
+          106.68192923848319,
+          10.760583415859877
         ]
       ]
     },
@@ -1467,21 +2424,395 @@
       "edge_id": "w14_part03",
       "way_id": "w14",
       "file": "w14.geojson",
-      "from": "N052",
-<<<<<<< HEAD
-      "to": "N053",
-=======
-      "to": "N006",
->>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
-      "length_m": 33.04,
+      "from": "N001",
+      "to": "N007",
+      "length_m": 14.64,
       "coordinates": [
         [
-          106.681907,
-          10.759498
+          106.68192923848319,
+          10.760583415859877
         ],
         [
-          106.681629,
-          10.759381
+          106.68198108634466,
+          10.76046199437231
+        ]
+      ]
+    },
+    {
+      "edge_id": "w14_part04",
+      "way_id": "w14",
+      "file": "w14.geojson",
+      "from": "N007",
+      "to": "N047",
+      "length_m": 13.75,
+      "coordinates": [
+        [
+          106.68198108634466,
+          10.76046199437231
+        ],
+        [
+          106.68202976834446,
+          10.76034798695398
+        ]
+      ]
+    },
+    {
+      "edge_id": "w14_part05",
+      "way_id": "w14",
+      "file": "w14.geojson",
+      "from": "N047",
+      "to": "N012",
+      "length_m": 12.8,
+      "coordinates": [
+        [
+          106.68202976834446,
+          10.76034798695398
+        ],
+        [
+          106.68207510931045,
+          10.760241803837065
+        ]
+      ]
+    },
+    {
+      "edge_id": "w14_part06",
+      "way_id": "w14",
+      "file": "w14.geojson",
+      "from": "N012",
+      "to": "N020",
+      "length_m": 23.97,
+      "coordinates": [
+        [
+          106.68207510931045,
+          10.760241803837065
+        ],
+        [
+          106.68216,
+          10.760043
+        ]
+      ]
+    },
+    {
+      "edge_id": "w14_part07",
+      "way_id": "w14",
+      "file": "w14.geojson",
+      "from": "N020",
+      "to": "N023",
+      "length_m": 2.05,
+      "coordinates": [
+        [
+          106.68216,
+          10.760043
+        ],
+        [
+          106.68216646777529,
+          10.760025688380178
+        ]
+      ]
+    },
+    {
+      "edge_id": "w14_part08",
+      "way_id": "w14",
+      "file": "w14.geojson",
+      "from": "N023",
+      "to": "N018",
+      "length_m": 13.77,
+      "coordinates": [
+        [
+          106.68216646777529,
+          10.760025688380178
+        ],
+        [
+          106.68220991246956,
+          10.759909404496364
+        ]
+      ]
+    },
+    {
+      "edge_id": "w14_part09",
+      "way_id": "w14",
+      "file": "w14.geojson",
+      "from": "N018",
+      "to": "N018",
+      "length_m": 0.39,
+      "coordinates": [
+        [
+          106.68220991246956,
+          10.759909404496364
+        ],
+        [
+          106.68221115334421,
+          10.759906083176514
+        ]
+      ]
+    },
+    {
+      "edge_id": "w14_part10",
+      "way_id": "w14",
+      "file": "w14.geojson",
+      "from": "N018",
+      "to": "N073",
+      "length_m": 19.23,
+      "coordinates": [
+        [
+          106.68221115334421,
+          10.759906083176514
+        ],
+        [
+          106.68227181863428,
+          10.759743706719282
+        ]
+      ]
+    },
+    {
+      "edge_id": "w14_part11",
+      "way_id": "w14",
+      "file": "w14.geojson",
+      "from": "N073",
+      "to": "N139",
+      "length_m": 10.57,
+      "coordinates": [
+        [
+          106.68227181863428,
+          10.759743706719282
+        ],
+        [
+          106.68230515334422,
+          10.759654483176517
+        ]
+      ]
+    },
+    {
+      "edge_id": "w14_part12",
+      "way_id": "w14",
+      "file": "w14.geojson",
+      "from": "N139",
+      "to": "N089",
+      "length_m": 10.4,
+      "coordinates": [
+        [
+          106.68230515334422,
+          10.759654483176517
+        ],
+        [
+          106.68233794399372,
+          10.759566715863583
+        ]
+      ]
+    },
+    {
+      "edge_id": "w14_part13",
+      "way_id": "w14",
+      "file": "w14.geojson",
+      "from": "N089",
+      "to": "N089",
+      "length_m": 0.04,
+      "coordinates": [
+        [
+          106.68233794399372,
+          10.759566715863583
+        ],
+        [
+          106.68233806651432,
+          10.75956638792549
+        ]
+      ]
+    },
+    {
+      "edge_id": "w14_part14",
+      "way_id": "w14",
+      "file": "w14.geojson",
+      "from": "N089",
+      "to": "N089",
+      "length_m": 0.74,
+      "coordinates": [
+        [
+          106.68233806651432,
+          10.75956638792549
+        ],
+        [
+          106.68234041387062,
+          10.75956010500157
+        ]
+      ]
+    },
+    {
+      "edge_id": "w14_part15",
+      "way_id": "w14",
+      "file": "w14.geojson",
+      "from": "N089",
+      "to": "N138",
+      "length_m": 8.5,
+      "coordinates": [
+        [
+          106.68234041387062,
+          10.75956010500157
+        ],
+        [
+          106.6823672360076,
+          10.759488312983878
+        ]
+      ]
+    },
+    {
+      "edge_id": "w14_part16",
+      "way_id": "w14",
+      "file": "w14.geojson",
+      "from": "N138",
+      "to": "N091",
+      "length_m": 8.8,
+      "coordinates": [
+        [
+          106.6823672360076,
+          10.759488312983878
+        ],
+        [
+          106.68239499999999,
+          10.759414
+        ]
+      ]
+    },
+    {
+      "edge_id": "w14_part17",
+      "way_id": "w14",
+      "file": "w14.geojson",
+      "from": "N091",
+      "to": "N091",
+      "length_m": 0.1,
+      "coordinates": [
+        [
+          106.68239499999999,
+          10.759414
+        ],
+        [
+          106.68239589279959,
+          10.759414319423867
+        ]
+      ]
+    },
+    {
+      "edge_id": "w14_part18",
+      "way_id": "w14",
+      "file": "w14.geojson",
+      "from": "N091",
+      "to": "N091",
+      "length_m": 0.47,
+      "coordinates": [
+        [
+          106.68239589279959,
+          10.759414319423867
+        ],
+        [
+          106.68239991534627,
+          10.759415758601667
+        ]
+      ]
+    },
+    {
+      "edge_id": "w14_part19",
+      "way_id": "w14",
+      "file": "w14.geojson",
+      "from": "N091",
+      "to": "N090",
+      "length_m": 51.16,
+      "coordinates": [
+        [
+          106.68239991534627,
+          10.759415758601667
+        ],
+        [
+          106.68283999636343,
+          10.759573209810027
+        ]
+      ]
+    },
+    {
+      "edge_id": "w14_part20",
+      "way_id": "w14",
+      "file": "w14.geojson",
+      "from": "N090",
+      "to": "N136",
+      "length_m": 0.58,
+      "coordinates": [
+        [
+          106.68283999636343,
+          10.759573209810027
+        ],
+        [
+          106.68284500000001,
+          10.759575
+        ]
+      ]
+    },
+    {
+      "edge_id": "w14_part21",
+      "way_id": "w14",
+      "file": "w14.geojson",
+      "from": "N136",
+      "to": "N136",
+      "length_m": 0.45,
+      "coordinates": [
+        [
+          106.68284500000001,
+          10.759575
+        ],
+        [
+          106.68284655664935,
+          10.759571222530884
+        ]
+      ]
+    },
+    {
+      "edge_id": "w14_part22",
+      "way_id": "w14",
+      "file": "w14.geojson",
+      "from": "N136",
+      "to": "N097",
+      "length_m": 21.38,
+      "coordinates": [
+        [
+          106.68284655664935,
+          10.759571222530884
+        ],
+        [
+          106.68291999999998,
+          10.759393
+        ]
+      ]
+    },
+    {
+      "edge_id": "w14_part23",
+      "way_id": "w14",
+      "file": "w14.geojson",
+      "from": "N097",
+      "to": "N140",
+      "length_m": 56.03,
+      "coordinates": [
+        [
+          106.68291999999998,
+          10.759393
+        ],
+        [
+          106.683401,
+          10.759568
+        ]
+      ]
+    },
+    {
+      "edge_id": "w14_part24",
+      "way_id": "w14",
+      "file": "w14.geojson",
+      "from": "N140",
+      "to": "N006",
+      "length_m": 8.66,
+      "coordinates": [
+        [
+          106.683401,
+          10.759568
+        ],
+        [
+          106.68348,
+          10.759562
         ]
       ]
     },
@@ -1489,17 +2820,17 @@
       "edge_id": "w15_part01",
       "way_id": "w15",
       "file": "w15.geojson",
-      "from": "N007",
-      "to": "N054",
-      "length_m": 45.98,
+      "from": "N001",
+      "to": "N001",
+      "length_m": 0.11,
       "coordinates": [
         [
-          106.682398,
-          10.759411
+          106.681926,
+          10.760591
         ],
         [
-          106.682007,
-          10.759258
+          106.68192638665502,
+          10.760590094500214
         ]
       ]
     },
@@ -1507,17 +2838,17 @@
       "edge_id": "w15_part02",
       "way_id": "w15",
       "file": "w15.geojson",
-      "from": "N054",
-      "to": "N055",
-      "length_m": 3.32,
+      "from": "N001",
+      "to": "N001",
+      "length_m": 0.81,
       "coordinates": [
         [
-          106.682007,
-          10.759258
+          106.68192638665502,
+          10.760590094500214
         ],
         [
-          106.68202,
-          10.759231
+          106.68192923848319,
+          10.760583415859873
         ]
       ]
     },
@@ -1525,17 +2856,17 @@
       "edge_id": "w15_part03",
       "way_id": "w15",
       "file": "w15.geojson",
-      "from": "N055",
-      "to": "N033",
-      "length_m": 0.58,
+      "from": "N001",
+      "to": "N007",
+      "length_m": 14.64,
       "coordinates": [
         [
-          106.68202,
-          10.759231
+          106.68192923848319,
+          10.760583415859873
         ],
         [
-          106.68201508856285,
-          10.75922912897632
+          106.68198108634466,
+          10.76046199437231
         ]
       ]
     },
@@ -1543,17 +2874,17 @@
       "edge_id": "w15_part04",
       "way_id": "w15",
       "file": "w15.geojson",
-      "from": "N033",
-      "to": "N056",
-      "length_m": 41.25,
+      "from": "N007",
+      "to": "N047",
+      "length_m": 13.75,
       "coordinates": [
         [
-          106.68201508856285,
-          10.75922912897632
+          106.68198108634466,
+          10.76046199437231
         ],
         [
-          106.681663,
-          10.759095
+          106.68202976834446,
+          10.76034798695398
         ]
       ]
     },
@@ -1561,17 +2892,17 @@
       "edge_id": "w15_part05",
       "way_id": "w15",
       "file": "w15.geojson",
-      "from": "N056",
-      "to": "N057",
-      "length_m": 32.85,
+      "from": "N047",
+      "to": "N012",
+      "length_m": 12.8,
       "coordinates": [
         [
-          106.681663,
-          10.759095
+          106.68202976834446,
+          10.76034798695398
         ],
         [
-          106.681759,
-          10.758815
+          106.68207510931045,
+          10.760241803837063
         ]
       ]
     },
@@ -1579,17 +2910,359 @@
       "edge_id": "w15_part06",
       "way_id": "w15",
       "file": "w15.geojson",
-      "from": "N057",
-      "to": "N008",
-      "length_m": 12.25,
+      "from": "N012",
+      "to": "N020",
+      "length_m": 23.97,
       "coordinates": [
         [
-          106.681759,
-          10.758815
+          106.68207510931045,
+          10.760241803837063
         ],
         [
-          106.681865,
-          10.758851
+          106.68216,
+          10.760043
+        ]
+      ]
+    },
+    {
+      "edge_id": "w15_part07",
+      "way_id": "w15",
+      "file": "w15.geojson",
+      "from": "N020",
+      "to": "N023",
+      "length_m": 2.05,
+      "coordinates": [
+        [
+          106.68216,
+          10.760043
+        ],
+        [
+          106.68216646777529,
+          10.760025688380178
+        ]
+      ]
+    },
+    {
+      "edge_id": "w15_part08",
+      "way_id": "w15",
+      "file": "w15.geojson",
+      "from": "N023",
+      "to": "N018",
+      "length_m": 13.77,
+      "coordinates": [
+        [
+          106.68216646777529,
+          10.760025688380178
+        ],
+        [
+          106.68220991246956,
+          10.759909404496366
+        ]
+      ]
+    },
+    {
+      "edge_id": "w15_part09",
+      "way_id": "w15",
+      "file": "w15.geojson",
+      "from": "N018",
+      "to": "N018",
+      "length_m": 0.39,
+      "coordinates": [
+        [
+          106.68220991246956,
+          10.759909404496366
+        ],
+        [
+          106.68221115334421,
+          10.759906083176515
+        ]
+      ]
+    },
+    {
+      "edge_id": "w15_part10",
+      "way_id": "w15",
+      "file": "w15.geojson",
+      "from": "N018",
+      "to": "N073",
+      "length_m": 19.23,
+      "coordinates": [
+        [
+          106.68221115334421,
+          10.759906083176515
+        ],
+        [
+          106.68227181863428,
+          10.759743706719288
+        ]
+      ]
+    },
+    {
+      "edge_id": "w15_part11",
+      "way_id": "w15",
+      "file": "w15.geojson",
+      "from": "N073",
+      "to": "N139",
+      "length_m": 10.57,
+      "coordinates": [
+        [
+          106.68227181863428,
+          10.759743706719288
+        ],
+        [
+          106.6823051533442,
+          10.75965448317652
+        ]
+      ]
+    },
+    {
+      "edge_id": "w15_part12",
+      "way_id": "w15",
+      "file": "w15.geojson",
+      "from": "N139",
+      "to": "N089",
+      "length_m": 10.4,
+      "coordinates": [
+        [
+          106.6823051533442,
+          10.75965448317652
+        ],
+        [
+          106.68233794399372,
+          10.759566715863587
+        ]
+      ]
+    },
+    {
+      "edge_id": "w15_part13",
+      "way_id": "w15",
+      "file": "w15.geojson",
+      "from": "N089",
+      "to": "N089",
+      "length_m": 0.04,
+      "coordinates": [
+        [
+          106.68233794399372,
+          10.759566715863587
+        ],
+        [
+          106.68233806651432,
+          10.759566387925492
+        ]
+      ]
+    },
+    {
+      "edge_id": "w15_part14",
+      "way_id": "w15",
+      "file": "w15.geojson",
+      "from": "N089",
+      "to": "N089",
+      "length_m": 0.74,
+      "coordinates": [
+        [
+          106.68233806651432,
+          10.759566387925492
+        ],
+        [
+          106.68234041387063,
+          10.759560105001572
+        ]
+      ]
+    },
+    {
+      "edge_id": "w15_part15",
+      "way_id": "w15",
+      "file": "w15.geojson",
+      "from": "N089",
+      "to": "N138",
+      "length_m": 8.5,
+      "coordinates": [
+        [
+          106.68234041387063,
+          10.759560105001572
+        ],
+        [
+          106.68236723600762,
+          10.759488312983878
+        ]
+      ]
+    },
+    {
+      "edge_id": "w15_part16",
+      "way_id": "w15",
+      "file": "w15.geojson",
+      "from": "N138",
+      "to": "N091",
+      "length_m": 8.8,
+      "coordinates": [
+        [
+          106.68236723600762,
+          10.759488312983878
+        ],
+        [
+          106.68239499999999,
+          10.759414
+        ]
+      ]
+    },
+    {
+      "edge_id": "w15_part17",
+      "way_id": "w15",
+      "file": "w15.geojson",
+      "from": "N091",
+      "to": "N091",
+      "length_m": 0.1,
+      "coordinates": [
+        [
+          106.68239499999999,
+          10.759414
+        ],
+        [
+          106.6823958927996,
+          10.759414319423865
+        ]
+      ]
+    },
+    {
+      "edge_id": "w15_part18",
+      "way_id": "w15",
+      "file": "w15.geojson",
+      "from": "N091",
+      "to": "N091",
+      "length_m": 0.47,
+      "coordinates": [
+        [
+          106.6823958927996,
+          10.759414319423865
+        ],
+        [
+          106.68239991534625,
+          10.759415758601664
+        ]
+      ]
+    },
+    {
+      "edge_id": "w15_part19",
+      "way_id": "w15",
+      "file": "w15.geojson",
+      "from": "N091",
+      "to": "N090",
+      "length_m": 51.16,
+      "coordinates": [
+        [
+          106.68239991534625,
+          10.759415758601664
+        ],
+        [
+          106.68283999636343,
+          10.759573209810027
+        ]
+      ]
+    },
+    {
+      "edge_id": "w15_part20",
+      "way_id": "w15",
+      "file": "w15.geojson",
+      "from": "N090",
+      "to": "N136",
+      "length_m": 0.58,
+      "coordinates": [
+        [
+          106.68283999636343,
+          10.759573209810027
+        ],
+        [
+          106.68284500000001,
+          10.759575
+        ]
+      ]
+    },
+    {
+      "edge_id": "w15_part21",
+      "way_id": "w15",
+      "file": "w15.geojson",
+      "from": "N136",
+      "to": "N136",
+      "length_m": 0.45,
+      "coordinates": [
+        [
+          106.68284500000001,
+          10.759575
+        ],
+        [
+          106.68284655664937,
+          10.759571222530882
+        ]
+      ]
+    },
+    {
+      "edge_id": "w15_part22",
+      "way_id": "w15",
+      "file": "w15.geojson",
+      "from": "N136",
+      "to": "N097",
+      "length_m": 21.38,
+      "coordinates": [
+        [
+          106.68284655664937,
+          10.759571222530882
+        ],
+        [
+          106.68291999999998,
+          10.759393
+        ]
+      ]
+    },
+    {
+      "edge_id": "w15_part23",
+      "way_id": "w15",
+      "file": "w15.geojson",
+      "from": "N097",
+      "to": "N140",
+      "length_m": 56.03,
+      "coordinates": [
+        [
+          106.68291999999998,
+          10.759393
+        ],
+        [
+          106.68340099999999,
+          10.759568
+        ]
+      ]
+    },
+    {
+      "edge_id": "w15_part24",
+      "way_id": "w15",
+      "file": "w15.geojson",
+      "from": "N140",
+      "to": "N107",
+      "length_m": 7.38,
+      "coordinates": [
+        [
+          106.68340099999999,
+          10.759568
+        ],
+        [
+          106.68337,
+          10.759627
+        ]
+      ]
+    },
+    {
+      "edge_id": "w15_part25",
+      "way_id": "w15",
+      "file": "w15.geojson",
+      "from": "N107",
+      "to": "N008",
+      "length_m": 10.5,
+      "coordinates": [
+        [
+          106.68337,
+          10.759627
+        ],
+        [
+          106.683427,
+          10.759703
         ]
       ]
     },
@@ -1597,17 +3270,17 @@
       "edge_id": "w16_part01",
       "way_id": "w16",
       "file": "w16.geojson",
-      "from": "N010",
-      "to": "N033",
-      "length_m": 0.94,
+      "from": "N001",
+      "to": "N001",
+      "length_m": 0.11,
       "coordinates": [
         [
-          106.682012,
-          10.759237
+          106.681926,
+          10.760591
         ],
         [
-          106.6820151443182,
-          10.75922911706142
+          106.6819263793575,
+          10.760590091679203
         ]
       ]
     },
@@ -1615,17 +3288,17 @@
       "edge_id": "w16_part02",
       "way_id": "w16",
       "file": "w16.geojson",
-      "from": "N033",
-      "to": "N058",
-      "length_m": 20.32,
+      "from": "N001",
+      "to": "N001",
+      "length_m": 0.81,
       "coordinates": [
         [
-          106.6820151443182,
-          10.75922911706142
+          106.6819263793575,
+          10.760590091679203
         ],
         [
-          106.682083,
-          10.759059
+          106.68192917784708,
+          10.760583391070366
         ]
       ]
     },
@@ -1633,17 +3306,17 @@
       "edge_id": "w16_part03",
       "way_id": "w16",
       "file": "w16.geojson",
-      "from": "N058",
-      "to": "N035",
-      "length_m": 45.59,
+      "from": "N001",
+      "to": "N004",
+      "length_m": 19.08,
       "coordinates": [
         [
-          106.682083,
-          10.759059
+          106.68192917784708,
+          10.760583391070366
         ],
         [
-          106.68246958375774,
-          10.759213439239893
+          106.68199546123239,
+          10.76042468437313
         ]
       ]
     },
@@ -1651,17 +3324,17 @@
       "edge_id": "w16_part04",
       "way_id": "w16",
       "file": "w16.geojson",
-      "from": "N035",
-      "to": "N034",
-      "length_m": 1.35,
+      "from": "N004",
+      "to": "N026",
+      "length_m": 20.88,
       "coordinates": [
         [
-          106.68246958375774,
-          10.759213439239893
+          106.68199546123239,
+          10.76042468437313
         ],
         [
-          106.68248100000001,
-          10.759217999999999
+          106.68206799999999,
+          10.760251
         ]
       ]
     },
@@ -1669,17 +3342,413 @@
       "edge_id": "w16_part05",
       "way_id": "w16",
       "file": "w16.geojson",
-      "from": "N034",
-      "to": "N009",
-      "length_m": 0.22,
+      "from": "N026",
+      "to": "N012",
+      "length_m": 1.22,
       "coordinates": [
         [
-          106.68248100000001,
-          10.759217999999999
+          106.68206799999999,
+          10.760251
         ],
         [
-          106.682483,
-          10.759218
+          106.68207206224709,
+          10.76024078550915
+        ]
+      ]
+    },
+    {
+      "edge_id": "w16_part06",
+      "way_id": "w16",
+      "file": "w16.geojson",
+      "from": "N012",
+      "to": "N023",
+      "length_m": 26.01,
+      "coordinates": [
+        [
+          106.68207206224709,
+          10.76024078550915
+        ],
+        [
+          106.68215871225095,
+          10.760022904702334
+        ]
+      ]
+    },
+    {
+      "edge_id": "w16_part07",
+      "way_id": "w16",
+      "file": "w16.geojson",
+      "from": "N023",
+      "to": "N082",
+      "length_m": 13.79,
+      "coordinates": [
+        [
+          106.68215871225095,
+          10.760022904702334
+        ],
+        [
+          106.68220465474651,
+          10.759907382630178
+        ]
+      ]
+    },
+    {
+      "edge_id": "w16_part08",
+      "way_id": "w16",
+      "file": "w16.geojson",
+      "from": "N082",
+      "to": "N082",
+      "length_m": 0.4,
+      "coordinates": [
+        [
+          106.68220465474651,
+          10.759907382630178
+        ],
+        [
+          106.68220600000001,
+          10.759904
+        ]
+      ]
+    },
+    {
+      "edge_id": "w16_part09",
+      "way_id": "w16",
+      "file": "w16.geojson",
+      "from": "N082",
+      "to": "N141",
+      "length_m": 13.08,
+      "coordinates": [
+        [
+          106.68220600000001,
+          10.759904
+        ],
+        [
+          106.6822486243439,
+          10.759794109113395
+        ]
+      ]
+    },
+    {
+      "edge_id": "w16_part10",
+      "way_id": "w16",
+      "file": "w16.geojson",
+      "from": "N141",
+      "to": "N073",
+      "length_m": 6.13,
+      "coordinates": [
+        [
+          106.6822486243439,
+          10.759794109113395
+        ],
+        [
+          106.68226860317529,
+          10.759742601188707
+        ]
+      ]
+    },
+    {
+      "edge_id": "w16_part11",
+      "way_id": "w16",
+      "file": "w16.geojson",
+      "from": "N073",
+      "to": "N089",
+      "length_m": 20.98,
+      "coordinates": [
+        [
+          106.68226860317529,
+          10.759742601188707
+        ],
+        [
+          106.68233698835728,
+          10.759566295641426
+        ]
+      ]
+    },
+    {
+      "edge_id": "w16_part12",
+      "way_id": "w16",
+      "file": "w16.geojson",
+      "from": "N089",
+      "to": "N089",
+      "length_m": 0.04,
+      "coordinates": [
+        [
+          106.68233698835728,
+          10.759566295641426
+        ],
+        [
+          106.68233710264607,
+          10.759566000990592
+        ]
+      ]
+    },
+    {
+      "edge_id": "w16_part13",
+      "way_id": "w16",
+      "file": "w16.geojson",
+      "from": "N089",
+      "to": "N089",
+      "length_m": 0.75,
+      "coordinates": [
+        [
+          106.68233710264607,
+          10.759566000990592
+        ],
+        [
+          106.6823395407496,
+          10.759559715255024
+        ]
+      ]
+    },
+    {
+      "edge_id": "w16_part14",
+      "way_id": "w16",
+      "file": "w16.geojson",
+      "from": "N089",
+      "to": "N138",
+      "length_m": 8.5,
+      "coordinates": [
+        [
+          106.6823395407496,
+          10.759559715255024
+        ],
+        [
+          106.68236723598665,
+          10.759488313471962
+        ]
+      ]
+    },
+    {
+      "edge_id": "w16_part15",
+      "way_id": "w16",
+      "file": "w16.geojson",
+      "from": "N138",
+      "to": "N091",
+      "length_m": 8.81,
+      "coordinates": [
+        [
+          106.68236723598665,
+          10.759488313471962
+        ],
+        [
+          106.68239593863272,
+          10.759414314462555
+        ]
+      ]
+    },
+    {
+      "edge_id": "w16_part16",
+      "way_id": "w16",
+      "file": "w16.geojson",
+      "from": "N091",
+      "to": "N108",
+      "length_m": 0.63,
+      "coordinates": [
+        [
+          106.68239593863272,
+          10.759414314462555
+        ],
+        [
+          106.682398,
+          10.759409
+        ]
+      ]
+    },
+    {
+      "edge_id": "w16_part17",
+      "way_id": "w16",
+      "file": "w16.geojson",
+      "from": "N108",
+      "to": "N109",
+      "length_m": 45.0,
+      "coordinates": [
+        [
+          106.682398,
+          10.759409
+        ],
+        [
+          106.682015,
+          10.75926
+        ]
+      ]
+    },
+    {
+      "edge_id": "w16_part18",
+      "way_id": "w16",
+      "file": "w16.geojson",
+      "from": "N109",
+      "to": "N137",
+      "length_m": 0.14,
+      "coordinates": [
+        [
+          106.682015,
+          10.75926
+        ],
+        [
+          106.68201401799547,
+          10.759259179220088
+        ]
+      ]
+    },
+    {
+      "edge_id": "w16_part19",
+      "way_id": "w16",
+      "file": "w16.geojson",
+      "from": "N137",
+      "to": "N110",
+      "length_m": 9.47,
+      "coordinates": [
+        [
+          106.68201401799547,
+          10.759259179220088
+        ],
+        [
+          106.681948,
+          10.759204
+        ]
+      ]
+    },
+    {
+      "edge_id": "w16_part20",
+      "way_id": "w16",
+      "file": "w16.geojson",
+      "from": "N110",
+      "to": "N111",
+      "length_m": 33.9,
+      "coordinates": [
+        [
+          106.681948,
+          10.759204
+        ],
+        [
+          106.681659,
+          10.759093
+        ]
+      ]
+    },
+    {
+      "edge_id": "w16_part21",
+      "way_id": "w16",
+      "file": "w16.geojson",
+      "from": "N111",
+      "to": "N009",
+      "length_m": 17.49,
+      "coordinates": [
+        [
+          106.681659,
+          10.759093
+        ],
+        [
+          106.681716,
+          10.758946
+        ]
+      ]
+    },
+    {
+      "edge_id": "w16_2_part01",
+      "way_id": "w16_2",
+      "file": "w16.geojson",
+      "from": "N001",
+      "to": "N001",
+      "length_m": 0.11,
+      "coordinates": [
+        [
+          106.681926,
+          10.760591
+        ],
+        [
+          106.68192637935749,
+          10.76059009167923
+        ]
+      ]
+    },
+    {
+      "edge_id": "w16_2_part02",
+      "way_id": "w16_2",
+      "file": "w16.geojson",
+      "from": "N001",
+      "to": "N001",
+      "length_m": 0.81,
+      "coordinates": [
+        [
+          106.68192637935749,
+          10.76059009167923
+        ],
+        [
+          106.68192917784708,
+          10.76058339107039
+        ]
+      ]
+    },
+    {
+      "edge_id": "w16_2_part03",
+      "way_id": "w16_2",
+      "file": "w16.geojson",
+      "from": "N001",
+      "to": "N004",
+      "length_m": 19.08,
+      "coordinates": [
+        [
+          106.68192917784708,
+          10.76058339107039
+        ],
+        [
+          106.68199546123236,
+          10.76042468437319
+        ]
+      ]
+    },
+    {
+      "edge_id": "w16_2_part04",
+      "way_id": "w16_2",
+      "file": "w16.geojson",
+      "from": "N004",
+      "to": "N026",
+      "length_m": 20.88,
+      "coordinates": [
+        [
+          106.68199546123236,
+          10.76042468437319
+        ],
+        [
+          106.682068,
+          10.760251
+        ]
+      ]
+    },
+    {
+      "edge_id": "w16_2_part05",
+      "way_id": "w16_2",
+      "file": "w16.geojson",
+      "from": "N026",
+      "to": "N012",
+      "length_m": 1.22,
+      "coordinates": [
+        [
+          106.682068,
+          10.760251
+        ],
+        [
+          106.68207207491011,
+          10.760240790335109
+        ]
+      ]
+    },
+    {
+      "edge_id": "w16_2_part06",
+      "way_id": "w16_2",
+      "file": "w16.geojson",
+      "from": "N012",
+      "to": "N023",
+      "length_m": 26.01,
+      "coordinates": [
+        [
+          106.68207207491011,
+          10.760240790335109
+        ],
+        [
+          106.682159,
+          10.760023
         ]
       ]
     },
@@ -1687,17 +3756,17 @@
       "edge_id": "w17_part01",
       "way_id": "w17",
       "file": "w17.geojson",
-      "from": "N007",
-      "to": "N018",
-      "length_m": 21.4,
+      "from": "N001",
+      "to": "N135",
+      "length_m": 3.63,
       "coordinates": [
         [
-          106.682401,
-          10.759407
+          106.681933,
+          10.760585
         ],
         [
-          106.6824712810599,
-          10.75922739284695
+          106.68194537502417,
+          10.76055469015818
         ]
       ]
     },
@@ -1705,17 +3774,17 @@
       "edge_id": "w17_part02",
       "way_id": "w17",
       "file": "w17.geojson",
-      "from": "N018",
-      "to": "N060",
-      "length_m": 0.52,
+      "from": "N135",
+      "to": "N047",
+      "length_m": 24.76,
       "coordinates": [
         [
-          106.6824712810599,
-          10.75922739284695
+          106.68194537502417,
+          10.76055469015818
         ],
         [
-          106.682473,
-          10.759223
+          106.68202976839794,
+          10.760347987547094
         ]
       ]
     },
@@ -1723,17 +3792,17 @@
       "edge_id": "w17_part03",
       "way_id": "w17",
       "file": "w17.geojson",
-      "from": "N060",
-      "to": "N034",
-      "length_m": 0.82,
+      "from": "N047",
+      "to": "N012",
+      "length_m": 12.8,
       "coordinates": [
         [
-          106.682473,
-          10.759223
+          106.68202976839794,
+          10.760347987547094
         ],
         [
-          106.68248001118755,
-          10.759225671663973
+          106.68207337247561,
+          10.76024118915392
         ]
       ]
     },
@@ -1741,17 +3810,17 @@
       "edge_id": "w17_part04",
       "way_id": "w17",
       "file": "w17.geojson",
-      "from": "N034",
-      "to": "N061",
-      "length_m": 52.37,
+      "from": "N012",
+      "to": "N023",
+      "length_m": 26.0,
       "coordinates": [
         [
-          106.68248001118755,
-          10.759225671663973
+          106.68207337247561,
+          10.76024118915392
         ],
         [
-          106.682927,
-          10.759396
+          106.68216197043678,
+          10.760024188350505
         ]
       ]
     },
@@ -1759,17 +3828,17 @@
       "edge_id": "w17_part05",
       "way_id": "w17",
       "file": "w17.geojson",
-      "from": "N061",
-      "to": "N012",
-      "length_m": 0.21,
+      "from": "N023",
+      "to": "N018",
+      "length_m": 13.8,
       "coordinates": [
         [
-          106.682927,
-          10.759396
+          106.68216197043678,
+          10.760024188350505
         ],
         [
-          106.68292628267534,
-          10.759397793311654
+          106.682209,
+          10.759909000000002
         ]
       ]
     },
@@ -1777,17 +3846,17 @@
       "edge_id": "w17_part06",
       "way_id": "w17",
       "file": "w17.geojson",
-      "from": "N012",
-      "to": "N001",
-      "length_m": 22.4,
+      "from": "N018",
+      "to": "N082",
+      "length_m": 0.5,
       "coordinates": [
         [
-          106.68292628267534,
-          10.759397793311654
+          106.682209,
+          10.759909000000002
         ],
         [
-          106.68285128267534,
-          10.759585293311657
+          106.68220470725673,
+          10.759907381424673
         ]
       ]
     },
@@ -1795,17 +3864,197 @@
       "edge_id": "w17_part07",
       "way_id": "w17",
       "file": "w17.geojson",
-      "from": "N001",
-      "to": "N001",
-      "length_m": 0.08,
+      "from": "N082",
+      "to": "N082",
+      "length_m": 0.2,
       "coordinates": [
         [
-          106.68285128267534,
-          10.759585293311657
+          106.68220470725673,
+          10.759907381424673
         ],
         [
-          106.682851,
-          10.759586
+          106.68220298716116,
+          10.759906732864044
+        ]
+      ]
+    },
+    {
+      "edge_id": "w17_part08",
+      "way_id": "w17",
+      "file": "w17.geojson",
+      "from": "N082",
+      "to": "N082",
+      "length_m": 0.04,
+      "coordinates": [
+        [
+          106.68220298716116,
+          10.759906732864044
+        ],
+        [
+          106.68220260446566,
+          10.759906588569025
+        ]
+      ]
+    },
+    {
+      "edge_id": "w17_part09",
+      "way_id": "w17",
+      "file": "w17.geojson",
+      "from": "N082",
+      "to": "N148",
+      "length_m": 27.8,
+      "coordinates": [
+        [
+          106.68220260446566,
+          10.759906588569025
+        ],
+        [
+          106.681965,
+          10.759817
+        ]
+      ]
+    },
+    {
+      "edge_id": "w17_part10",
+      "way_id": "w17",
+      "file": "w17.geojson",
+      "from": "N148",
+      "to": "N142",
+      "length_m": 18.43,
+      "coordinates": [
+        [
+          106.681965,
+          10.759817
+        ],
+        [
+          106.6820220569816,
+          10.7596609848159
+        ]
+      ]
+    },
+    {
+      "edge_id": "w17_part11",
+      "way_id": "w17",
+      "file": "w17.geojson",
+      "from": "N142",
+      "to": "N142",
+      "length_m": 0.02,
+      "coordinates": [
+        [
+          106.6820220569816,
+          10.7596609848159
+        ],
+        [
+          106.68202212176223,
+          10.75966080768137
+        ]
+      ]
+    },
+    {
+      "edge_id": "w17_part12",
+      "way_id": "w17",
+      "file": "w17.geojson",
+      "from": "N142",
+      "to": "N149",
+      "length_m": 22.9,
+      "coordinates": [
+        [
+          106.68202212176223,
+          10.75966080768137
+        ],
+        [
+          106.682093,
+          10.759467
+        ]
+      ]
+    },
+    {
+      "edge_id": "w17_part13",
+      "way_id": "w17",
+      "file": "w17.geojson",
+      "from": "N149",
+      "to": "N089",
+      "length_m": 28.85,
+      "coordinates": [
+        [
+          106.682093,
+          10.759467
+        ],
+        [
+          106.68233710522938,
+          10.75956598755365
+        ]
+      ]
+    },
+    {
+      "edge_id": "w17_part14",
+      "way_id": "w17",
+      "file": "w17.geojson",
+      "from": "N089",
+      "to": "N089",
+      "length_m": 0.12,
+      "coordinates": [
+        [
+          106.68233710522938,
+          10.75956598755365
+        ],
+        [
+          106.6823381032507,
+          10.759566392263082
+        ]
+      ]
+    },
+    {
+      "edge_id": "w17_part15",
+      "way_id": "w17",
+      "file": "w17.geojson",
+      "from": "N089",
+      "to": "N089",
+      "length_m": 0.27,
+      "coordinates": [
+        [
+          106.6823381032507,
+          10.759566392263082
+        ],
+        [
+          106.68234039151987,
+          10.75956732018326
+        ]
+      ]
+    },
+    {
+      "edge_id": "w17_part16",
+      "way_id": "w17",
+      "file": "w17.geojson",
+      "from": "N089",
+      "to": "N089",
+      "length_m": 0.16,
+      "coordinates": [
+        [
+          106.68234039151987,
+          10.75956732018326
+        ],
+        [
+          106.68234171766692,
+          10.759567857951538
+        ]
+      ]
+    },
+    {
+      "edge_id": "w17_part17",
+      "way_id": "w17",
+      "file": "w17.geojson",
+      "from": "N089",
+      "to": "N089",
+      "length_m": 0.62,
+      "coordinates": [
+        [
+          106.68234171766692,
+          10.759567857951538
+        ],
+        [
+          106.682347,
+          10.75957
         ]
       ]
     },
@@ -1813,17 +4062,17 @@
       "edge_id": "w18_part01",
       "way_id": "w18",
       "file": "w18.geojson",
-      "from": "N012",
-      "to": "N037",
-      "length_m": 54.31,
+      "from": "N001",
+      "to": "N135",
+      "length_m": 3.63,
       "coordinates": [
         [
-          106.682932,
-          10.7594
+          106.681933,
+          10.760585
         ],
         [
-          106.68339391049788,
-          10.759580574082312
+          106.68194537502417,
+          10.760554690158187
         ]
       ]
     },
@@ -1831,17 +4080,17 @@
       "edge_id": "w18_part02",
       "way_id": "w18",
       "file": "w18.geojson",
-      "from": "N037",
-      "to": "N062",
-      "length_m": 0.13,
+      "from": "N135",
+      "to": "N047",
+      "length_m": 24.76,
       "coordinates": [
         [
-          106.68339391049788,
-          10.759580574082312
+          106.68194537502417,
+          10.760554690158187
         ],
         [
-          106.683395,
-          10.759581
+          106.68202976839792,
+          10.760347987547098
         ]
       ]
     },
@@ -1849,17 +4098,17 @@
       "edge_id": "w18_part03",
       "way_id": "w18",
       "file": "w18.geojson",
-      "from": "N062",
-      "to": "N036",
-      "length_m": 5.52,
+      "from": "N047",
+      "to": "N012",
+      "length_m": 12.8,
       "coordinates": [
         [
-          106.683395,
-          10.759581
+          106.68202976839792,
+          10.760347987547098
         ],
         [
-          106.683376,
-          10.759627
+          106.68207337247561,
+          10.760241189153927
         ]
       ]
     },
@@ -1867,107 +4116,197 @@
       "edge_id": "w18_part04",
       "way_id": "w18",
       "file": "w18.geojson",
-      "from": "N036",
-      "to": "N011",
-      "length_m": 42.54,
+      "from": "N012",
+      "to": "N023",
+      "length_m": 26.0,
       "coordinates": [
         [
-          106.683376,
-          10.759627
+          106.68207337247561,
+          10.760241189153927
         ],
         [
-          106.683743,
-          10.759755
+          106.68216197043678,
+          10.760024188350508
         ]
       ]
     },
     {
-      "edge_id": "w19_part01",
-      "way_id": "w19",
-      "file": "w19.geojson",
-      "from": "N014",
-      "to": "N028",
-      "length_m": 0.57,
+      "edge_id": "w18_part05",
+      "way_id": "w18",
+      "file": "w18.geojson",
+      "from": "N023",
+      "to": "N018",
+      "length_m": 13.8,
       "coordinates": [
         [
-          106.682828,
-          10.759636
+          106.68216197043678,
+          10.760024188350508
         ],
         [
-          106.68283281479475,
-          10.759637965012393
+          106.68220900000001,
+          10.759909000000002
         ]
       ]
     },
     {
-      "edge_id": "w19_part02",
-      "way_id": "w19",
-      "file": "w19.geojson",
-      "from": "N028",
-      "to": "N064",
-      "length_m": 54.79,
+      "edge_id": "w18_part06",
+      "way_id": "w18",
+      "file": "w18.geojson",
+      "from": "N018",
+      "to": "N018",
+      "length_m": 0.11,
       "coordinates": [
         [
-          106.68283281479475,
-          10.759637965012393
+          106.68220900000001,
+          10.759909000000002
         ],
         [
-          106.683296,
-          10.759827
+          106.68220991642214,
+          10.759909359608686
         ]
       ]
     },
     {
-      "edge_id": "w19_part03",
-      "way_id": "w19",
-      "file": "w19.geojson",
-      "from": "N064",
-      "to": "N036",
-      "length_m": 23.89,
+      "edge_id": "w18_part07",
+      "way_id": "w18",
+      "file": "w18.geojson",
+      "from": "N018",
+      "to": "N018",
+      "length_m": 0.13,
       "coordinates": [
         [
-          106.683296,
-          10.759827
+          106.68220991642214,
+          10.759909359608686
         ],
         [
-          106.683376,
-          10.759627
+          106.6822110053261,
+          10.759909786900112
         ]
       ]
     },
     {
-      "edge_id": "w19_part04",
-      "way_id": "w19",
-      "file": "w19.geojson",
-      "from": "N036",
-      "to": "N037",
-      "length_m": 5.52,
+      "edge_id": "w18_part08",
+      "way_id": "w18",
+      "file": "w18.geojson",
+      "from": "N018",
+      "to": "N151",
+      "length_m": 27.64,
       "coordinates": [
         [
-          106.683376,
-          10.759627
+          106.6822110053261,
+          10.759909786900112
         ],
         [
-          106.68339385288115,
-          10.75958058250899
+          106.682446,
+          10.760002
         ]
       ]
     },
     {
-      "edge_id": "w19_part05",
-      "way_id": "w19",
-      "file": "w19.geojson",
-      "from": "N037",
-      "to": "N013",
-      "length_m": 30.02,
+      "edge_id": "w18_part09",
+      "way_id": "w18",
+      "file": "w18.geojson",
+      "from": "N151",
+      "to": "N143",
+      "length_m": 0.17,
       "coordinates": [
         [
-          106.68339385288115,
-          10.75958058250899
+          106.682446,
+          10.760002
         ],
         [
-          106.683491,
-          10.759328
+          106.68244655805314,
+          10.760000584044215
+        ]
+      ]
+    },
+    {
+      "edge_id": "w18_part10",
+      "way_id": "w18",
+      "file": "w18.geojson",
+      "from": "N143",
+      "to": "N118",
+      "length_m": 20.59,
+      "coordinates": [
+        [
+          106.68244655805314,
+          10.760000584044215
+        ],
+        [
+          106.68251461381178,
+          10.759827905253726
+        ]
+      ]
+    },
+    {
+      "edge_id": "w18_part11",
+      "way_id": "w18",
+      "file": "w18.geojson",
+      "from": "N118",
+      "to": "N144",
+      "length_m": 3.5,
+      "coordinates": [
+        [
+          106.68251461381178,
+          10.759827905253726
+        ],
+        [
+          106.6825261682841,
+          10.759798587935876
+        ]
+      ]
+    },
+    {
+      "edge_id": "w18_part12",
+      "way_id": "w18",
+      "file": "w18.geojson",
+      "from": "N144",
+      "to": "N145",
+      "length_m": 8.09,
+      "coordinates": [
+        [
+          106.6825261682841,
+          10.759798587935876
+        ],
+        [
+          106.68255292097344,
+          10.759730707977887
+        ]
+      ]
+    },
+    {
+      "edge_id": "w18_part13",
+      "way_id": "w18",
+      "file": "w18.geojson",
+      "from": "N145",
+      "to": "N152",
+      "length_m": 8.19,
+      "coordinates": [
+        [
+          106.68255292097344,
+          10.759730707977887
+        ],
+        [
+          106.68258,
+          10.759662
+        ]
+      ]
+    },
+    {
+      "edge_id": "w18_part14",
+      "way_id": "w18",
+      "file": "w18.geojson",
+      "from": "N152",
+      "to": "N089",
+      "length_m": 27.43,
+      "coordinates": [
+        [
+          106.68258,
+          10.759662
+        ],
+        [
+          106.682347,
+          10.75957
         ]
       ]
     },
@@ -1975,17 +4314,17 @@
       "edge_id": "w2_part01",
       "way_id": "w2",
       "file": "w2.geojson",
-      "from": "N019",
-      "to": "N026",
-      "length_m": 22.53,
+      "from": "N001",
+      "to": "N001",
+      "length_m": 0.11,
       "coordinates": [
         [
-          106.681875,
-          10.760165
+          106.681926,
+          10.760591
         ],
         [
-          106.682067,
-          10.760238999999999
+          106.68192637935749,
+          10.760590091679237
         ]
       ]
     },
@@ -1993,57 +4332,107 @@
       "edge_id": "w2_part02",
       "way_id": "w2",
       "file": "w2.geojson",
+      "from": "N001",
+      "to": "N001",
+      "length_m": 0.81,
+      "coordinates": [
+        [
+          106.68192637935749,
+          10.760590091679237
+        ],
+        [
+          106.68192917784707,
+          10.760583391070403
+        ]
+      ]
+    },
+    {
+      "edge_id": "w2_part03",
+      "way_id": "w2",
+      "file": "w2.geojson",
+      "from": "N001",
+      "to": "N004",
+      "length_m": 19.08,
+      "coordinates": [
+        [
+          106.68192917784707,
+          10.760583391070403
+        ],
+        [
+          106.68199546123236,
+          10.7604246843732
+        ]
+      ]
+    },
+    {
+      "edge_id": "w2_part04",
+      "way_id": "w2",
+      "file": "w2.geojson",
+      "from": "N004",
+      "to": "N026",
+      "length_m": 20.88,
+      "coordinates": [
+        [
+          106.68199546123236,
+          10.7604246843732
+        ],
+        [
+          106.68206799999999,
+          10.760251
+        ]
+      ]
+    },
+    {
+      "edge_id": "w2_part05",
+      "way_id": "w2",
+      "file": "w2.geojson",
       "from": "N026",
-      "to": "N015",
-      "length_m": 37.21,
+      "to": "N026",
+      "length_m": 0.44,
       "coordinates": [
         [
-          106.682067,
-          10.760238999999999
+          106.68206799999999,
+          10.760251
         ],
         [
-          106.682388,
-          10.760351
+          106.68206427986507,
+          10.760249446537065
         ]
       ]
     },
     {
-      "edge_id": "w20_part01",
-      "way_id": "w20",
-      "file": "w20.geojson",
-      "from": "N018",
-      "to": "N035",
-      "length_m": 1.38,
+      "edge_id": "w2_part06",
+      "way_id": "w2",
+      "file": "w2.geojson",
+      "from": "N026",
+      "to": "N026",
+      "length_m": 0.13,
       "coordinates": [
         [
-          106.682465,
-          10.759225
+          106.68206427986507,
+          10.760249446537065
         ],
         [
-          106.68246958267981,
-          10.759213393399717
+          106.68206320161079,
+          10.760248996277037
         ]
       ]
     },
     {
-      "edge_id": "w20_part02",
-      "way_id": "w20",
-      "file": "w20.geojson",
-      "from": "N035",
-<<<<<<< HEAD
-      "to": "N065",
-=======
-      "to": "N017",
->>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
-      "length_m": 30.94,
+      "edge_id": "w2_part07",
+      "way_id": "w2",
+      "file": "w2.geojson",
+      "from": "N026",
+      "to": "N116",
+      "length_m": 21.03,
       "coordinates": [
         [
-          106.68246958267981,
-          10.759213393399717
+          106.68206320161079,
+          10.760248996277037
         ],
         [
-          106.682572,
-          10.758954
+          106.681886,
+          10.760175
         ]
       ]
     },
@@ -2051,17 +4440,17 @@
       "edge_id": "w3_part01",
       "way_id": "w3",
       "file": "w3.geojson",
-      "from": "N019",
-      "to": "N026",
-      "length_m": 22.53,
+      "from": "N001",
+      "to": "N001",
+      "length_m": 0.11,
       "coordinates": [
         [
-          106.681875,
-          10.760165
+          106.681926,
+          10.760591
         ],
         [
-          106.682067,
-          10.760238999999999
+          106.68192637935749,
+          10.76059009167923
         ]
       ]
     },
@@ -2069,17 +4458,89 @@
       "edge_id": "w3_part02",
       "way_id": "w3",
       "file": "w3.geojson",
-      "from": "N026",
-      "to": "N020",
-      "length_m": 26.3,
+      "from": "N001",
+      "to": "N001",
+      "length_m": 0.81,
       "coordinates": [
         [
-          106.682067,
-          10.760238999999999
+          106.68192637935749,
+          10.76059009167923
         ],
         [
-          106.682158,
-          10.76002
+          106.68192917784708,
+          10.76058339107039
+        ]
+      ]
+    },
+    {
+      "edge_id": "w3_part03",
+      "way_id": "w3",
+      "file": "w3.geojson",
+      "from": "N001",
+      "to": "N004",
+      "length_m": 19.08,
+      "coordinates": [
+        [
+          106.68192917784708,
+          10.76058339107039
+        ],
+        [
+          106.68199546123236,
+          10.76042468437319
+        ]
+      ]
+    },
+    {
+      "edge_id": "w3_part04",
+      "way_id": "w3",
+      "file": "w3.geojson",
+      "from": "N004",
+      "to": "N026",
+      "length_m": 20.88,
+      "coordinates": [
+        [
+          106.68199546123236,
+          10.76042468437319
+        ],
+        [
+          106.682068,
+          10.760251
+        ]
+      ]
+    },
+    {
+      "edge_id": "w3_part05",
+      "way_id": "w3",
+      "file": "w3.geojson",
+      "from": "N026",
+      "to": "N012",
+      "length_m": 1.22,
+      "coordinates": [
+        [
+          106.682068,
+          10.760251
+        ],
+        [
+          106.68207207491011,
+          10.760240790335109
+        ]
+      ]
+    },
+    {
+      "edge_id": "w3_part06",
+      "way_id": "w3",
+      "file": "w3.geojson",
+      "from": "N012",
+      "to": "N023",
+      "length_m": 26.01,
+      "coordinates": [
+        [
+          106.68207207491011,
+          10.760240790335109
+        ],
+        [
+          106.682159,
+          10.760023
         ]
       ]
     },
@@ -2087,17 +4548,17 @@
       "edge_id": "w4_part01",
       "way_id": "w4",
       "file": "w4.geojson",
-      "from": "N021",
-      "to": "N067",
-      "length_m": 30.78,
+      "from": "N001",
+      "to": "N001",
+      "length_m": 0.11,
       "coordinates": [
         [
-          106.681886,
-          10.759621
+          106.681926,
+          10.760591
         ],
         [
-          106.681784,
-          10.759879
+          106.6819263793575,
+          10.760590091679221
         ]
       ]
     },
@@ -2105,17 +4566,179 @@
       "edge_id": "w4_part02",
       "way_id": "w4",
       "file": "w4.geojson",
-      "from": "N067",
-      "to": "N020",
-      "length_m": 43.76,
+      "from": "N001",
+      "to": "N001",
+      "length_m": 0.81,
       "coordinates": [
         [
-          106.681784,
-          10.759879
+          106.6819263793575,
+          10.760590091679221
         ],
         [
-          106.682158,
-          10.76002
+          106.68192917784707,
+          10.760583391070387
+        ]
+      ]
+    },
+    {
+      "edge_id": "w4_part03",
+      "way_id": "w4",
+      "file": "w4.geojson",
+      "from": "N001",
+      "to": "N004",
+      "length_m": 19.08,
+      "coordinates": [
+        [
+          106.68192917784707,
+          10.760583391070387
+        ],
+        [
+          106.68199546123238,
+          10.76042468437317
+        ]
+      ]
+    },
+    {
+      "edge_id": "w4_part04",
+      "way_id": "w4",
+      "file": "w4.geojson",
+      "from": "N004",
+      "to": "N026",
+      "length_m": 20.88,
+      "coordinates": [
+        [
+          106.68199546123238,
+          10.76042468437317
+        ],
+        [
+          106.68206799999999,
+          10.760251
+        ]
+      ]
+    },
+    {
+      "edge_id": "w4_part05",
+      "way_id": "w4",
+      "file": "w4.geojson",
+      "from": "N026",
+      "to": "N012",
+      "length_m": 1.23,
+      "coordinates": [
+        [
+          106.68206799999999,
+          10.760251
+        ],
+        [
+          106.6820720234553,
+          10.760240708850514
+        ]
+      ]
+    },
+    {
+      "edge_id": "w4_part06",
+      "way_id": "w4",
+      "file": "w4.geojson",
+      "from": "N012",
+      "to": "N023",
+      "length_m": 26.0,
+      "coordinates": [
+        [
+          106.6820720234553,
+          10.760240708850514
+        ],
+        [
+          106.68215737740074,
+          10.760022391472496
+        ]
+      ]
+    },
+    {
+      "edge_id": "w4_part07",
+      "way_id": "w4",
+      "file": "w4.geojson",
+      "from": "N023",
+      "to": "N146",
+      "length_m": 10.06,
+      "coordinates": [
+        [
+          106.68215737740074,
+          10.760022391472496
+        ],
+        [
+          106.68219040907395,
+          10.759937903423925
+        ]
+      ]
+    },
+    {
+      "edge_id": "w4_part08",
+      "way_id": "w4",
+      "file": "w4.geojson",
+      "from": "N146",
+      "to": "N082",
+      "length_m": 3.73,
+      "coordinates": [
+        [
+          106.68219040907395,
+          10.759937903423925
+        ],
+        [
+          106.68220264143199,
+          10.75990661563376
+        ]
+      ]
+    },
+    {
+      "edge_id": "w4_part09",
+      "way_id": "w4",
+      "file": "w4.geojson",
+      "from": "N082",
+      "to": "N073",
+      "length_m": 19.61,
+      "coordinates": [
+        [
+          106.68220264143199,
+          10.75990661563376
+        ],
+        [
+          106.682267,
+          10.759742
+        ]
+      ]
+    },
+    {
+      "edge_id": "w4_part10",
+      "way_id": "w4",
+      "file": "w4.geojson",
+      "from": "N073",
+      "to": "N142",
+      "length_m": 28.24,
+      "coordinates": [
+        [
+          106.682267,
+          10.759742
+        ],
+        [
+          106.6820221011363,
+          10.759660796692556
+        ]
+      ]
+    },
+    {
+      "edge_id": "w4_part11",
+      "way_id": "w4",
+      "file": "w4.geojson",
+      "from": "N142",
+      "to": "N117",
+      "length_m": 15.58,
+      "coordinates": [
+        [
+          106.6820221011363,
+          10.759660796692556
+        ],
+        [
+          106.681887,
+          10.759616
         ]
       ]
     },
@@ -2123,17 +4746,17 @@
       "edge_id": "w5_part01",
       "way_id": "w5",
       "file": "w5.geojson",
-      "from": "N022",
-      "to": "N068",
-      "length_m": 41.73,
+      "from": "N001",
+      "to": "N001",
+      "length_m": 0.11,
       "coordinates": [
         [
-          106.681857,
-          10.759757
+          106.681926,
+          10.760591
         ],
         [
-          106.682213,
-          10.759893
+          106.68192637935749,
+          10.760590091679223
         ]
       ]
     },
@@ -2141,17 +4764,17 @@
       "edge_id": "w5_part02",
       "way_id": "w5",
       "file": "w5.geojson",
-      "from": "N068",
-      "to": "N025",
-      "length_m": 1.98,
+      "from": "N001",
+      "to": "N001",
+      "length_m": 0.81,
       "coordinates": [
         [
-          106.682213,
-          10.759893
+          106.68192637935749,
+          10.760590091679223
         ],
         [
-          106.68220589799986,
-          10.759909399163984
+          106.68192917784708,
+          10.760583391070385
         ]
       ]
     },
@@ -2159,17 +4782,503 @@
       "edge_id": "w5_part03",
       "way_id": "w5",
       "file": "w5.geojson",
-      "from": "N025",
-      "to": "N020",
-      "length_m": 13.37,
+      "from": "N001",
+      "to": "N004",
+      "length_m": 19.08,
       "coordinates": [
         [
-          106.68220589799986,
-          10.759909399163984
+          106.68192917784708,
+          10.760583391070385
         ],
         [
-          106.682158,
-          10.76002
+          106.68199546123238,
+          10.76042468437318
+        ]
+      ]
+    },
+    {
+      "edge_id": "w5_part04",
+      "way_id": "w5",
+      "file": "w5.geojson",
+      "from": "N004",
+      "to": "N026",
+      "length_m": 20.88,
+      "coordinates": [
+        [
+          106.68199546123238,
+          10.76042468437318
+        ],
+        [
+          106.682068,
+          10.760251
+        ]
+      ]
+    },
+    {
+      "edge_id": "w5_part05",
+      "way_id": "w5",
+      "file": "w5.geojson",
+      "from": "N026",
+      "to": "N012",
+      "length_m": 1.23,
+      "coordinates": [
+        [
+          106.682068,
+          10.760251
+        ],
+        [
+          106.6820720234553,
+          10.760240708850514
+        ]
+      ]
+    },
+    {
+      "edge_id": "w5_part06",
+      "way_id": "w5",
+      "file": "w5.geojson",
+      "from": "N012",
+      "to": "N023",
+      "length_m": 26.0,
+      "coordinates": [
+        [
+          106.6820720234553,
+          10.760240708850514
+        ],
+        [
+          106.68215737740074,
+          10.760022391472498
+        ]
+      ]
+    },
+    {
+      "edge_id": "w5_part07",
+      "way_id": "w5",
+      "file": "w5.geojson",
+      "from": "N023",
+      "to": "N146",
+      "length_m": 10.06,
+      "coordinates": [
+        [
+          106.68215737740074,
+          10.760022391472498
+        ],
+        [
+          106.68219040907395,
+          10.759937903423923
+        ]
+      ]
+    },
+    {
+      "edge_id": "w5_part08",
+      "way_id": "w5",
+      "file": "w5.geojson",
+      "from": "N146",
+      "to": "N082",
+      "length_m": 3.73,
+      "coordinates": [
+        [
+          106.68219040907395,
+          10.759937903423923
+        ],
+        [
+          106.682202641432,
+          10.759906615633753
+        ]
+      ]
+    },
+    {
+      "edge_id": "w5_part09",
+      "way_id": "w5",
+      "file": "w5.geojson",
+      "from": "N082",
+      "to": "N073",
+      "length_m": 19.61,
+      "coordinates": [
+        [
+          106.682202641432,
+          10.759906615633753
+        ],
+        [
+          106.68226700000001,
+          10.759742
+        ]
+      ]
+    },
+    {
+      "edge_id": "w5_part10",
+      "way_id": "w5",
+      "file": "w5.geojson",
+      "from": "N073",
+      "to": "N073",
+      "length_m": 0.19,
+      "coordinates": [
+        [
+          106.68226700000001,
+          10.759742
+        ],
+        [
+          106.68226861442862,
+          10.759742559842183
+        ]
+      ]
+    },
+    {
+      "edge_id": "w5_part11",
+      "way_id": "w5",
+      "file": "w5.geojson",
+      "from": "N073",
+      "to": "N073",
+      "length_m": 0.09,
+      "coordinates": [
+        [
+          106.68226861442862,
+          10.759742559842183
+        ],
+        [
+          106.68226938969386,
+          10.759742828684152
+        ]
+      ]
+    },
+    {
+      "edge_id": "w5_part12",
+      "way_id": "w5",
+      "file": "w5.geojson",
+      "from": "N073",
+      "to": "N073",
+      "length_m": 0.28,
+      "coordinates": [
+        [
+          106.68226938969386,
+          10.759742828684152
+        ],
+        [
+          106.68227181133678,
+          10.759743668447422
+        ]
+      ]
+    },
+    {
+      "edge_id": "w5_part13",
+      "way_id": "w5",
+      "file": "w5.geojson",
+      "from": "N073",
+      "to": "N073",
+      "length_m": 0.28,
+      "coordinates": [
+        [
+          106.68227181133678,
+          10.759743668447422
+        ],
+        [
+          106.68227420103061,
+          10.759744497131582
+        ]
+      ]
+    },
+    {
+      "edge_id": "w5_part14",
+      "way_id": "w5",
+      "file": "w5.geojson",
+      "from": "N073",
+      "to": "N118",
+      "length_m": 27.85,
+      "coordinates": [
+        [
+          106.68227420103061,
+          10.759744497131582
+        ],
+        [
+          106.6825146123674,
+          10.759827865579021
+        ]
+      ]
+    },
+    {
+      "edge_id": "w5_part15",
+      "way_id": "w5",
+      "file": "w5.geojson",
+      "from": "N118",
+      "to": "N118",
+      "length_m": 0.04,
+      "coordinates": [
+        [
+          106.6825146123674,
+          10.759827865579021
+        ],
+        [
+          106.682515,
+          10.759828
+        ]
+      ]
+    },
+    {
+      "edge_id": "w5_2_part01",
+      "way_id": "w5_2",
+      "file": "w5.geojson",
+      "from": "N001",
+      "to": "N001",
+      "length_m": 0.11,
+      "coordinates": [
+        [
+          106.681926,
+          10.760591
+        ],
+        [
+          106.68192637935749,
+          10.760590091679223
+        ]
+      ]
+    },
+    {
+      "edge_id": "w5_2_part02",
+      "way_id": "w5_2",
+      "file": "w5.geojson",
+      "from": "N001",
+      "to": "N001",
+      "length_m": 0.81,
+      "coordinates": [
+        [
+          106.68192637935749,
+          10.760590091679223
+        ],
+        [
+          106.68192917784708,
+          10.760583391070385
+        ]
+      ]
+    },
+    {
+      "edge_id": "w5_2_part03",
+      "way_id": "w5_2",
+      "file": "w5.geojson",
+      "from": "N001",
+      "to": "N004",
+      "length_m": 19.08,
+      "coordinates": [
+        [
+          106.68192917784708,
+          10.760583391070385
+        ],
+        [
+          106.68199546123238,
+          10.76042468437318
+        ]
+      ]
+    },
+    {
+      "edge_id": "w5_2_part04",
+      "way_id": "w5_2",
+      "file": "w5.geojson",
+      "from": "N004",
+      "to": "N026",
+      "length_m": 20.88,
+      "coordinates": [
+        [
+          106.68199546123238,
+          10.76042468437318
+        ],
+        [
+          106.682068,
+          10.760251
+        ]
+      ]
+    },
+    {
+      "edge_id": "w5_2_part05",
+      "way_id": "w5_2",
+      "file": "w5.geojson",
+      "from": "N026",
+      "to": "N012",
+      "length_m": 1.23,
+      "coordinates": [
+        [
+          106.682068,
+          10.760251
+        ],
+        [
+          106.6820720234553,
+          10.760240708850514
+        ]
+      ]
+    },
+    {
+      "edge_id": "w5_2_part06",
+      "way_id": "w5_2",
+      "file": "w5.geojson",
+      "from": "N012",
+      "to": "N023",
+      "length_m": 26.0,
+      "coordinates": [
+        [
+          106.6820720234553,
+          10.760240708850514
+        ],
+        [
+          106.68215737740074,
+          10.760022391472498
+        ]
+      ]
+    },
+    {
+      "edge_id": "w5_2_part07",
+      "way_id": "w5_2",
+      "file": "w5.geojson",
+      "from": "N023",
+      "to": "N146",
+      "length_m": 10.06,
+      "coordinates": [
+        [
+          106.68215737740074,
+          10.760022391472498
+        ],
+        [
+          106.68219040907395,
+          10.759937903423923
+        ]
+      ]
+    },
+    {
+      "edge_id": "w5_2_part08",
+      "way_id": "w5_2",
+      "file": "w5.geojson",
+      "from": "N146",
+      "to": "N082",
+      "length_m": 3.73,
+      "coordinates": [
+        [
+          106.68219040907395,
+          10.759937903423923
+        ],
+        [
+          106.682202641432,
+          10.759906615633753
+        ]
+      ]
+    },
+    {
+      "edge_id": "w5_2_part09",
+      "way_id": "w5_2",
+      "file": "w5.geojson",
+      "from": "N082",
+      "to": "N073",
+      "length_m": 19.61,
+      "coordinates": [
+        [
+          106.682202641432,
+          10.759906615633753
+        ],
+        [
+          106.68226700000001,
+          10.759742
+        ]
+      ]
+    },
+    {
+      "edge_id": "w5_2_part10",
+      "way_id": "w5_2",
+      "file": "w5.geojson",
+      "from": "N073",
+      "to": "N073",
+      "length_m": 0.19,
+      "coordinates": [
+        [
+          106.68226700000001,
+          10.759742
+        ],
+        [
+          106.68226861442862,
+          10.759742559842183
+        ]
+      ]
+    },
+    {
+      "edge_id": "w5_2_part11",
+      "way_id": "w5_2",
+      "file": "w5.geojson",
+      "from": "N073",
+      "to": "N073",
+      "length_m": 0.09,
+      "coordinates": [
+        [
+          106.68226861442862,
+          10.759742559842183
+        ],
+        [
+          106.68226938969386,
+          10.759742828684152
+        ]
+      ]
+    },
+    {
+      "edge_id": "w5_2_part12",
+      "way_id": "w5_2",
+      "file": "w5.geojson",
+      "from": "N073",
+      "to": "N073",
+      "length_m": 0.28,
+      "coordinates": [
+        [
+          106.68226938969386,
+          10.759742828684152
+        ],
+        [
+          106.68227181133678,
+          10.759743668447422
+        ]
+      ]
+    },
+    {
+      "edge_id": "w5_2_part13",
+      "way_id": "w5_2",
+      "file": "w5.geojson",
+      "from": "N073",
+      "to": "N073",
+      "length_m": 0.28,
+      "coordinates": [
+        [
+          106.68227181133678,
+          10.759743668447422
+        ],
+        [
+          106.68227420103061,
+          10.759744497131582
+        ]
+      ]
+    },
+    {
+      "edge_id": "w5_2_part14",
+      "way_id": "w5_2",
+      "file": "w5.geojson",
+      "from": "N073",
+      "to": "N118",
+      "length_m": 27.85,
+      "coordinates": [
+        [
+          106.68227420103061,
+          10.759744497131582
+        ],
+        [
+          106.6825146123674,
+          10.759827865579021
+        ]
+      ]
+    },
+    {
+      "edge_id": "w5_2_part15",
+      "way_id": "w5_2",
+      "file": "w5.geojson",
+      "from": "N118",
+      "to": "N118",
+      "length_m": 0.04,
+      "coordinates": [
+        [
+          106.6825146123674,
+          10.759827865579021
+        ],
+        [
+          106.682515,
+          10.759828
         ]
       ]
     },
@@ -2177,17 +5286,17 @@
       "edge_id": "w6_part01",
       "way_id": "w6",
       "file": "w6.geojson",
-      "from": "N022",
-      "to": "N069",
-      "length_m": 13.12,
+      "from": "N001",
+      "to": "N001",
+      "length_m": 0.11,
       "coordinates": [
         [
-          106.681857,
-          10.759757
+          106.681926,
+          10.760591
         ],
         [
-          106.68197,
-          10.759797
+          106.68192637935749,
+          10.76059009167923
         ]
       ]
     },
@@ -2195,26 +5304,215 @@
       "edge_id": "w6_part02",
       "way_id": "w6",
       "file": "w6.geojson",
-      "from": "N069",
-      "to": "N023",
-<<<<<<< HEAD
-      "length_m": 38.44,
-=======
-      "length_m": 43.59,
->>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
+      "from": "N001",
+      "to": "N001",
+      "length_m": 0.81,
       "coordinates": [
         [
-          106.68197,
-          10.759797
+          106.68192637935749,
+          10.76059009167923
         ],
         [
-<<<<<<< HEAD
-          106.68209,
-          10.759472
-=======
-          106.68227254656058,
-          10.759541417636736
->>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
+          106.68192917784707,
+          10.760583391070387
+        ]
+      ]
+    },
+    {
+      "edge_id": "w6_part03",
+      "way_id": "w6",
+      "file": "w6.geojson",
+      "from": "N001",
+      "to": "N004",
+      "length_m": 19.08,
+      "coordinates": [
+        [
+          106.68192917784707,
+          10.760583391070387
+        ],
+        [
+          106.68199546123236,
+          10.76042468437318
+        ]
+      ]
+    },
+    {
+      "edge_id": "w6_part04",
+      "way_id": "w6",
+      "file": "w6.geojson",
+      "from": "N004",
+      "to": "N026",
+      "length_m": 20.88,
+      "coordinates": [
+        [
+          106.68199546123236,
+          10.76042468437318
+        ],
+        [
+          106.68206799999999,
+          10.760251
+        ]
+      ]
+    },
+    {
+      "edge_id": "w6_part05",
+      "way_id": "w6",
+      "file": "w6.geojson",
+      "from": "N026",
+      "to": "N012",
+      "length_m": 1.22,
+      "coordinates": [
+        [
+          106.68206799999999,
+          10.760251
+        ],
+        [
+          106.68207206224706,
+          10.760240785509193
+        ]
+      ]
+    },
+    {
+      "edge_id": "w6_part06",
+      "way_id": "w6",
+      "file": "w6.geojson",
+      "from": "N012",
+      "to": "N023",
+      "length_m": 26.01,
+      "coordinates": [
+        [
+          106.68207206224706,
+          10.760240785509193
+        ],
+        [
+          106.68215871225097,
+          10.760022904702318
+        ]
+      ]
+    },
+    {
+      "edge_id": "w6_part07",
+      "way_id": "w6",
+      "file": "w6.geojson",
+      "from": "N023",
+      "to": "N082",
+      "length_m": 13.79,
+      "coordinates": [
+        [
+          106.68215871225097,
+          10.760022904702318
+        ],
+        [
+          106.6822046547465,
+          10.75990738263023
+        ]
+      ]
+    },
+    {
+      "edge_id": "w6_part08",
+      "way_id": "w6",
+      "file": "w6.geojson",
+      "from": "N082",
+      "to": "N082",
+      "length_m": 0.4,
+      "coordinates": [
+        [
+          106.6822046547465,
+          10.75990738263023
+        ],
+        [
+          106.68220600000001,
+          10.759904
+        ]
+      ]
+    },
+    {
+      "edge_id": "w6_part09",
+      "way_id": "w6",
+      "file": "w6.geojson",
+      "from": "N082",
+      "to": "N018",
+      "length_m": 0.61,
+      "coordinates": [
+        [
+          106.68220600000001,
+          10.759904
+        ],
+        [
+          106.68221120451781,
+          10.759906089137425
+        ]
+      ]
+    },
+    {
+      "edge_id": "w6_part10",
+      "way_id": "w6",
+      "file": "w6.geojson",
+      "from": "N018",
+      "to": "N018",
+      "length_m": 0.12,
+      "coordinates": [
+        [
+          106.68221120451781,
+          10.759906089137425
+        ],
+        [
+          106.68221220401583,
+          10.759906490344376
+        ]
+      ]
+    },
+    {
+      "edge_id": "w6_part11",
+      "way_id": "w6",
+      "file": "w6.geojson",
+      "from": "N018",
+      "to": "N143",
+      "length_m": 27.66,
+      "coordinates": [
+        [
+          106.68221220401583,
+          10.759906490344376
+        ],
+        [
+          106.68244660752968,
+          10.760000581895717
+        ]
+      ]
+    },
+    {
+      "edge_id": "w6_part12",
+      "way_id": "w6",
+      "file": "w6.geojson",
+      "from": "N143",
+      "to": "N093",
+      "length_m": 5.12,
+      "coordinates": [
+        [
+          106.68244660752968,
+          10.760000581895717
+        ],
+        [
+          106.68249,
+          10.760018000000002
+        ]
+      ]
+    },
+    {
+      "edge_id": "w6_part13",
+      "way_id": "w6",
+      "file": "w6.geojson",
+      "from": "N093",
+      "to": "N147",
+      "length_m": 6.08,
+      "coordinates": [
+        [
+          106.68249,
+          10.760018000000002
+        ],
+        [
+          106.68251,
+          10.759967
         ]
       ]
     },
@@ -2222,17 +5520,17 @@
       "edge_id": "w7_part01",
       "way_id": "w7",
       "file": "w7.geojson",
-      "from": "N024",
-      "to": "N021",
-      "length_m": 14.71,
+      "from": "N001",
+      "to": "N001",
+      "length_m": 0.11,
       "coordinates": [
         [
-          106.681839,
-          10.759745
+          106.681926,
+          10.760591
         ],
         [
-          106.68188726513792,
-          10.759621486851769
+          106.68192637935749,
+          10.760590091679221
         ]
       ]
     },
@@ -2240,17 +5538,17 @@
       "edge_id": "w7_part02",
       "way_id": "w7",
       "file": "w7.geojson",
-      "from": "N021",
-      "to": "N070",
-      "length_m": 24.0,
+      "from": "N001",
+      "to": "N001",
+      "length_m": 0.81,
       "coordinates": [
         [
-          106.68188726513792,
-          10.759621486851769
+          106.68192637935749,
+          10.760590091679221
         ],
         [
-          106.681966,
-          10.75942
+          106.68192917784707,
+          10.760583391070384
         ]
       ]
     },
@@ -2258,26 +5556,323 @@
       "edge_id": "w7_part03",
       "way_id": "w7",
       "file": "w7.geojson",
-      "from": "N070",
-      "to": "N023",
-<<<<<<< HEAD
-      "length_m": 14.73,
-=======
-      "length_m": 36.11,
->>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
+      "from": "N001",
+      "to": "N004",
+      "length_m": 19.08,
       "coordinates": [
         [
-          106.681966,
-          10.75942
+          106.68192917784707,
+          10.760583391070384
         ],
         [
-<<<<<<< HEAD
-          106.68209,
-          10.759472
-=======
-          106.68227254656058,
-          10.759541417636736
->>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
+          106.68199546123236,
+          10.76042468437317
+        ]
+      ]
+    },
+    {
+      "edge_id": "w7_part04",
+      "way_id": "w7",
+      "file": "w7.geojson",
+      "from": "N004",
+      "to": "N026",
+      "length_m": 20.88,
+      "coordinates": [
+        [
+          106.68199546123236,
+          10.76042468437317
+        ],
+        [
+          106.68206799999999,
+          10.760251
+        ]
+      ]
+    },
+    {
+      "edge_id": "w7_part05",
+      "way_id": "w7",
+      "file": "w7.geojson",
+      "from": "N026",
+      "to": "N012",
+      "length_m": 1.22,
+      "coordinates": [
+        [
+          106.68206799999999,
+          10.760251
+        ],
+        [
+          106.68207206224707,
+          10.760240785509184
+        ]
+      ]
+    },
+    {
+      "edge_id": "w7_part06",
+      "way_id": "w7",
+      "file": "w7.geojson",
+      "from": "N012",
+      "to": "N023",
+      "length_m": 26.01,
+      "coordinates": [
+        [
+          106.68207206224707,
+          10.760240785509184
+        ],
+        [
+          106.68215871225095,
+          10.76002290470232
+        ]
+      ]
+    },
+    {
+      "edge_id": "w7_part07",
+      "way_id": "w7",
+      "file": "w7.geojson",
+      "from": "N023",
+      "to": "N082",
+      "length_m": 13.79,
+      "coordinates": [
+        [
+          106.68215871225095,
+          10.76002290470232
+        ],
+        [
+          106.68220465474649,
+          10.759907382630212
+        ]
+      ]
+    },
+    {
+      "edge_id": "w7_part08",
+      "way_id": "w7",
+      "file": "w7.geojson",
+      "from": "N082",
+      "to": "N082",
+      "length_m": 0.4,
+      "coordinates": [
+        [
+          106.68220465474649,
+          10.759907382630212
+        ],
+        [
+          106.682206,
+          10.759904
+        ]
+      ]
+    },
+    {
+      "edge_id": "w7_part09",
+      "way_id": "w7",
+      "file": "w7.geojson",
+      "from": "N082",
+      "to": "N018",
+      "length_m": 0.61,
+      "coordinates": [
+        [
+          106.682206,
+          10.759904
+        ],
+        [
+          106.6822112045178,
+          10.759906089137433
+        ]
+      ]
+    },
+    {
+      "edge_id": "w7_part10",
+      "way_id": "w7",
+      "file": "w7.geojson",
+      "from": "N018",
+      "to": "N018",
+      "length_m": 0.12,
+      "coordinates": [
+        [
+          106.6822112045178,
+          10.759906089137433
+        ],
+        [
+          106.68221220401581,
+          10.759906490344376
+        ]
+      ]
+    },
+    {
+      "edge_id": "w7_part11",
+      "way_id": "w7",
+      "file": "w7.geojson",
+      "from": "N018",
+      "to": "N143",
+      "length_m": 27.66,
+      "coordinates": [
+        [
+          106.68221220401581,
+          10.759906490344376
+        ],
+        [
+          106.68244660752967,
+          10.760000581895717
+        ]
+      ]
+    },
+    {
+      "edge_id": "w7_part12",
+      "way_id": "w7",
+      "file": "w7.geojson",
+      "from": "N143",
+      "to": "N093",
+      "length_m": 5.12,
+      "coordinates": [
+        [
+          106.68244660752967,
+          10.760000581895717
+        ],
+        [
+          106.68248999999999,
+          10.760018000000002
+        ]
+      ]
+    },
+    {
+      "edge_id": "w7_part13",
+      "way_id": "w7",
+      "file": "w7.geojson",
+      "from": "N093",
+      "to": "N147",
+      "length_m": 6.08,
+      "coordinates": [
+        [
+          106.68248999999999,
+          10.760018000000002
+        ],
+        [
+          106.68251113141783,
+          10.759967412666468
+        ]
+      ]
+    },
+    {
+      "edge_id": "w7_part14",
+      "way_id": "w7",
+      "file": "w7.geojson",
+      "from": "N147",
+      "to": "N121",
+      "length_m": 3.42,
+      "coordinates": [
+        [
+          106.68251113141783,
+          10.759967412666468
+        ],
+        [
+          106.682523,
+          10.759939
+        ]
+      ]
+    },
+    {
+      "edge_id": "w7_part15",
+      "way_id": "w7",
+      "file": "w7.geojson",
+      "from": "N121",
+      "to": "N122",
+      "length_m": 5.16,
+      "coordinates": [
+        [
+          106.682523,
+          10.759939
+        ],
+        [
+          106.682479,
+          10.759922
+        ]
+      ]
+    },
+    {
+      "edge_id": "w7_part16",
+      "way_id": "w7",
+      "file": "w7.geojson",
+      "from": "N122",
+      "to": "N118",
+      "length_m": 11.16,
+      "coordinates": [
+        [
+          106.682479,
+          10.759922
+        ],
+        [
+          106.68251492340221,
+          10.759828008632546
+        ]
+      ]
+    },
+    {
+      "edge_id": "w7_part17",
+      "way_id": "w7",
+      "file": "w7.geojson",
+      "from": "N118",
+      "to": "N144",
+      "length_m": 3.49,
+      "coordinates": [
+        [
+          106.68251492340221,
+          10.759828008632546
+        ],
+        [
+          106.6825261678793,
+          10.759798588151398
+        ]
+      ]
+    },
+    {
+      "edge_id": "w7_part18",
+      "way_id": "w7",
+      "file": "w7.geojson",
+      "from": "N144",
+      "to": "N123",
+      "length_m": 8.03,
+      "coordinates": [
+        [
+          106.6825261678793,
+          10.759798588151398
+        ],
+        [
+          106.682552,
+          10.759731
+        ]
+      ]
+    },
+    {
+      "edge_id": "w7_part19",
+      "way_id": "w7",
+      "file": "w7.geojson",
+      "from": "N123",
+      "to": "N145",
+      "length_m": 0.1,
+      "coordinates": [
+        [
+          106.682552,
+          10.759731
+        ],
+        [
+          106.68255291111208,
+          10.7597307371792
+        ]
+      ]
+    },
+    {
+      "edge_id": "w7_part20",
+      "way_id": "w7",
+      "file": "w7.geojson",
+      "from": "N145",
+      "to": "N120",
+      "length_m": 5.82,
+      "coordinates": [
+        [
+          106.68255291111208,
+          10.7597307371792
+        ],
+        [
+          106.682604,
+          10.759716
         ]
       ]
     },
@@ -2285,29 +5880,17 @@
       "edge_id": "w8_part01",
       "way_id": "w8",
       "file": "w8.geojson",
-      "from": "N025",
-      "to": "N071",
-<<<<<<< HEAD
-      "length_m": 40.19,
+      "from": "N001",
+      "to": "N001",
+      "length_m": 0.09,
       "coordinates": [
         [
-          106.682207,
-          10.75991
+          106.681926,
+          10.760591
         ],
         [
-          106.682329,
-          10.759569
-=======
-      "length_m": 38.32,
-      "coordinates": [
-        [
-          106.68221,
-          10.7599111
-        ],
-        [
-          106.68233424326795,
-          10.759588835401049
->>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
+          106.68192632062133,
+          10.760590208057634
         ]
       ]
     },
@@ -2315,29 +5898,233 @@
       "edge_id": "w8_part02",
       "way_id": "w8",
       "file": "w8.geojson",
-      "from": "N071",
+      "from": "N001",
+      "to": "N001",
+      "length_m": 0.81,
+      "coordinates": [
+        [
+          106.68192632062133,
+          10.760590208057634
+        ],
+        [
+          106.68192904509361,
+          10.760583478545716
+        ]
+      ]
+    },
+    {
+      "edge_id": "w8_part03",
+      "way_id": "w8",
+      "file": "w8.geojson",
+      "from": "N001",
+      "to": "N087",
+      "length_m": 32.01,
+      "coordinates": [
+        [
+          106.68192904509361,
+          10.760583478545716
+        ],
+        [
+          106.68203733017755,
+          10.76031601179166
+        ]
+      ]
+    },
+    {
+      "edge_id": "w8_part04",
+      "way_id": "w8",
+      "file": "w8.geojson",
+      "from": "N087",
+      "to": "N026",
+      "length_m": 7.97,
+      "coordinates": [
+        [
+          106.68203733017755,
+          10.76031601179166
+        ],
+        [
+          106.68206429849111,
+          10.760249399410421
+        ]
+      ]
+    },
+    {
+      "edge_id": "w8_part05",
+      "way_id": "w8",
+      "file": "w8.geojson",
+      "from": "N026",
+      "to": "N012",
+      "length_m": 1.18,
+      "coordinates": [
+        [
+          106.68206429849111,
+          10.760249399410421
+        ],
+        [
+          106.68206830544872,
+          10.760239502129059
+        ]
+      ]
+    },
+    {
+      "edge_id": "w8_part06",
+      "way_id": "w8",
+      "file": "w8.geojson",
+      "from": "N012",
       "to": "N023",
-<<<<<<< HEAD
-      "length_m": 28.25,
+      "length_m": 26.03,
       "coordinates": [
         [
-          106.682329,
-          10.759569
+          106.68206830544872,
+          10.760239502129059
         ],
         [
-          106.68209,
-          10.759472
-=======
-      "length_m": 8.56,
+          106.68215636730766,
+          10.760021987225704
+        ]
+      ]
+    },
+    {
+      "edge_id": "w8_part07",
+      "way_id": "w8",
+      "file": "w8.geojson",
+      "from": "N023",
+      "to": "N146",
+      "length_m": 10.06,
       "coordinates": [
         [
-          106.68233424326795,
-          10.759588835401049
+          106.68215636730766,
+          10.760021987225704
         ],
         [
-          106.68227254656058,
-          10.759541417636736
->>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
+          106.68219040896943,
+          10.759937903504753
+        ]
+      ]
+    },
+    {
+      "edge_id": "w8_part08",
+      "way_id": "w8",
+      "file": "w8.geojson",
+      "from": "N146",
+      "to": "N082",
+      "length_m": 3.73,
+      "coordinates": [
+        [
+          106.68219040896943,
+          10.759937903504753
+        ],
+        [
+          106.68220303612924,
+          10.75990671411724
+        ]
+      ]
+    },
+    {
+      "edge_id": "w8_part09",
+      "way_id": "w8",
+      "file": "w8.geojson",
+      "from": "N082",
+      "to": "N141",
+      "length_m": 13.48,
+      "coordinates": [
+        [
+          106.68220303612924,
+          10.75990671411724
+        ],
+        [
+          106.68224862456117,
+          10.759794109597108
+        ]
+      ]
+    },
+    {
+      "edge_id": "w8_part10",
+      "way_id": "w8",
+      "file": "w8.geojson",
+      "from": "N141",
+      "to": "N073",
+      "length_m": 6.14,
+      "coordinates": [
+        [
+          106.68224862456117,
+          10.759794109597108
+        ],
+        [
+          106.68226939782052,
+          10.759742799148377
+        ]
+      ]
+    },
+    {
+      "edge_id": "w8_part11",
+      "way_id": "w8",
+      "file": "w8.geojson",
+      "from": "N073",
+      "to": "N139",
+      "length_m": 10.57,
+      "coordinates": [
+        [
+          106.68226939782052,
+          10.759742799148377
+        ],
+        [
+          106.68230515347629,
+          10.759654481821185
+        ]
+      ]
+    },
+    {
+      "edge_id": "w8_part12",
+      "way_id": "w8",
+      "file": "w8.geojson",
+      "from": "N139",
+      "to": "N089",
+      "length_m": 10.42,
+      "coordinates": [
+        [
+          106.68230515347629,
+          10.759654481821185
+        ],
+        [
+          106.68234040771206,
+          10.759567403013428
+        ]
+      ]
+    },
+    {
+      "edge_id": "w8_part13",
+      "way_id": "w8",
+      "file": "w8.geojson",
+      "from": "N089",
+      "to": "N089",
+      "length_m": 0.01,
+      "coordinates": [
+        [
+          106.68234040771206,
+          10.759567403013428
+        ],
+        [
+          106.68234044266771,
+          10.759567316672104
+        ]
+      ]
+    },
+    {
+      "edge_id": "w8_part14",
+      "way_id": "w8",
+      "file": "w8.geojson",
+      "from": "N089",
+      "to": "N089",
+      "length_m": 0.76,
+      "coordinates": [
+        [
+          106.68234044266771,
+          10.759567316672104
+        ],
+        [
+          106.682343,
+          10.759561
         ]
       ]
     },
@@ -2345,17 +6132,17 @@
       "edge_id": "w9_part01",
       "way_id": "w9",
       "file": "w9.geojson",
-      "from": "N025",
-      "to": "N072",
-      "length_m": 32.35,
+      "from": "N001",
+      "to": "N001",
+      "length_m": 0.11,
       "coordinates": [
         [
-          106.682217,
-          10.759914
+          106.681926,
+          10.760591
         ],
         [
-          106.682492,
-          10.760022
+          106.6819263793575,
+          10.760590091679218
         ]
       ]
     },
@@ -2363,17 +6150,17 @@
       "edge_id": "w9_part02",
       "way_id": "w9",
       "file": "w9.geojson",
-      "from": "N072",
-      "to": "N032",
-      "length_m": 2.4,
+      "from": "N001",
+      "to": "N001",
+      "length_m": 0.81,
       "coordinates": [
         [
-          106.682492,
-          10.760022
+          106.6819263793575,
+          10.760590091679218
         ],
         [
-          106.68249979250481,
-          10.76000179720976
+          106.68192917784708,
+          10.76058339107038
         ]
       ]
     },
@@ -2381,17 +6168,17 @@
       "edge_id": "w9_part03",
       "way_id": "w9",
       "file": "w9.geojson",
-      "from": "N032",
-      "to": "N073",
-      "length_m": 5.92,
+      "from": "N001",
+      "to": "N004",
+      "length_m": 19.08,
       "coordinates": [
         [
-          106.68249979250481,
-          10.76000179720976
+          106.68192917784708,
+          10.76058339107038
         ],
         [
-          106.682519,
-          10.759952
+          106.68199546123238,
+          10.76042468437316
         ]
       ]
     },
@@ -2399,17 +6186,17 @@
       "edge_id": "w9_part04",
       "way_id": "w9",
       "file": "w9.geojson",
-      "from": "N073",
-      "to": "N004",
-      "length_m": 1.47,
+      "from": "N004",
+      "to": "N026",
+      "length_m": 20.88,
       "coordinates": [
         [
-          106.682519,
-          10.759952
+          106.68199546123238,
+          10.76042468437316
         ],
         [
-          106.6825072135776,
-          10.759945675578223
+          106.682068,
+          10.760251
         ]
       ]
     },
@@ -2417,17 +6204,17 @@
       "edge_id": "w9_part05",
       "way_id": "w9",
       "file": "w9.geojson",
-      "from": "N004",
-      "to": "N074",
-      "length_m": 3.64,
+      "from": "N026",
+      "to": "N012",
+      "length_m": 1.23,
       "coordinates": [
         [
-          106.6825072135776,
-          10.759945675578223
+          106.682068,
+          10.760251
         ],
         [
-          106.682478,
-          10.75993
+          106.68207202345529,
+          10.760240708850526
         ]
       ]
     },
@@ -2435,17 +6222,17 @@
       "edge_id": "w9_part06",
       "way_id": "w9",
       "file": "w9.geojson",
-      "from": "N074",
-      "to": "N030",
-      "length_m": 30.64,
+      "from": "N012",
+      "to": "N023",
+      "length_m": 26.0,
       "coordinates": [
         [
-          106.682478,
-          10.75993
+          106.68207202345529,
+          10.760240708850526
         ],
         [
-          106.68257420721599,
-          10.759671202589026
+          106.68215737740074,
+          10.76002239147249
         ]
       ]
     },
@@ -2453,29 +6240,17 @@
       "edge_id": "w9_part07",
       "way_id": "w9",
       "file": "w9.geojson",
-      "from": "N030",
-      "to": "N075",
-<<<<<<< HEAD
-      "length_m": 1.21,
+      "from": "N023",
+      "to": "N146",
+      "length_m": 10.06,
       "coordinates": [
         [
-          106.68257420721599,
-          10.759671202589026
+          106.68215737740074,
+          10.76002239147249
         ],
         [
-          106.682578,
-          10.759661
-=======
-      "length_m": 9.29,
-      "coordinates": [
-        [
-          106.6825742,
-          10.7596712
-        ],
-        [
-          106.6825997790104,
-          10.759591510064439
->>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
+          106.68219040907394,
+          10.759937903423925
         ]
       ]
     },
@@ -2483,29 +6258,17 @@
       "edge_id": "w9_part08",
       "way_id": "w9",
       "file": "w9.geojson",
-      "from": "N075",
-      "to": "N027",
-<<<<<<< HEAD
-      "length_m": 28.29,
+      "from": "N146",
+      "to": "N082",
+      "length_m": 3.73,
       "coordinates": [
         [
-          106.682578,
-          10.759661
+          106.68219040907394,
+          10.759937903423925
         ],
         [
-          106.68233709978648,
-          10.759567700532063
-=======
-      "length_m": 27.16,
-      "coordinates": [
-        [
-          106.6825997790104,
-          10.759591510064439
-        ],
-        [
-          106.68236642289278,
-          10.759507188339843
->>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
+          106.68220264143196,
+          10.759906615633774
         ]
       ]
     },
@@ -2513,71 +6276,127 @@
       "edge_id": "w9_part09",
       "way_id": "w9",
       "file": "w9.geojson",
-      "from": "N027",
-      "to": "N023",
-<<<<<<< HEAD
-      "length_m": 29.02,
+      "from": "N082",
+      "to": "N073",
+      "length_m": 19.61,
       "coordinates": [
         [
-          106.68233709978648,
-          10.759567700532063
+          106.68220264143196,
+          10.759906615633774
         ],
         [
-          106.68209,
-          10.759472
-=======
-      "length_m": 10.94,
-      "coordinates": [
-        [
-          106.68236642289278,
-          10.759507188339843
-        ],
-        [
-          106.68227254656058,
-          10.759541417636736
+          106.68226699999998,
+          10.759742
         ]
       ]
     },
     {
-      "edge_id": "edit_001",
-      "way_id": "manual_edit",
-      "file": "manual_edit",
-      "from": "N076",
-      "to": "N027",
-      "length_m": 23.0,
+      "edge_id": "w9_part10",
+      "way_id": "w9",
+      "file": "w9.geojson",
+      "from": "N073",
+      "to": "N142",
+      "length_m": 28.23,
       "coordinates": [
         [
-          106.68222109587208,
-          10.759357507778526
+          106.68226699999998,
+          10.759742
         ],
         [
-          106.68236642289278,
-          10.759507188339843
+          106.68202209709189,
+          10.759661008487083
         ]
       ]
     },
     {
-      "edge_id": "edit_002",
-      "way_id": "manual_edit",
-      "file": "manual_edit",
-      "from": "N027",
-      "to": "N071",
-      "length_m": 9.74,
+      "edge_id": "w9_part11",
+      "way_id": "w9",
+      "file": "w9.geojson",
+      "from": "N142",
+      "to": "N117",
+      "length_m": 15.58,
       "coordinates": [
         [
-          106.68236642289278,
-          10.759507188339843
+          106.68202209709189,
+          10.759661008487083
         ],
         [
-          106.68233424326795,
-          10.759588835401049
->>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)
+          106.68188690072702,
+          10.759616297878228
+        ]
+      ]
+    },
+    {
+      "edge_id": "w9_part12",
+      "way_id": "w9",
+      "file": "w9.geojson",
+      "from": "N117",
+      "to": "N074",
+      "length_m": 0.1,
+      "coordinates": [
+        [
+          106.68188690072702,
+          10.759616297878228
+        ],
+        [
+          106.681886,
+          10.759616
+        ]
+      ]
+    },
+    {
+      "edge_id": "w9_part13",
+      "way_id": "w9",
+      "file": "w9.geojson",
+      "from": "N074",
+      "to": "N117",
+      "length_m": 0.04,
+      "coordinates": [
+        [
+          106.681886,
+          10.759616
+        ],
+        [
+          106.68188611568884,
+          10.759615705957511
+        ]
+      ]
+    },
+    {
+      "edge_id": "w9_part14",
+      "way_id": "w9",
+      "file": "w9.geojson",
+      "from": "N117",
+      "to": "N075",
+      "length_m": 14.51,
+      "coordinates": [
+        [
+          106.68188611568884,
+          10.759615705957511
+        ],
+        [
+          106.681934,
+          10.759494
+        ]
+      ]
+    },
+    {
+      "edge_id": "w9_part15",
+      "way_id": "w9",
+      "file": "w9.geojson",
+      "from": "N075",
+      "to": "N124",
+      "length_m": 36.69,
+      "coordinates": [
+        [
+          106.681934,
+          10.759494
+        ],
+        [
+          106.68162,
+          10.759377
         ]
       ]
     }
   ]
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> afb3adc (feat:them 2 thuat toan tim duong ,chinh sua giao dien ,tao gps de test)

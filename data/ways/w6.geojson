@@ -1,1 +1,1 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","properties":{},"geometry":{"type":"LineString","coordinates":[[106.681857,10.759757],[106.68197,10.759797],[106.68209,10.759472]]}}]}
+{"type":"FeatureCollection","features":[{"type":"Feature","geometry":{"type":"LineString","coordinates":[[106.681926,10.760591],[106.682068,10.760251],[106.682206,10.759904],[106.68249,10.760018],[106.68251,10.759967]]},"properties":{}}]}

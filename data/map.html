@@ -1,45 +1,102 @@
 <!doctype html>
+<!-- Phần tử gốc chứa toàn bộ nội dung trang bản đồ. -->
 <html lang="vi">
+<!-- Khai báo metadata, tiêu đề và tài nguyên cần cho trang. -->
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Campus Navigation System</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<!-- CSS bên dưới định dạng bố cục và giao diện trang. -->
+  <!-- Ghi chú: CSS định dạng bản đồ, bảng điều khiển và các trạng thái tương tác. -->
   <style>
     html, body, #map { height: 100%; margin: 0; }
-    .route-panel {
-      position: absolute; z-index: 1000; top: 12px; left: 52px; width: min(330px, calc(100vw - 76px));
-      padding: 12px; border-radius: 8px; background: #fff; box-shadow: 0 1px 8px #777;
-      font: 14px/1.4 Arial, sans-serif;
-    }
-    .route-panel label { display: block; margin-bottom: 5px; font-weight: 600; }
-    .route-panel input, .route-panel button { box-sizing: border-box; width: 100%; margin: 4px 0; padding: 8px; }
-    .route-panel button { cursor: pointer; }
-    .route-panel button:disabled { cursor: wait; opacity: 0.65; }
-    #route-message { margin-top: 6px; white-space: pre-line; }
     .status {
       position: absolute; z-index: 1000; left: 50%; bottom: 18px;
       transform: translateX(-50%); padding: 8px 12px; border-radius: 6px;
       background: #fff; box-shadow: 0 1px 6px #777; font: 14px sans-serif;
     }
+    .panel { position:absolute; z-index:1000; top:12px; left:12px; width:min(340px,calc(100vw - 48px));
+      max-height:calc(100vh - 44px); overflow:auto; padding:12px; border-radius:8px; background:#fff; box-shadow:0 1px 8px #777; font:14px sans-serif; }
+    .panel.expanded { width:min(920px,calc(100vw - 48px)); }
+    .panel label { display:block; margin:8px 0 3px; font-weight:600; }
+    .panel select,.panel button { box-sizing:border-box; width:100%; padding:7px; }
+    .panel button { margin-top:8px; cursor:pointer; }
+    .panel [hidden] { display:none !important; }
+    #gpsInfo { margin-top:7px; font-size:12px; line-height:1.45; }
+    #dualEvaluation { font-size:12px; line-height:1.4; margin-top:8px; }
+    #dualEvaluation .evaluation-summary { margin:6px 0; }
+    #dualEvaluation .evaluation-toolbar { display:flex; align-items:center; justify-content:space-between; gap:8px; }
+    #dualEvaluation .evaluation-toolbar button { width:auto; flex:0 0 auto; margin:0; }
+    #dualEvaluation details > summary { cursor:pointer; font-weight:600; padding:5px 0; }
+    #dualEvaluation .table-scroll { max-width:100%; overflow-x:auto; }
+    #dualEvaluation table { width:760px; border-collapse:collapse; }
+    .panel.expanded #dualEvaluation table { width:100%; min-width:0; table-layout:fixed; }
+    .panel.expanded #dualEvaluation td,.panel.expanded #dualEvaluation th { overflow-wrap:anywhere; vertical-align:top; }
+    #dualEvaluation td,#dualEvaluation th { border:1px solid #cbd5e1; padding:3px; text-align:left; }
+    #cursorCoordinates { position:absolute; z-index:1000; left:10px; bottom:10px; padding:6px 9px;
+      border-radius:5px; background:#fff; box-shadow:0 1px 5px #777; font:12px monospace; }
+    .panel button.active { background:#dbeafe; border:1px solid #2563eb; }
+    .edit-toggle { width:100%; margin:9px 0 2px; border:1px solid #64748b; border-radius:5px; background:#f8fafc; font-weight:700; }
+    .editor-tools { border-top:1px solid #e2e8f0; margin-top:10px; padding-top:8px; }
+    .editor-grid { display:grid; grid-template-columns:1fr 1fr; gap:4px; }
+    .editor-grid button { margin:0; padding:6px 4px; font-size:12px; }
+    #editorState { padding:6px; margin:6px 0; border-radius:4px; background:#f1f5f9; font-size:12px; }
+    #editorDetails { max-height:160px; overflow:auto; padding:7px; background:#f8fafc; font:11px/1.5 monospace; white-space:pre-wrap; }
+    .graph-node-icon { background:transparent; border:0; }
+    .graph-node-dot { width:14px; height:14px; border-radius:50%; background:#a78bfa; border:2px solid #5b21b6; box-sizing:border-box; box-shadow:0 0 0 1px white; }
+    .graph-node-dot.selected { background:#facc15; border-color:#a16207; transform:scale(1.25); }
+    .graph-node-dot.edited { box-shadow:0 0 0 3px #fb923c,0 0 0 4px white; }
+    .graph-node-dot.dragging { background:#fb7185; border-color:#be123c; }
   </style>
 </head>
-<body>
+<!-- Bắt đầu nội dung hiển thị và các điều khiển của bản đồ. -->
+<!-- Ghi chú: Phần thân chứa bản đồ và các điều khiển người dùng. -->
+  <body>
   <div id="map"></div>
-  <section class="route-panel">
-    <label for="start">Điểm xuất phát</label>
-    <input id="start" list="place-options" placeholder="Chọn địa điểm, GPS hoặc điểm trên bản đồ">
-    <label for="destination">Điểm đến</label>
-    <input id="destination" list="place-options" placeholder="Nhập mã/tên địa điểm, ví dụ KTH">
-    <datalist id="place-options"></datalist>
-    <button id="gps-button" type="button">Dùng vị trí GPS hiện tại</button>
-    <button id="map-pick-button" type="button">Chọn điểm xuất phát trên bản đồ</button>
-    <button id="route-button" type="button">Tìm đường</button>
-    <div id="route-message" role="status">Chọn điểm xuất phát và điểm đến, sau đó bấm “Tìm đường”.</div>
+  <section class="panel" id="routePanel" aria-label="Điều khiển tìm đường">
+    <label for="mode">Chế độ tìm đường</label>
+    <select id="mode"><option value="places">Tòa nhà → Tòa nhà</option><option value="gps">GPS → Tòa nhà</option></select>
+    <div id="placeControls">
+      <label for="startPlace">Điểm xuất phát</label><select id="startPlace"></select>
+      <label for="placeDestination">Điểm đích</label><select id="placeDestination"></select>
+      <button id="placeRoute">Tìm đường</button>
+    </div>
+    <div id="gpsControls" hidden>
+      <button id="locate">Lấy vị trí hiện tại</button>
+      <div id="gpsInfo">Chưa lấy vị trí.</div>
+      <button id="pickGps">Chọn GPS trên bản đồ</button>
+      <button id="clearGps" disabled>Xóa vị trí đã chọn</button>
+      <label for="gpsDestination">Điểm đích</label><select id="gpsDestination"></select>
+      <button id="gpsRoute" disabled>Tìm đường (tự đánh giá hai phương án)</button>
+      <div id="dualEvaluation" hidden></div>
+    </div>
+    <button class="edit-toggle" id="toggleGraphEdit" type="button">Bật Edit Graph Mode</button>
+    <div class="editor-tools" id="editorTools" hidden>
+      <label for="editorActor">Người thực hiện (tùy chọn)</label>
+      <input id="editorActor" maxlength="100" placeholder="Tên quản trị viên" style="box-sizing:border-box;width:100%;padding:6px">
+      <div class="editor-grid">
+        <button id="toolMove" type="button">Move Node</button>
+        <button id="toolAddNode" type="button">Add Node</button>
+        <button id="toolSplitEdge" type="button">Split Edge</button>
+        <button id="toolConnect" type="button">Connect Nodes</button>
+        <button id="toolDeleteNode" type="button">Delete Node</button>
+        <button id="toolDeleteEdge" type="button">Delete Edge</button>
+        <button id="toolUndo" type="button">Undo</button>
+        <button id="toolReset" type="button">Reset</button>
+        <button id="toolSave" type="button">Save Changes</button>
+      </div>
+      <div id="editorState">Đang tải graph…</div>
+      <div id="editorDetails">Chọn node hoặc edge để xem chi tiết.</div>
+    </div>
   </section>
+  <div id="cursorCoordinates" aria-live="polite">Con trỏ: lat —, lon —</div>
   <div class="status" id="status">Đang tải dữ liệu GeoJSON…</div>
 
+<!-- JavaScript bên dưới xử lý tương tác và dữ liệu bản đồ. -->
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<!-- JavaScript bên dưới xử lý tương tác và dữ liệu bản đồ. -->
+  <!-- Ghi chú: JavaScript khởi tạo bản đồ và xử lý tìm đường/chỉnh sửa đồ thị. -->
   <script>
     const map = L.map("map").setView([10.7604, 106.6820], 17);
     L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
@@ -49,149 +106,493 @@
     const waysLayer = L.featureGroup().addTo(map);
     const nodesLayer = L.featureGroup().addTo(map);
     const routingNodesLayer = L.featureGroup();
-    const routeLayer = L.featureGroup();
+    const routingEdgesLayer = L.featureGroup();
+    const accessAuditLayer = L.featureGroup();
+    const routeLayer = L.featureGroup().addTo(map);
     const junctionCandidatesLayer = L.featureGroup();
+    const gpsLayer = L.featureGroup().addTo(map);
+    const projectionLayer = L.featureGroup().addTo(map);
+    const dualLayers = {
+      "Dual GPS · Nearest Edge route": L.featureGroup().addTo(map),
+      "Dual GPS · Nearest Node route": L.featureGroup().addTo(map),
+      "Dual GPS · Selected route": L.featureGroup().addTo(map),
+      "Dual GPS · Connectors": L.featureGroup().addTo(map)
+    };
     const overlayLayers = {
       "Ways / Đường đi": waysLayer,
       "Nodes / Khu vực": nodesLayer,
       "Routing graph nodes": routingNodesLayer,
+      "Routing graph edges": routingEdgesLayer,
+      "Building access points / connectors": accessAuditLayer,
       "Dijkstra route": routeLayer,
-      "Way junction candidates (review)": junctionCandidatesLayer
+      "Way junction candidates (review)": junctionCandidatesLayer,
+      "GPS position and snap": gpsLayer,
+      "GPS projection": projectionLayer,
+      ...dualLayers
     };
     L.control.layers(null, overlayLayers, { collapsed: false }).addTo(map);
 
     const status = document.getElementById("status");
-    const startInput = document.getElementById("start");
-    const destinationInput = document.getElementById("destination");
-    const routeMessage = document.getElementById("route-message");
-    const gpsButton = document.getElementById("gps-button");
-    const mapPickButton = document.getElementById("map-pick-button");
-    const routeButton = document.getElementById("route-button");
-    let choosingStartOnMap = false;
-    let startMarker = null;
-    let selectedStartCoordinate = null;
-    let selectedStartLabel = "";
-
-    function cleanDestination(value) {
-      return value.trim().replace(/\.geojson$/i, "");
+    let currentGps = null;
+    let mapPicking = false;
+    let gpsRequestVersion = 0;
+    let dualRequestVersion = 0;
+    let routeRequestVersion = 0;
+    const byId = id => document.getElementById(id);
+    L.DomEvent.disableClickPropagation(byId("mode").parentElement);
+    const formatCoordinate = value => Number(value).toFixed(7);
+    function setGpsSelection(latitude, longitude, accuracy, locationSource) {
+      dualRequestVersion += 1;
+      currentGps = {latitude, longitude, accuracy, location_source:locationSource};
+      gpsLayer.clearLayers(); projectionLayer.clearLayers(); routeLayer.clearLayers();
+      clearDualResults();
+      const simulated = locationSource === "map";
+      const markerLabel = simulated ? "Vị trí mô phỏng do bạn chọn trên bản đồ" : `GPS thực tế ±${accuracy.toFixed(1)} m`;
+      L.circleMarker([latitude,longitude], {
+        radius:9, color:simulated?"#7c3aed":"#075985", fillColor:simulated?"#c4b5fd":"#38bdf8", fillOpacity:1
+      }).bindTooltip(markerLabel).addTo(gpsLayer);
+      const accuracyText = simulated ? "Accuracy: không có (vị trí mô phỏng)" : `Accuracy: ±${accuracy.toFixed(1)} m`;
+      byId("gpsInfo").textContent = `${simulated?"GPS mô phỏng":"GPS thực tế"} · lat ${formatCoordinate(latitude)}, lon ${formatCoordinate(longitude)} · ${accuracyText}`;
+      byId("gpsRoute").disabled = false;
+      byId("clearGps").disabled = false;
     }
-
-    function setStartMarker(latlng, label) {
-      if (startMarker) startMarker.remove();
-      startMarker = L.circleMarker(latlng, {
-        radius: 8, color: "#111827", weight: 3, fillColor: "#facc15", fillOpacity: 1
-      }).addTo(map).bindTooltip(label).openTooltip();
+    function fillSelect(select, places) {
+      select.replaceChildren(...places.map(id => { const option = document.createElement("option"); option.value = id; option.textContent = id; return option; }));
     }
-
-    async function calculateRoute() {
-      const startPlace = selectedStartCoordinate ? "" : cleanDestination(startInput.value);
-      const destination = cleanDestination(destinationInput.value);
-      if ((!startPlace && !selectedStartCoordinate) || !destination) {
-        routeMessage.textContent = "Chọn cả điểm xuất phát lẫn điểm đến trước nhé.";
-        return;
+    function clearDualResults() {
+      Object.values(dualLayers).forEach(layer=>layer.clearLayers());
+      byId("dualEvaluation").hidden=true;
+      byId("routePanel").classList.remove("expanded");
+    }
+    function popupLines(lines) {
+      const container = document.createElement("div");
+      for (const line of lines) {
+        const row = document.createElement("div"); row.textContent = line; container.appendChild(row);
       }
-
-      routeLayer.clearLayers();
-      routeLayer.addTo(map);
-      routeMessage.textContent = `Đang tính tuyến từ ${selectedStartLabel || startPlace} tới ${destination}…`;
-      gpsButton.disabled = true;
-      mapPickButton.disabled = true;
-      routeButton.disabled = true;
-      try {
-        const params = new URLSearchParams({ destination });
-        if (selectedStartCoordinate) {
-          params.set("lat", String(selectedStartCoordinate.lat));
-          params.set("lon", String(selectedStartCoordinate.lng));
-        } else {
-          params.set("start_place", startPlace);
+      return container;
+    }
+    const editor = { enabled:false, tool:null, baseGraph:null, draftGraph:null, baseRevision:null,
+      history:[], selectedNode:null, selectedEdge:null, connectStart:null, lastMove:null };
+    const graphNodeMarkers = new Map();
+    const cloneGraph = graph => JSON.parse(JSON.stringify(graph));
+    const nodeById = (graph,id) => graph?.nodes?.[id];
+    function editedChanges() {
+      const changes={nodes:{},edges:{}};
+      if (!editor.baseGraph || !editor.draftGraph) return changes;
+      const baseNodes=editor.baseGraph.nodes, draftNodes=editor.draftGraph.nodes;
+      for (const id of new Set([...Object.keys(baseNodes),...Object.keys(draftNodes)])) {
+        if (!(id in draftNodes)) changes.nodes[id]=null;
+        else if (!(id in baseNodes) || JSON.stringify(baseNodes[id])!==JSON.stringify(draftNodes[id])) changes.nodes[id]=draftNodes[id];
+      }
+      const baseEdges=Object.fromEntries(editor.baseGraph.edges.map(edge=>[edge.edge_id,edge]));
+      const draftEdges=Object.fromEntries(editor.draftGraph.edges.map(edge=>[edge.edge_id,edge]));
+      for (const id of new Set([...Object.keys(baseEdges),...Object.keys(draftEdges)])) {
+        if (!(id in draftEdges)) changes.edges[id]=null;
+        else if (!(id in baseEdges) || JSON.stringify(baseEdges[id])!==JSON.stringify(draftEdges[id])) changes.edges[id]=draftEdges[id];
+      }
+      return changes;
+    }
+    function hasChanges() {
+      const changes=editedChanges(); return Object.keys(changes.nodes).length+Object.keys(changes.edges).length>0;
+    }
+    function pushUndo() { editor.history.push(cloneGraph(editor.draftGraph)); }
+    function graphTransformer() {
+      const coords=Object.values(editor.draftGraph.nodes).map(node=>node.coordinates);
+      const lon0=coords.reduce((sum,p)=>sum+p[0],0)/coords.length*Math.PI/180;
+      const lat0=coords.reduce((sum,p)=>sum+p[1],0)/coords.length*Math.PI/180;
+      const sin0=Math.sin(lat0),cos0=Math.cos(lat0),radius=6371000;
+      return {forward(point) {
+        const lon=point[0]*Math.PI/180,lat=point[1]*Math.PI/180,dlon=lon-lon0;
+        const cosc=Math.max(-1,Math.min(1,sin0*Math.sin(lat)+cos0*Math.cos(lat)*Math.cos(dlon)));
+        const c=Math.acos(cosc),k=c<1e-12?1:c/Math.sin(c);
+        return [radius*k*Math.cos(lat)*Math.sin(dlon),radius*k*(cos0*Math.sin(lat)-sin0*Math.cos(lat)*Math.cos(dlon))];
+      },inverse(point) {
+        const [x,y]=point,rho=Math.hypot(x,y);if(rho<1e-12)return [lon0*180/Math.PI,lat0*180/Math.PI];
+        const c=rho/radius,lat=Math.asin(Math.cos(c)*sin0+y*Math.sin(c)*cos0/rho);
+        const lon=lon0+Math.atan2(x*Math.sin(c),rho*cos0*Math.cos(c)-y*sin0*Math.sin(c));
+        return [lon*180/Math.PI,lat*180/Math.PI];
+      }};
+    }
+    function lineLengthMeters(coordinates) {
+      const transform=graphTransformer(),xy=coordinates.map(point=>transform.forward(point));
+      return xy.slice(1).reduce((sum,point,index)=>sum+Math.hypot(point[0]-xy[index][0],point[1]-xy[index][1]),0);
+    }
+    function incidentEdges(nodeId) { return editor.draftGraph.edges.filter(edge=>edge.from===nodeId||edge.to===nodeId); }
+    function nodeDegree(graph,nodeId) {
+      return graph.edges.reduce((degree,edge)=>degree+(edge.from===nodeId?1:0)+(edge.to===nodeId?1:0),0);
+    }
+    function renderEditorDetails() {
+      const target=byId("editorDetails");
+      if (!editor.draftGraph) { target.textContent="Đang tải graph…";return; }
+      if (editor.selectedNode && nodeById(editor.draftGraph,editor.selectedNode)) {
+        const id=editor.selectedNode,node=nodeById(editor.draftGraph,id),incident=incidentEdges(id);
+        const old=nodeById(editor.baseGraph,id)?.coordinates;
+        const lastMove=editor.lastMove?.nodeId===id?`Last move: ${editor.lastMove.from[1]}, ${editor.lastMove.from[0]} → ${editor.lastMove.to[1]}, ${editor.lastMove.to[0]}`:null;
+        target.textContent=[`Node: ${id}`,`Latitude: ${node.coordinates[1]}`,`Longitude: ${node.coordinates[0]}`,
+          `Degree: ${nodeDegree(editor.draftGraph,id)}`,`Edges: ${incident.map(edge=>edge.edge_id).join(", ")||"none"}`,
+          ...(lastMove?[lastMove]:[]),
+          old&&JSON.stringify(old)!==JSON.stringify(node.coordinates)?`Old coordinate: ${old[1]}, ${old[0]}`:"Coordinate unchanged in base graph",
+          hasChanges()?"Status: edited / unsaved":"Status: saved"].join("\n");return;
+      }
+      if (editor.selectedEdge) {
+        const edge=editor.draftGraph.edges.find(item=>item.edge_id===editor.selectedEdge);
+        if (edge) { target.textContent=[`Edge: ${edge.edge_id}`,`Way: ${edge.way_id}`,`From node: ${edge.from}`,
+          `To node: ${edge.to}`,`Length: ${Number(edge.length_m).toFixed(2)} m`,`Source: ${edge.file}`,
+          hasChanges()?"Status: edited / unsaved":"Status: saved"].join("\n");return; }
+      }
+      target.textContent="Chọn node hoặc edge để xem chi tiết.";
+    }
+    function updateEditorStatus(message="") {
+      const changes=editedChanges(),count=Object.keys(changes.nodes).length+Object.keys(changes.edges).length;
+      const prefix=editor.enabled?`Edit Graph Mode · ${editor.tool||"Select"}`:"View mode";
+      byId("editorState").textContent=`${prefix} · ${count} thay đổi chưa lưu${message?` · ${message}`:""}`;
+      byId("toolUndo").disabled=!editor.history.length;
+      byId("toolSave").disabled=!count;
+      renderEditorDetails();
+    }
+    function uniqueNodeId() {
+      const ids=new Set([...Object.keys(editor.draftGraph.nodes),...Object.keys(editor.baseGraph.nodes)]);
+      let next=Math.max(0,...[...ids].map(id=>/^N\d+$/.test(id)?Number(id.slice(1)):0))+1;
+      while (ids.has(`N${String(next).padStart(3,"0")}`)) next++;
+      return `N${String(next).padStart(3,"0")}`;
+    }
+    function uniqueEdgeId() {
+      let next=1,ids=new Set([...editor.draftGraph.edges,...editor.baseGraph.edges].map(edge=>edge.edge_id));
+      while (ids.has(`edit_${String(next).padStart(3,"0")}`)) next++;
+      return `edit_${String(next).padStart(3,"0")}`;
+    }
+    function clearEditedRoute() { routeLayer.clearLayers();projectionLayer.clearLayers(); }
+    function renderRoutingGraph(graph) {
+      routingNodesLayer.clearLayers();routingEdgesLayer.clearLayers();graphNodeMarkers.clear();
+      if (!graph) return;
+      const changes=editedChanges(),editedNodes=new Set(Object.keys(changes.nodes));
+      const editedEdges=new Set(Object.keys(changes.edges));
+      for (const edge of graph.edges) {
+        const coords=edge.coordinates||[graph.nodes[edge.from]?.coordinates,graph.nodes[edge.to]?.coordinates].filter(Boolean);
+        if (coords.length<2) continue;
+        const selected=edge.edge_id===editor.selectedEdge;
+        L.polyline(coords.map(point=>[point[1],point[0]]),{
+          color:selected?"#f97316":editedEdges.has(edge.edge_id)?"#f59e0b":"#0891b2",
+          weight:selected?7:editedEdges.has(edge.edge_id)?6:4,opacity:.8
+        }).bindTooltip(`${edge.edge_id} · ${Number(edge.length_m).toFixed(2)} m`)
+          .on("click",event=>{
+            L.DomEvent.stopPropagation(event);
+            editor.selectedEdge=edge.edge_id;editor.selectedNode=null;
+            if(editor.enabled&&editor.tool==="split") splitEdgeAt(edge,event.latlng);
+            else if(editor.enabled&&editor.tool==="delete-edge") deleteEdge(edge.edge_id);
+            else {renderEditorDetails();updateEditorStatus();renderRoutingGraph(editor.draftGraph);}
+          }).bindPopup(popupLines([`Routing edge: ${edge.edge_id}`,`Way: ${edge.way_id}`,
+            `From → to: ${edge.from} → ${edge.to} (undirected)` ,`Length: ${Number(edge.length_m).toFixed(2)} m`,`Source: ${edge.file}`]))
+          .addTo(routingEdgesLayer);
+      }
+      for (const [id,node] of Object.entries(graph.nodes)) {
+        const incident=graph.edges.filter(edge=>edge.from===id||edge.to===id);
+        const classes=["graph-node-dot"];
+        if(id===editor.selectedNode)classes.push("selected");
+        if(editedNodes.has(id))classes.push("edited");
+        const marker=L.marker([node.coordinates[1],node.coordinates[0]],{
+          draggable:editor.enabled&&editor.tool==="move",bubblingMouseEvents:false,keyboard:false,
+          icon:L.divIcon({className:"graph-node-icon",html:`<div class="${classes.join(" ")}"></div>`,iconSize:[18,18],iconAnchor:[9,9]})
+        });
+        marker.on("click",event=>{
+          L.DomEvent.stopPropagation(event);editor.selectedNode=id;editor.selectedEdge=null;
+          if(editor.enabled&&editor.tool==="connect") handleConnectNode(id);
+          else if(editor.enabled&&editor.tool==="delete-node") deleteNode(id);
+          else {renderEditorDetails();updateEditorStatus();renderRoutingGraph(editor.draftGraph);}
+        });
+        if(editor.enabled&&editor.tool==="move") {
+          marker.on("dragstart",()=>{pushUndo();marker.getElement()?.firstElementChild?.classList.add("dragging");});
+          marker.on("dragend",event=>moveNode(id,event.target.getLatLng()));
         }
-        const response = await fetch(`/api/route?${params.toString()}`);
-        const result = await response.json();
-        if (!response.ok) throw new Error(result.error || `HTTP ${response.status}`);
-
-        L.geoJSON(result.route, {
-          style: feature => ["access_connector", "gps_connector"].includes(feature.properties?.kind)
-            ? { color: "#f59e0b", weight: 4, dashArray: "7 6" }
-            : { color: "#e11d48", weight: 7, opacity: 0.95 }
-        }).addTo(routeLayer);
-        const bounds = routeLayer.getBounds();
-        if (bounds.isValid()) map.fitBounds(bounds.pad(0.12));
-        const summary = result.summary.split("\n").filter(line => line.startsWith("Shortest route") || line.startsWith("Start point snaps"));
-        routeMessage.textContent = summary.join("\n") || "Đã tìm được tuyến.";
-      } catch (error) {
-        routeLayer.clearLayers();
-        routeMessage.textContent = error.message;
-      } finally {
-        gpsButton.disabled = false;
-        mapPickButton.disabled = false;
-        routeButton.disabled = false;
+        marker.bindTooltip(`${id} (${node.coordinates[1]}, ${node.coordinates[0]})`)
+          .bindPopup(popupLines([`Routing node: ${id}`,`Latitude: ${node.coordinates[1]}`,`Longitude: ${node.coordinates[0]}`,
+            `Degree: ${nodeDegree(graph,id)}`,`Edges: ${incident.map(edge=>edge.edge_id).join(", ")||"none"}`]));
+        marker.addTo(routingNodesLayer);graphNodeMarkers.set(id,marker);
       }
     }
-
-    routeButton.addEventListener("click", calculateRoute);
-    startInput.addEventListener("input", () => {
-      selectedStartCoordinate = null;
-      selectedStartLabel = "";
-      routeLayer.clearLayers();
-      if (startMarker) {
-        startMarker.remove();
-        startMarker = null;
+    function moveNode(nodeId,latlng) {
+      const node=editor.draftGraph.nodes[nodeId],coordinates=[latlng.lng,latlng.lat];
+      if(node.coordinates[0]===coordinates[0]&&node.coordinates[1]===coordinates[1])return;
+      const previous=node.coordinates.slice(),delta=[coordinates[0]-previous[0],coordinates[1]-previous[1]];
+      editor.lastMove={nodeId,from:previous,to:coordinates.slice()};editor.selectedNode=nodeId;editor.selectedEdge=null;
+      node.coordinates=coordinates;
+      for(const edge of editor.draftGraph.edges) {
+        if(edge.from===nodeId&&edge.to===nodeId) {
+          edge.coordinates=edge.coordinates.map(point=>[point[0]+delta[0],point[1]+delta[1]]);
+        } else {
+          if(edge.from===nodeId)edge.coordinates[0]=coordinates.slice();
+          if(edge.to===nodeId)edge.coordinates[edge.coordinates.length-1]=coordinates.slice();
+        }
+        if(edge.from===nodeId||edge.to===nodeId)edge.length_m=Number(lineLengthMeters(edge.coordinates).toFixed(2));
       }
+      clearEditedRoute();renderRoutingGraph(editor.draftGraph);updateEditorStatus(`Moved ${nodeId}`);
+    }
+    function addNodeAt(latlng) {
+      const id=uniqueNodeId();pushUndo();
+      editor.draftGraph.nodes[id]={coordinates:[latlng.lng,latlng.lat],endpoint_refs:[]};
+      editor.selectedNode=id;editor.selectedEdge=null;clearEditedRoute();renderRoutingGraph(editor.draftGraph);updateEditorStatus(`Added ${id}`);
+    }
+    function projectToPolyline(pointLonLat,coordinates) {
+      const transform=graphTransformer(),p=transform.forward(pointLonLat),xy=coordinates.map(c=>transform.forward(c));
+      let best=null,cumulative=0,total=xy.slice(1).reduce((sum,b,i)=>sum+Math.hypot(b[0]-xy[i][0],b[1]-xy[i][1]),0);
+      for(let i=0;i<xy.length-1;i++) {
+        const a=xy[i],b=xy[i+1],dx=b[0]-a[0],dy=b[1]-a[1],length=Math.hypot(dx,dy),den=dx*dx+dy*dy;
+        const t=den?Math.max(0,Math.min(1,((p[0]-a[0])*dx+(p[1]-a[1])*dy)/den)):0;
+        const q=[a[0]+t*dx,a[1]+t*dy],gap=Math.hypot(p[0]-q[0],p[1]-q[1]);
+        const candidate={index:i,t,point:transform.inverse(q),gap,along:cumulative+t*length,total};
+        if(!best||gap<best.gap)best=candidate;cumulative+=length;
+      }
+      return best;
+    }
+    function splitEdgeAt(edge,latlng) {
+      if(!window.confirm(`Tách edge ${edge.edge_id} tại vị trí đã chọn? Edge ID hiện tại sẽ giữ cho nửa đầu.`))return;
+      const projected=projectToPolyline([latlng.lng,latlng.lat],edge.coordinates);
+      if(!projected||projected.along<.1||projected.total-projected.along<.1) {updateEditorStatus("Điểm tách phải cách hai đầu ít nhất 0.1 m");return;}
+      const id=uniqueNodeId(),secondId=uniqueEdgeId(),before=edge.coordinates.slice(0,projected.index+1),after=edge.coordinates.slice(projected.index+1);
+      before.push(projected.point);after.unshift(projected.point);
+      pushUndo();
+      editor.draftGraph.nodes[id]={coordinates:projected.point.slice(),endpoint_refs:[]};
+      const first={...edge,to:id,coordinates:before,length_m:Number(lineLengthMeters(before).toFixed(2))};
+      const second={...edge,edge_id:secondId,from:id,coordinates:after,length_m:Number(lineLengthMeters(after).toFixed(2))};
+      const index=editor.draftGraph.edges.findIndex(item=>item.edge_id===edge.edge_id);
+      editor.draftGraph.edges.splice(index,1,first,second);
+      editor.selectedNode=id;editor.selectedEdge=null;clearEditedRoute();renderRoutingGraph(editor.draftGraph);updateEditorStatus(`Split ${edge.edge_id}`);
+    }
+    function handleConnectNode(nodeId) {
+      if(!editor.connectStart) {editor.connectStart=nodeId;editor.selectedNode=nodeId;updateEditorStatus(`Chọn node thứ hai để nối với ${nodeId}`);renderRoutingGraph(editor.draftGraph);return;}
+      const from=editor.connectStart;editor.connectStart=null;
+      if(from===nodeId) {updateEditorStatus("Chọn hai node khác nhau");return;}
+      const exists=editor.draftGraph.edges.some(edge=>(edge.from===from&&edge.to===nodeId)||(edge.from===nodeId&&edge.to===from));
+      if(exists) {updateEditorStatus("Hai node đã có edge kết nối");return;}
+      if(!window.confirm(`Tạo edge thẳng ${from} ↔ ${nodeId}? Chỉ xác nhận nếu lối đi bộ này đã được kiểm chứng.`))return;
+      pushUndo();const a=editor.draftGraph.nodes[from].coordinates,b=editor.draftGraph.nodes[nodeId].coordinates;
+      const edgeId=uniqueEdgeId();editor.draftGraph.edges.push({edge_id:edgeId,way_id:"manual_edit",file:"manual_edit",
+        from,to:nodeId,length_m:Number(lineLengthMeters([a,b]).toFixed(2)),coordinates:[a.slice(),b.slice()]});
+      editor.selectedNode=nodeId;editor.selectedEdge=edgeId;clearEditedRoute();renderRoutingGraph(editor.draftGraph);updateEditorStatus(`Connected ${edgeId}`);
+    }
+    function deleteEdge(edgeId) {
+      if(!window.confirm(`Xóa edge ${edgeId}?`))return;
+      pushUndo();editor.draftGraph.edges=editor.draftGraph.edges.filter(edge=>edge.edge_id!==edgeId);
+      editor.selectedEdge=null;clearEditedRoute();renderRoutingGraph(editor.draftGraph);updateEditorStatus(`Deleted ${edgeId}`);
+    }
+    function deleteNode(nodeId) {
+      const incident=incidentEdges(nodeId);
+      if(incident.length) {updateEditorStatus(`${nodeId} còn ${incident.length} edge; xóa edge trước`);return;}
+      if(!window.confirm(`Xóa node cô lập ${nodeId}?`))return;
+      pushUndo();delete editor.draftGraph.nodes[nodeId];editor.selectedNode=null;
+      clearEditedRoute();renderRoutingGraph(editor.draftGraph);updateEditorStatus(`Deleted ${nodeId}`);
+    }
+    function setEditorTool(tool) {
+      editor.tool=editor.tool===tool?null:tool;editor.connectStart=null;
+      for(const button of document.querySelectorAll(".editor-grid button"))button.classList.remove("active");
+      const buttonId=editor.tool==="split"?"toolSplitEdge":editor.tool?`tool${editor.tool[0].toUpperCase()}${editor.tool.slice(1)}`:null;
+      if(buttonId)byId(buttonId)?.classList.add("active");
+      renderRoutingGraph(editor.draftGraph);updateEditorStatus();
+      const tips={move:"Kéo marker node để di chuyển",addNode:"Nhấn bản đồ để thêm node",split:"Nhấn vào edge tại vị trí tách",
+        connect:"Chọn hai node; sẽ hỏi xác nhận trước khi tạo edge",deleteNode:"Chọn node cô lập để xóa",deleteEdge:"Chọn edge để xóa"};
+      if(editor.tool)byId("editorState").textContent=`Edit Graph Mode · ${editor.tool} · ${tips[editor.tool]}`;
+    }
+    function resetEditorDraft(ask=true) {
+      if(ask&&hasChanges()&&!window.confirm("Hủy toàn bộ thay đổi chưa lưu?"))return;
+      editor.draftGraph=cloneGraph(editor.baseGraph);editor.history=[];editor.selectedNode=null;editor.selectedEdge=null;editor.connectStart=null;
+      clearEditedRoute();renderRoutingGraph(editor.draftGraph);updateEditorStatus("Draft reset");
+    }
+    function undoEditor() {
+      if(!editor.history.length)return;
+      editor.draftGraph=editor.history.pop();editor.selectedNode=null;editor.selectedEdge=null;editor.connectStart=null;
+      clearEditedRoute();renderRoutingGraph(editor.draftGraph);updateEditorStatus("Undo");
+    }
+    async function saveEditorChanges() {
+      const changes=editedChanges();if(!hasChanges())return;
+      if(!window.confirm(`Lưu ${Object.keys(changes.nodes).length} node và ${Object.keys(changes.edges).length} edge đã chỉnh sửa? Backend sẽ tạo backup trước khi ghi.`))return;
+      try {
+        const response=await fetch("/api/graph/edits",{method:"POST",headers:{"Content-Type":"application/json"},
+          body:JSON.stringify({base_revision:editor.baseRevision,changes,actor:byId("editorActor").value})});
+        const data=await response.json();if(!response.ok)throw new Error(data.error||"Không lưu được graph.");
+        editor.baseGraph=cloneGraph(data.graph);editor.draftGraph=cloneGraph(data.graph);editor.baseRevision=data.revision;
+        editor.history=[];editor.selectedNode=null;editor.selectedEdge=null;
+        renderRoutingGraph(editor.draftGraph);updateEditorStatus(`Saved · backup ${data.backup}`);
+      } catch(error) { updateEditorStatus(error.message); }
+    }
+    byId("toggleGraphEdit").addEventListener("click",()=>{
+      if(!editor.enabled&& !editor.draftGraph) {updateEditorStatus("Graph chưa tải xong");return;}
+      if(editor.enabled&&hasChanges()&&!window.confirm("Thoát Edit Graph Mode và hủy các thay đổi chưa lưu?"))return;
+      if(editor.enabled&&hasChanges())resetEditorDraft(false);
+      editor.enabled=!editor.enabled;editor.tool=null;editor.connectStart=null;
+      byId("editorTools").hidden=!editor.enabled;
+      byId("toggleGraphEdit").textContent=editor.enabled?"Tắt Edit Graph Mode":"Bật Edit Graph Mode";
+      if(editor.enabled) { if(!map.hasLayer(routingNodesLayer))routingNodesLayer.addTo(map); if(!map.hasLayer(routingEdgesLayer))routingEdgesLayer.addTo(map); }
+      renderRoutingGraph(editor.draftGraph);updateEditorStatus();
     });
-    destinationInput.addEventListener("input", () => routeLayer.clearLayers());
-
-    gpsButton.addEventListener("click", () => {
-      choosingStartOnMap = false;
-      mapPickButton.textContent = "Chọn điểm xuất phát trên bản đồ";
-      routeLayer.clearLayers();
-      if (!navigator.geolocation) {
-        routeMessage.textContent = "Trình duyệt này không hỗ trợ lấy vị trí GPS. Hãy chọn điểm trên bản đồ.";
+    for(const [id,tool] of [["toolMove","move"],["toolAddNode","addNode"],["toolSplitEdge","split"],
+      ["toolConnect","connect"],["toolDeleteNode","deleteNode"],["toolDeleteEdge","deleteEdge"]])
+      byId(id).addEventListener("click",()=>setEditorTool(tool));
+    byId("toolUndo").addEventListener("click",undoEditor);
+    byId("toolReset").addEventListener("click",resetEditorDraft);
+    byId("toolSave").addEventListener("click",saveEditorChanges);
+    async function loadPlaces() {
+      const response = await fetch("/api/places"); const data = await response.json();
+      if (!response.ok) throw new Error(data.error || "Không tải được danh sách địa điểm.");
+      for (const id of ["startPlace", "placeDestination", "gpsDestination"]) fillSelect(byId(id), data.places || []);
+    }
+    function clearRouteLayers() { routeLayer.clearLayers(); projectionLayer.clearLayers(); }
+    function drawRoute(data, isGps) {
+      clearRouteLayers();
+      const route = data.route;
+      L.polyline(route.coordinates.map(c => [c[1], c[0]]), {color:"#e11d48",weight:7,opacity:.95}).addTo(routeLayer);
+      const end = route.coordinates[route.coordinates.length - 1];
+      L.circleMarker([end[1],end[0]], {radius:8,color:"#7f1d1d",fillColor:"#fb7185",fillOpacity:1}).bindTooltip(`Cổng đích: ${data.destination.access_point_id}`).addTo(routeLayer);
+      if (isGps) {
+        const gps = [data.gps.latitude,data.gps.longitude], snapped = [data.projection.latitude,data.projection.longitude];
+        L.circleMarker(snapped,{radius:7,color:"#854d0e",fillColor:"#facc15",fillOpacity:1}).bindTooltip(`Virtual node; cách lối đi ${data.projection.distance_meters} m`).addTo(projectionLayer);
+        L.polyline([gps,snapped],{color:"#f59e0b",weight:3,dashArray:"5 7"}).bindTooltip(`Đoạn chiếu vuông góc: ${data.projection.distance_meters} m`).addTo(projectionLayer);
+      }
+      byId("status").textContent = `Tuyến ${data.route.distance_meters} m; cổng ${data.destination.access_point_id}`;
+      map.fitBounds(L.latLngBounds(route.coordinates.map(c=>[c[1],c[0]])).pad(.15));
+    }
+    byId("mode").addEventListener("change", () => {
+      routeRequestVersion += 1; dualRequestVersion += 1; clearDualResults(); clearRouteLayers();
+      const gpsMode = byId("mode").value === "gps";
+      mapPicking = false;
+      byId("pickGps").classList.remove("active");
+      byId("gpsControls").hidden = !gpsMode; byId("placeControls").hidden = gpsMode;
+      byId("status").textContent=gpsMode?"GPS mode: lấy vị trí hoặc chọn trên bản đồ.":"Chọn điểm xuất phát và điểm đến.";
+    });
+    map.on("mousemove", event => {
+      byId("cursorCoordinates").textContent = `Con trỏ: lat ${formatCoordinate(event.latlng.lat)}, lon ${formatCoordinate(event.latlng.lng)}`;
+    });
+    byId("pickGps").addEventListener("click", () => {
+      if (byId("mode").value !== "gps") return;
+      gpsRequestVersion += 1;
+      dualRequestVersion += 1; clearDualResults(); clearRouteLayers();
+      currentGps=null; gpsLayer.clearLayers(); byId("gpsRoute").disabled=true;
+      mapPicking = true;
+      byId("pickGps").classList.add("active");
+      byId("gpsInfo").textContent = "Đang chọn GPS mô phỏng: nhấn một vị trí trên bản đồ.";
+      map.getContainer().style.cursor = "crosshair";
+    });
+    map.on("click", event => {
+      if (editor.enabled) {
+        if (editor.tool === "addNode") addNodeAt(event.latlng);
         return;
       }
-      routeMessage.textContent = "Đang xin quyền lấy vị trí hiện tại…";
-      navigator.geolocation.getCurrentPosition(
-        position => {
-          const latlng = L.latLng(position.coords.latitude, position.coords.longitude);
-          selectedStartCoordinate = latlng;
-          selectedStartLabel = "GPS hiện tại";
-          startInput.value = `GPS ${latlng.lat.toFixed(6)}, ${latlng.lng.toFixed(6)}`;
-          setStartMarker(latlng, `Vị trí GPS (sai số khoảng ${Math.round(position.coords.accuracy)} m)`);
-          routeMessage.textContent = "Đã điền điểm xuất phát GPS. Chọn điểm đến rồi bấm “Tìm đường”.";
-        },
-        error => {
-          const messages = {
-            1: "Chưa được cấp quyền vị trí. Cho phép location trong trình duyệt hoặc chọn điểm trên bản đồ.",
-            2: "Không xác định được vị trí hiện tại. Thử lại hoặc chọn điểm trên bản đồ.",
-            3: "Lấy vị trí quá lâu. Thử lại hoặc chọn điểm trên bản đồ."
-          };
-          routeMessage.textContent = messages[error.code] || "Không lấy được GPS. Hãy chọn điểm trên bản đồ.";
-        },
-        { enableHighAccuracy: true, timeout: 12000, maximumAge: 0 }
-      );
+      if (!mapPicking || byId("mode").value !== "gps") return;
+      mapPicking = false;
+      byId("pickGps").classList.remove("active");
+      map.getContainer().style.cursor = "";
+      setGpsSelection(event.latlng.lat,event.latlng.lng,null,"map");
     });
-
-    mapPickButton.addEventListener("click", () => {
-      choosingStartOnMap = !choosingStartOnMap;
-      mapPickButton.textContent = choosingStartOnMap
-        ? "Đang chờ chọn điểm… (bấm để hủy)"
-        : "Chọn điểm xuất phát trên bản đồ";
-      routeMessage.textContent = choosingStartOnMap
-        ? "Bấm vào một vị trí trên bản đồ để đặt điểm xuất phát."
-        : "Đã hủy chọn điểm trên bản đồ.";
+    byId("clearGps").addEventListener("click", () => {
+      gpsRequestVersion += 1;
+      mapPicking = false;
+      byId("pickGps").classList.remove("active");
+      map.getContainer().style.cursor = "";
+      currentGps = null;
+      gpsLayer.clearLayers(); projectionLayer.clearLayers(); routeLayer.clearLayers();
+      dualRequestVersion += 1; clearDualResults();
+      byId("gpsInfo").textContent = "Chưa chọn vị trí.";
+      byId("gpsRoute").disabled = true;
+      byId("dualEvaluation").hidden = true;
+      byId("clearGps").disabled = true;
     });
-
-    map.on("click", event => {
-      if (!choosingStartOnMap) return;
-      choosingStartOnMap = false;
-      mapPickButton.textContent = "Chọn điểm xuất phát trên bản đồ";
-      selectedStartCoordinate = event.latlng;
-      selectedStartLabel = "điểm đã chọn trên bản đồ";
-      startInput.value = `Map ${event.latlng.lat.toFixed(6)}, ${event.latlng.lng.toFixed(6)}`;
-      routeLayer.clearLayers();
-      setStartMarker(event.latlng, "Điểm xuất phát đã chọn trên bản đồ");
-      routeMessage.textContent = "Đã điền điểm xuất phát trên bản đồ. Chọn điểm đến rồi bấm “Tìm đường”.";
+    byId("locate").addEventListener("click", () => {
+      if (!navigator.geolocation) { byId("gpsInfo").textContent = "Trình duyệt không hỗ trợ định vị GPS."; return; }
+      dualRequestVersion += 1; clearDualResults(); clearRouteLayers();
+      currentGps=null; gpsLayer.clearLayers(); byId("gpsRoute").disabled=true;
+      mapPicking = false;
+      byId("pickGps").classList.remove("active");
+      map.getContainer().style.cursor = "";
+      const requestVersion = ++gpsRequestVersion;
+      byId("gpsInfo").textContent = "Đang lấy vị trí…";
+      navigator.geolocation.getCurrentPosition(position => {
+        if (requestVersion !== gpsRequestVersion) return;
+        setGpsSelection(position.coords.latitude,position.coords.longitude,position.coords.accuracy,"browser");
+        map.setView([currentGps.latitude,currentGps.longitude],18);
+      }, error => {
+        if (requestVersion !== gpsRequestVersion) return;
+        const reasons = {1:"Bạn chưa cấp quyền vị trí.",2:"Không xác định được vị trí.",3:"Đã hết thời gian chờ GPS."};
+        byId("gpsInfo").textContent = `${reasons[error.code] || "Không lấy được GPS."} Hãy thử lại.`;
+      }, {enableHighAccuracy:true,timeout:15000,maximumAge:0});
     });
-
+    async function submitRoute(url,payload,isGps) {
+      if(editor.enabled&&hasChanges()&&!window.confirm("Các thay đổi graph chưa lưu. Tìm đường sẽ dùng graph đã lưu trên backend. Tiếp tục?"))return;
+      const requestVersion=++routeRequestVersion;
+      clearRouteLayers();
+      clearDualResults();
+      byId("status").textContent="Đang tìm đường…";
+      try { const response=await fetch(url,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(payload)});
+        const contentType=response.headers.get("content-type")||"";
+        if(!contentType.includes("application/json"))throw new Error("Server đang chạy phiên bản cũ chưa có API định tuyến. Hãy khởi động lại `python data/plot_map.py` rồi tải lại trang.");
+        const data=await response.json(); if(requestVersion!==routeRequestVersion)return; if(!response.ok) throw new Error(data.error || "Không tìm được đường."); drawRoute(data,isGps);
+      } catch(error) { if(requestVersion===routeRequestVersion)byId("status").textContent=error.message; }
+    }
+    for(const id of ["startPlace","placeDestination"]) byId(id).addEventListener("change",()=>{
+      routeRequestVersion+=1;clearRouteLayers();clearDualResults();byId("status").textContent="Điểm đã đổi; hãy tìm đường lại.";
+    });
+    byId("placeRoute").addEventListener("click",()=>submitRoute("/api/route/between-places",{start_place_id:byId("startPlace").value,destination_place_id:byId("placeDestination").value},false));
+    byId("gpsDestination").addEventListener("change",()=>{routeRequestVersion+=1;dualRequestVersion+=1;clearDualResults();clearRouteLayers();byId("status").textContent="Đích đã đổi; hãy tìm đường lại.";});
+    function renderDualEvaluation(data) {
+      Object.values(dualLayers).forEach(layer=>layer.clearLayers());
+      const colors={nearest_edge:"#eab308",nearest_node:"#1d4ed8"};
+      for(const [method,item] of Object.entries(data.candidates||{})) {
+        if(item.status!=="SUCCESS"||!Array.isArray(item.coordinates)||!item.coordinates.length) continue;
+        const target=dualLayers[method==="nearest_edge"?"Dual GPS · Nearest Edge route":"Dual GPS · Nearest Node route"];
+        const invalid=item.validation==="INVALID";
+        // Keep the candidate route visible as a wider underlay when the selected
+        // route follows the exact same coordinates. Selected is drawn afterward.
+        const candidateDash=invalid?"4 6":method==="nearest_node"?"8 5":null;
+        L.polyline(item.coordinates.map(c=>[c[1],c[0]]),{color:colors[method],weight:invalid?7:method==="nearest_edge"?10:8,opacity:invalid?.72:.98,dashArray:candidateDash,lineCap:"butt",lineJoin:"round"})
+          .bindTooltip(`${method}: ${item.total_distance_meters} m · ${invalid?`INVALID — ${item.validation_reason||"không hợp lệ"}`:item.validation}`)
+          .bindPopup(popupLines([`Method: ${method}`,`Status: ${invalid?"INVALID CANDIDATE — not selected":item.status}`,`Total: ${item.total_distance_meters} m`, `Graph + access: ${item.route_distance_meters} m`, `GPS connector: ${item.connector_distance_meters} m`, `Validation: ${item.validation}`,`Reason: ${item.validation_reason||item.error||"—"}`,`Destination access: ${item.destination_access_point_id}`,`Nodes: ${(item.node_ids||[]).join(" → ")}`,`Edges: ${(item.edge_ids||[]).join(", ")}`])).addTo(target);
+        if(method==="nearest_edge") {
+          const p=item.projection_coordinates;
+          L.circleMarker([p[1],p[0]],{radius:7,color:"#a16207",fillColor:"#facc15",fillOpacity:1}).bindTooltip("Nearest Edge virtual node")
+            .bindPopup(popupLines(["Virtual Node · Nearest Edge",`Edge: ${item.edge_id}`,`t: ${item.t}`,`Projection: ${p[1]}, ${p[0]}`,`Snap distance: ${item.connector_distance_meters} m`])).addTo(dualLayers["Dual GPS · Connectors"]);
+          L.polyline([[data.gps.latitude,data.gps.longitude],[p[1],p[0]]],{color:invalid?"#dc2626":"#f59e0b",weight:3,dashArray:"5 7"}).bindTooltip(`Nearest Edge GPS projection · ${item.connector_distance_meters} m · ${invalid?"INVALID":"valid"}`)
+            .bindPopup(popupLines(["GPS → nearest-edge projection",`Edge: ${item.edge_id}`,`Distance: ${item.connector_distance_meters} m`,`Status: ${item.validation}`,`Reason: ${item.validation_reason||item.error||"—"}`])).addTo(dualLayers["Dual GPS · Connectors"]);
+        } else {
+          const p=item.graph_node_coordinates;
+          const virtual=item.gps_virtual_node.coordinates;
+          L.circleMarker([virtual[1],virtual[0]],{radius:13,color:"#1d4ed8",weight:3,fillColor:"#60a5fa",fillOpacity:0.2,dashArray:"3 3"})
+            .bindTooltip("Nearest Node GPS Virtual Node")
+            .bindPopup(popupLines(["GPS Virtual Node · Nearest Node",`ID: ${item.gps_virtual_node.id}`,`Coordinates: ${virtual[1]}, ${virtual[0]}`,"Coincides with the selected GPS location."])).addTo(dualLayers["Dual GPS · Connectors"]);
+          L.circleMarker([p[1],p[0]],{radius:7,color:"#334155",fillColor:"#cbd5e1",fillOpacity:1}).bindTooltip(`Connected graph node ${item.graph_node_id}`)
+            .bindPopup(popupLines(["Nearest connected graph node",`Node: ${item.graph_node_id}`,`Coordinates: ${p[1]}, ${p[0]}`,`Connector: ${item.connector_distance_meters} m`,`Validation: ${item.validation}`])).addTo(dualLayers["Dual GPS · Connectors"]);
+          L.polyline([[data.gps.latitude,data.gps.longitude],[p[1],p[0]]],{color:"#7dd3fc",weight:3,dashArray:"5 7"}).bindTooltip(`Nearest Node GPS connector · ${item.connector_distance_meters} m · ${item.validation}`)
+            .bindPopup(popupLines(["GPS → nearest graph node",`Node: ${item.graph_node_id}`,`Distance: ${item.connector_distance_meters} m`,`Status: ${item.validation}`,item.validation_reason||""])).addTo(dualLayers["Dual GPS · Connectors"]);
+        }
+      }
+      const selected=data.evaluation.selected_method;
+      if(selected&&data.selected_route) {
+        const target=dualLayers["Dual GPS · Selected route"];
+        // A narrower dashed red line leaves the yellow candidate visible at
+        // both sides and through the dash gaps, even for identical route geometry.
+        L.polyline(data.selected_route.coordinates.map(c=>[c[1],c[0]]),{color:"#991b1b",weight:4,opacity:1,dashArray:"7 8",lineCap:"butt",lineJoin:"round"})
+          .bindTooltip(`Selected ${selected}: ${data.selected_route.distance_meters} m`)
+          .bindPopup(popupLines([`Selected method: ${selected}`,`Total distance: ${data.selected_route.distance_meters} m`,`Destination access: ${data.selected_route.destination_access_point_id}`,`Validation: ${data.candidates[selected].validation}`,data.evaluation.warning||""])).addTo(target);
+        map.fitBounds(L.latLngBounds(data.selected_route.coordinates.map(c=>[c[1],c[0]])).pad(.15));
+      }
+      const rows=["nearest_edge","nearest_node"].map(key=>{const c=data.candidates[key]||{};const pass=c.status==="SUCCESS"&&c.validation!=="INVALID";const detail=c.error||(c.validation==="INVALID"?c.validation_reason:"");return `<tr><td>${key}</td><td>${pass?"PASS":"FAILED"}${detail?` · ${detail}`:""}</td><td>${c.connector_distance_meters??"—"}</td><td>${c.route_distance_meters??"—"}</td><td>${c.total_distance_meters??"—"}</td><td>${c.validation||"—"}</td><td>${c.computation_time_ms??"—"}</td></tr>`}).join("");
+      byId("dualEvaluation").innerHTML=`<div class="evaluation-toolbar"><b>${data.evaluation.status} · selected: ${data.evaluation.selected_method||"none"}</b><button id="toggleEvaluationWidth" type="button" aria-expanded="false">Mở rộng bảng</button></div><div class="evaluation-summary">${data.evaluation.selection_reason}${data.evaluation.warning?`<br><b>${data.evaluation.warning}</b>`:""}</div><details id="evaluationDetails" open><summary>Bảng so sánh hai phương pháp</summary><div class="table-scroll"><table><thead><tr><th>Method</th><th>Status</th><th>Connector m</th><th>Graph + access m</th><th>Total m</th><th>Obstacle status</th><th>Time ms</th></tr></thead><tbody>${rows}</tbody></table></div></details>`;
+      byId("toggleEvaluationWidth").addEventListener("click",event=>{
+        const expanded=byId("routePanel").classList.toggle("expanded");
+        event.currentTarget.setAttribute("aria-expanded",String(expanded));
+        event.currentTarget.textContent=expanded?"Thu nhỏ bảng":"Mở rộng bảng";
+      });
+      byId("dualEvaluation").hidden=false;
+      byId("status").textContent=`Dual GPS: ${data.evaluation.status}; selected ${selected||"none"}${data.evaluation.warning?" · UNVERIFIED": ""}`;
+    }
+    byId("gpsRoute").addEventListener("click",async()=>{
+      if(!currentGps)return;
+      const requestVersion=++dualRequestVersion;
+      clearDualResults(); clearRouteLayers();
+      byId("status").textContent="Đang so sánh Nearest Edge và Nearest Node…";
+      try {const response=await fetch("/api/route/evaluate-gps",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({...currentGps,destination_place_id:byId("gpsDestination").value})});
+        const contentType=response.headers.get("content-type")||"";
+        if(!contentType.includes("application/json"))throw new Error("Server đang chạy phiên bản cũ chưa có API định tuyến GPS. Hãy khởi động lại `python data/plot_map.py` rồi tải lại trang.");
+        const data=await response.json();if(requestVersion!==dualRequestVersion)return;if(!response.ok)throw new Error(data.error||"Không thể so sánh tuyến GPS.");renderDualEvaluation(data);
+      } catch(error){if(requestVersion===dualRequestVersion)byId("status").textContent=error.message;}
+    });
     async function loadGeoJson(folder, filename, targetLayer, style) {
       const url = `${folder}/${encodeURIComponent(filename)}`;
       const response = await fetch(url);
@@ -215,12 +616,7 @@
       const response = await fetch("/api/files");
       if (!response.ok) throw new Error(`Không lấy được danh sách file: HTTP ${response.status}`);
       const files = await response.json();
-      for (const filename of files.nodes || []) {
-        const placeId = filename.replace(/\.geojson$/i, "");
-        const option = document.createElement("option");
-        option.value = placeId;
-        document.getElementById("place-options").appendChild(option);
-      }
+      await loadPlaces();
 
       for (const filename of files.ways || []) {
         try {
@@ -238,21 +634,59 @@
         } catch (error) { errors.push(error.message); }
       }
 
-      // Optional diagnostic layer generated by scripts/build_routing_graph.py.
+      // Load an editable revision from the backend; route APIs remain unchanged.
       try {
-        const graphResponse = await fetch("routing/graph.json");
-        if (graphResponse.ok) {
-          const graph = await graphResponse.json();
-          for (const [nodeId, node] of Object.entries(graph.nodes || {})) {
-            const marker = L.circleMarker(
-              [node.coordinates[1], node.coordinates[0]],
-              { radius: 5, color: "#5b21b6", weight: 2, fillColor: "#a78bfa", fillOpacity: 0.9 }
-            ).bindTooltip(`${nodeId} (${(node.endpoint_refs || []).join(", ")})`);
-            marker.addTo(routingNodesLayer);
-          }
+        const graphResponse=await fetch("/api/graph");
+        if(!graphResponse.ok)throw new Error(`Graph API HTTP ${graphResponse.status}`);
+        const snapshot=await graphResponse.json();
+        editor.baseGraph=cloneGraph(snapshot.graph);editor.draftGraph=cloneGraph(snapshot.graph);editor.baseRevision=snapshot.revision;
+        renderRoutingGraph(editor.draftGraph);updateEditorStatus("Graph loaded");
+      } catch (error) {
+        console.error("Graph could not be loaded:",error);updateEditorStatus(error.message);
+      }
+
+      try {
+        const accessResponse = await fetch("/api/audit/access-points");
+        if (!accessResponse.ok) throw new Error(`Access audit HTTP ${accessResponse.status}`);
+        const accessData = await accessResponse.json();
+        for (const access of accessData.access_points || []) {
+          const point = access.access_coordinate, node = access.node_coordinate;
+          const confirmed = access.confirmed_access?.toLowerCase() === "yes";
+          L.polyline([[point[1],point[0]],[node[1],node[0]]], {
+            color: confirmed ? "#d946ef" : "#64748b", weight: 2,
+            dashArray: confirmed ? "6 4" : "2 5", opacity: .8
+          }).addTo(accessAuditLayer);
+          L.circleMarker([point[1],point[0]], {
+            radius: confirmed ? 7 : 5,
+            color: confirmed ? "#a21caf" : "#475569",
+            fillColor: confirmed ? "#f0abfc" : "#cbd5e1", fillOpacity: .95, weight: 2
+          }).bindTooltip(`${access.access_id} → ${access.node_id} · ${access.confirmed_access}`)
+            .bindPopup(popupLines([
+              `Access: ${access.access_id}`,
+              `Status: ${access.confirmed_access}`,
+              `Access coordinate: ${point[1]}, ${point[0]}`,
+              `Connected graph node: ${access.node_id} (${node[1]}, ${node[0]})`,
+              `Connector: ${access.connector_distance_m} m`,
+              `Incident edges: ${access.edge_ids.join(", ") || "none (isolated node)"}`,
+              `Notes: ${access.notes}`
+            ])).addTo(accessAuditLayer);
         }
       } catch (error) {
-        console.info("Graph preview not generated yet; run build_routing_graph.py.");
+        console.warn("Không tải được access audit layer:", error);
+      }
+
+      try {
+        const routeResponse = await fetch("routing/route_result.geojson");
+        if (routeResponse.ok) {
+          const routeData = await routeResponse.json();
+          L.geoJSON(routeData, {
+            style: feature => feature.properties?.kind === "access_connector"
+              ? { color: "#f59e0b", weight: 4, dashArray: "7 6" }
+              : { color: "#e11d48", weight: 7, opacity: 0.95 }
+          }).addTo(routeLayer);
+        }
+      } catch (error) {
+        console.info("No Dijkstra route preview yet; run route_between_places.py.");
       }
 
       try {
@@ -260,13 +694,22 @@
         if (junctionResponse.ok) {
           const junctionData = await junctionResponse.json();
           L.geoJSON(junctionData, {
-            pointToLayer: (feature, latlng) => L.circleMarker(latlng, {
-              radius: 6, color: "#7c2d12", weight: 2,
-              fillColor: "#fb923c", fillOpacity: 0.9
-            }),
+            pointToLayer: (feature, latlng) => {
+              const decision = feature.properties?.confirmed_connected?.toLowerCase();
+              const color = decision === "yes" ? "#c2410c" : decision === "no" ? "#475569" : "#7c2d12";
+              const fill = decision === "yes" ? "#fb923c" : decision === "no" ? "#cbd5e1" : "#facc15";
+              return L.circleMarker(latlng, {radius:6,color,weight:2,fillColor:fill,fillOpacity:.9});
+            },
             onEachFeature: (feature, layer) => {
               const p = feature.properties || {};
-              layer.bindTooltip(`${p.way_1} ↔ ${p.way_2} (${p.connection_type}, ${p.gap_m} m)`);
+              layer.bindTooltip(`${p.way_1} ↔ ${p.way_2} (${p.connection_type}, ${p.confirmed_connected})`)
+                .bindPopup(popupLines([
+                  `Way junction candidate (review only)`,
+                  `Ways: ${p.way_1} ↔ ${p.way_2}`,
+                  `Type: ${p.connection_type}; gap: ${p.gap_m} m`,
+                  `Review: ${p.confirmed_connected}`,
+                  `Coordinate: ${feature.geometry.coordinates[1]}, ${feature.geometry.coordinates[0]}`
+                ]));
             }
           }).addTo(junctionCandidatesLayer);
         }
@@ -282,7 +725,9 @@
         console.warn("Một số GeoJSON không tải được:", errors);
         status.textContent += `; lỗi ${errors.length} file (xem Console)`;
       }
-      setTimeout(() => status.remove(), 6000);
+      // Keep the status node mounted: route/editor handlers update it later.
+      // Removing it after the initial load made every later route click throw
+      // before reaching fetch(), leaving the old route preview on the map.
     }
 
     loadAll().catch(error => {

@@ -1,1 +1,1 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","properties":{},"geometry":{"type":"LineString","coordinates":[[106.682337,10.759568],[106.682397,10.759412],[106.682853,10.759586],[106.682853,10.759586]]}}]}
+{"type":"FeatureCollection","features":[{"type":"Feature","geometry":{"type":"LineString","coordinates":[[106.681926,10.760591],[106.68216,10.760043],[106.682212,10.759913],[106.682484,10.760017],[106.682611,10.760038],[106.682647,10.759986],[106.682726,10.759802],[106.682702,10.759752]]},"properties":{}}]}

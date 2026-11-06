@@ -2,7 +2,7 @@
 
 Ngày tổng hợp: 01-11-2026  
 Thư mục dự án: `CampusNav/Campus-Navigation-codex-campus-navigation`  
-Git root: `/home/qvinh/Workspace/NCKH_2027_SGU`
+Git root: `/home/qvinh/Workspace/NCKH_2027_SGU/CampusNav/Campus-Navigation-codex-campus-navigation`
 
 Tài liệu này hợp nhất các báo cáo triển khai GPS, chọn GPS bằng chuột, kiểm toán graph, graph editor, xử lý lỗi định tuyến và cập nhật hiển thị tuyến. Số liệu hiện trạng được đo lại hoặc ghi rõ là snapshot lịch sử.
 
@@ -69,11 +69,13 @@ Ngưỡng cấu hình: `MAX_GPS_ACCURACY_METERS = 50 m`, `MAX_SNAP_DISTANCE_METE
 - Marker, projection, snap connector, candidate routes và selected route có layer riêng trong Layer Control.
 - Thay đổi GPS/đích/chế độ dọn route cũ; request version ngăn response cũ ghi đè kết quả mới.
 - Đã sửa lỗi xóa `#status` sau 6 giây gây TypeError trước khi gửi request.
-- Candidate có `INVALID` validation không được vẽ; bảng nêu lý do.
+- Candidate `INVALID` vẫn được vẽ để kiểm tra trực quan bằng nét vàng đứt và tooltip/popup nêu lý do; trạng thái bảng vẫn là `FAILED` và backend không thể chọn candidate này.
 
 ### Nét tuyến trùng nhau — cập nhật hiện tại
 
-Candidate Nearest Edge vàng được vẽ trước với nét rộng 10 px. Selected route đỏ vẽ phía trên bằng nét đứt 4 px. Khi cùng hình học, hai mép vàng và khe nét đứt vẫn lộ ra để phân biệt; không dịch tọa độ tuyến, không thay đổi chiều dài hay thuật toán. Nearest Node giữ màu xanh đậm và dash riêng. Candidate `INVALID` vẫn bị ẩn.
+Candidate Nearest Edge hợp lệ được vẽ vàng rộng 10 px; nếu `INVALID`, vẽ vàng đứt 7 px, opacity 0.72 và có tooltip/popup `INVALID` cùng validation reason. Selected route đỏ vẽ phía trên bằng nét đứt 4 px. Khi cùng hình học, hai mép vàng và khe nét đỏ vẫn lộ ra để phân biệt; không dịch tọa độ tuyến, không thay đổi chiều dài hay thuật toán. Nearest Node giữ màu xanh đậm và dash riêng. Candidate invalid chỉ để debug, vẫn là `FAILED`, không được chọn và được đánh dấu rõ lý do.
+
+Bảng đánh giá có thể đóng/mở qua `<details>` và có nút mở rộng/thu nhỏ panel. Ở chế độ mở rộng, bảng dùng hết chiều rộng khả dụng và tự xuống dòng nội dung dài; ở chế độ hẹp vẫn cuộn ngang nếu cần.
 
 ## 5. API và graph editor
 
@@ -81,7 +83,17 @@ API định tuyến được giữ: `POST /api/route/from-gps`, `POST /api/route
 
 Graph editor hỗ trợ Move/Add/Split/Connect/Delete, Undo/Reset/Save trên draft. Backend kiểm tra revision, tọa độ, node/edge refs, trọng số mét, backup graph và `graph_nodes.csv` trước khi cập nhật, đồng thời ghi `graph_edit_log.jsonl`. Không tự merge node hay nối giao điểm. Access CSV/review decisions không được editor cập nhật. Báo cáo trước ghi save/backup/restore được test trên thư mục tạm; chưa xác nhận Save lên production graph.
 
-## 6. Nguyên nhân lỗi định tuyến đã xử lý
+## 6. Conflict và mất mã nguồn đã xử lý
+
+Kiểm tra Git lồng trong thư mục dự án phát hiện trạng thái quan trọng mà kiểm tra ở thư mục cha không thấy: Git root thực là repository CampusNav. Commit `eb974cc` có dấu conflict marker bị lưu trực tiếp trong `data/plot_map.py` và `data/routing/graph.json`. Rebase cũng thay `data/map.html` bản GPS dual-route/editor 710 dòng bằng UI cũ 294 dòng. Working copy server chọn phần cũ, làm mất các API `/api/places`, `/api/graph`, `/api/audit/access-points`, POST route GPS/evaluate/between-places và graph edits. Browser cũ vẫn hoạt động do server chạy từ tiến trình đã import code trước đó, nên tạo cảm giác source vẫn tốt.
+
+Đã khôi phục `data/map.html` đầy đủ từ commit feature cục bộ `afb3adc` (dual GPS, GPS chọn trên bản đồ, graph editor, layer debug) và giữ style vàng/đỏ, status node cùng kiểm tra response content-type. Đã hợp nhất `data/plot_map.py`: giữ API cũ `GET /api/files`, `GET /api/route` và thêm lại toàn bộ endpoint GPS, place routing, graph editor và access audit. Tích hợp cả thông báo cho response không phải JSON và cấu hình terminal Windows từ hai commit remote mới. `graph.json` khôi phục từ blob sạch `afb3adc`, giữ graph 67 node/90 edge và các edit đã lưu; JSON hợp lệ trở lại. Không còn conflict marker trong source/data text.
+
+Branch tracking đã được cấu hình `codex/campus-navigation → origin/codex/campus-navigation`. Remote fetch phát hiện 2 commit mới (`d3f3da2`, `7ec0f09`); local có 1 commit riêng nên lịch sử vẫn phân nhánh (`ahead 1, behind 2`). Nội dung hai thay đổi remote liên quan đã được áp dụng vào working tree, nhưng chưa tạo merge/commit và chưa push.
+
+Khi người dùng thử chạy server trên cổng 8000, PID `1246766` từ một bản sao khác ngoài thư mục Git root mục tiêu đang giữ cổng và phục vụ HTML 294 dòng. Đã dừng tiến trình đó rồi khởi động `data/plot_map.py` đã khôi phục từ Git root đúng trên cổng 8000. Sau cache-buster, Playwright nhận giao diện GPS hai chế độ/Graph Editor; `/api/places` và `/api/graph` trả HTTP 200 (17 places, 67 nodes/90 edges). Nếu tab trình duyệt vẫn giữ bản cũ, tải mạnh bằng Ctrl+Shift+R.
+
+## 7. Nguyên nhân lỗi định tuyến đã xử lý
 
 1. Polygon validator cũ coi boundary contact như interior và dùng epsilon không đúng đơn vị cho đoạn WGS84 nhỏ. Đã chia connector tại giao điểm polygon boundary rồi kiểm tra khoảng có độ dài dương trong polygon; vẫn chặn connector đi vào building.
 2. Giao diện xóa `#status` sau 6 giây. Nút tìm đường sau đó lỗi trước fetch, còn tuyến preview cũ tạo cảm giác Dijkstra không vẽ kết quả. Status element nay được giữ trong DOM.
@@ -90,7 +102,7 @@ Matrix graph thật: trước sửa có 374 `NO_VALID_ROUTE` trong 1,139 node/de
 
 Trường hợp trên ảnh `10.7600286, 106.6820140 → KTH`: API `SUCCESS`, Nearest Node được chọn nhưng `UNVERIFIED`; Nearest Edge bị `INVALID` vì connector giao polygon C. Trường hợp N027 → KTH trả `NO_VALID_ROUTE`; các route/connector cũ được dọn.
 
-## 7. Tệp chính và dữ liệu cần bảo toàn
+## 8. Tệp chính và dữ liệu cần bảo toàn
 
 | Đường dẫn | Vai trò |
 |---|---|
@@ -109,23 +121,27 @@ Trường hợp trên ảnh `10.7600286, 106.6820140 → KTH`: API `SUCCESS`, Ne
 
 Không xóa các dữ liệu, backup, log, API hay test trên.
 
-## 8. Kết quả xác minh
+## 9. Kết quả xác minh
 
 | Hạng mục | Kết quả |
 |---|---|
-| Unit tests | 26/26 PASS: 18 dual routing, 8 graph editor |
+| Kiểm tra conflict markers | PASS: không còn marker trong source/data text; graph JSON parse hợp lệ |
+| Unit tests sau khôi phục graph | 26/26 PASS: 18 dual routing, 8 graph editor (trước khôi phục, 2 test lỗi vì graph JSON chứa conflict marker) |
 | Fixture định tuyến | Có kiểm tra cạnh, giữa cạnh, junction, vật cản, ngoài graph, accuracy kém, một/hai/không phương pháp thành công, graph bất biến và Bellman–Ford reference |
-| API | Smoke tests trước đó: route evaluate, GPS legacy, between-places trả kết quả; poor accuracy trả HTTP 422 |
-| Playwright ảnh GPS | PASS: chờ >6 giây, chọn GPS mô phỏng, API và bảng evaluation chạy; hợp lệ được vẽ, invalid bị loại |
+| API thực tế trên server vừa khởi động từ source hiện tại | PASS: GET `/api/files`, `/api/places`, `/api/graph` (67/90), `/api/audit/access-points` (86 rows), legacy GET `/api/route`; POST `/api/route/from-gps`, `/api/route/evaluate-gps`, `/api/route/between-places` đều HTTP 200 |
+| Syntax/import | PASS: compile source `data/plot_map.py`, `node --check` map script |
+| Playwright GPS trên map đã khôi phục | PASS: map click → API evaluate → bảng SUCCESS/UNVERIFIED; nearest-edge INVALID vẫn hiện nét vàng đứt, popup nêu lỗi, selected layer vẫn là nearest-node |
+| Playwright building route trên map đã khôi phục | PASS: A→KTH hiển thị 105.24 m; GPS layers được dọn khi đổi mode |
+| Playwright graph editor | PASS: Edit Graph Mode mở được; không lưu sửa đổi production |
 | Lỗi route N027 | PASS: NO_VALID_ROUTE hiển thị, không giữ layer cũ |
 | Đổi đích/layer/building route | PASS: clear stale result, toggle độc lập, A→KTH hiển thị 105.24 m |
-| Console browser sau sửa status | 0 lỗi JavaScript ở lượt kiểm tra trước |
+| Console browser | Không có lỗi JavaScript ứng dụng trong tương tác; trình duyệt chỉ báo favicon 404 |
 | GPS thiết bị thật/thực địa | NOT RUN |
 | Nét vàng/đỏ trùng sau thay đổi style | PASS: Playwright kiểm tra hai path có cùng geometry; vàng stroke `#eab308` width 10, đỏ `#991b1b` width 4, dash `7 8` |
 
 Sau thay đổi style, đã chạy lại 26 unit tests (đều pass), `node --check` cho inline JavaScript và render test trong Playwright. Test render ép hai tuyến có cùng geometry để xác nhận style của cả hai path cùng tồn tại.
 
-## 9. Các báo cáo đã hợp nhất
+## 10. Các báo cáo đã hợp nhất
 
 Nội dung các báo cáo trước được hợp nhất từ:
 
@@ -137,7 +153,7 @@ Nội dung các báo cáo trước được hợp nhất từ:
 
 Năm báo cáo rời đã được hợp nhất vào tài liệu này rồi xóa sau khi kiểm tra không có tham chiếu trong mã nguồn. Tất cả file dữ liệu, test, backup, graph edit log và API/runtime vẫn được giữ nguyên.
 
-## 10. Chạy hệ thống và kiểm thử
+## 11. Chạy hệ thống và kiểm thử
 
 Từ thư mục CampusNav:
 
@@ -151,7 +167,7 @@ Mở `http://127.0.0.1:8000/map.html`. Chọn chế độ Tòa nhà → Tòa nh�
 PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s scripts -p 'test_*.py' -v
 ```
 
-## 11. Giới hạn và việc tiếp theo
+## 12. Giới hạn và việc tiếp theo
 
 - Xác minh access point, cổng, connector dài và obstacle bằng khảo sát thực địa.
 - So sánh snapshot graph hiện tại với backup; các báo cáo lịch sử có số liệu graph khác nhau.

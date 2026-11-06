@@ -6,8 +6,350 @@
       "properties": {
         "way_1": "w1",
         "file_1": "w1.geojson",
-        "way_2": "w2",
-        "file_2": "w2.geojson",
+        "way_2": "w10",
+        "file_2": "w10.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819811,
+          10.760462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w1",
+        "file_1": "w1.geojson",
+        "way_2": "w10",
+        "file_2": "w10.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.547,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819264,
+          10.7605901
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w1",
+        "file_1": "w1.geojson",
+        "way_2": "w10",
+        "file_2": "w10.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6820751,
+          10.7602418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w1",
+        "file_1": "w1.geojson",
+        "way_2": "w11",
+        "file_2": "w11.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819811,
+          10.760462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w1",
+        "file_1": "w1.geojson",
+        "way_2": "w11",
+        "file_2": "w11.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.547,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819264,
+          10.7605901
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w1",
+        "file_1": "w1.geojson",
+        "way_2": "w11",
+        "file_2": "w11.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6820751,
+          10.7602418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w1",
+        "file_1": "w1.geojson",
+        "way_2": "w12",
+        "file_2": "w12.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819811,
+          10.760462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w1",
+        "file_1": "w1.geojson",
+        "way_2": "w12",
+        "file_2": "w12.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.547,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819264,
+          10.7605901
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w1",
+        "file_1": "w1.geojson",
+        "way_2": "w12",
+        "file_2": "w12.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6820751,
+          10.7602418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w1",
+        "file_1": "w1.geojson",
+        "way_2": "w13",
+        "file_2": "w13.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819811,
+          10.760462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w1",
+        "file_1": "w1.geojson",
+        "way_2": "w13",
+        "file_2": "w13.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.547,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819264,
+          10.7605901
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w1",
+        "file_1": "w1.geojson",
+        "way_2": "w13",
+        "file_2": "w13.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6820751,
+          10.7602418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w1",
+        "file_1": "w1.geojson",
+        "way_2": "w14",
+        "file_2": "w14.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819811,
+          10.760462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w1",
+        "file_1": "w1.geojson",
+        "way_2": "w14",
+        "file_2": "w14.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.547,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819264,
+          10.7605901
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w1",
+        "file_1": "w1.geojson",
+        "way_2": "w14",
+        "file_2": "w14.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6820751,
+          10.7602418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w1",
+        "file_1": "w1.geojson",
+        "way_2": "w15",
+        "file_2": "w15.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819811,
+          10.760462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w1",
+        "file_1": "w1.geojson",
+        "way_2": "w15",
+        "file_2": "w15.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.547,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819264,
+          10.7605901
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w1",
+        "file_1": "w1.geojson",
+        "way_2": "w15",
+        "file_2": "w15.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6820751,
+          10.7602418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w1",
+        "file_1": "w1.geojson",
+        "way_2": "w16",
+        "file_2": "w16.geojson",
         "connection_type": "crossing",
         "gap_m": 0.0,
         "confirmed_connected": "REVIEW"
@@ -15,8 +357,274 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          106.682067,
-          10.760239
+          106.6819955,
+          10.7604247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w1",
+        "file_1": "w1.geojson",
+        "way_2": "w16",
+        "file_2": "w16.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.548,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819264,
+          10.7605901
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w1",
+        "file_1": "w1.geojson",
+        "way_2": "w16",
+        "file_2": "w16.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6820721,
+          10.7602408
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w1",
+        "file_1": "w1.geojson",
+        "way_2": "w16_2",
+        "file_2": "w16.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819955,
+          10.7604247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w1",
+        "file_1": "w1.geojson",
+        "way_2": "w16_2",
+        "file_2": "w16.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.548,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819264,
+          10.7605901
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w1",
+        "file_1": "w1.geojson",
+        "way_2": "w16_2",
+        "file_2": "w16.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6820721,
+          10.7602408
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w1",
+        "file_1": "w1.geojson",
+        "way_2": "w17",
+        "file_2": "w17.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819454,
+          10.7605547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w1",
+        "file_1": "w1.geojson",
+        "way_2": "w17",
+        "file_2": "w17.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.071,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819336,
+          10.7605852
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w1",
+        "file_1": "w1.geojson",
+        "way_2": "w17",
+        "file_2": "w17.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6820734,
+          10.7602412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w1",
+        "file_1": "w1.geojson",
+        "way_2": "w18",
+        "file_2": "w18.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819454,
+          10.7605547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w1",
+        "file_1": "w1.geojson",
+        "way_2": "w18",
+        "file_2": "w18.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.071,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819336,
+          10.7605852
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w1",
+        "file_1": "w1.geojson",
+        "way_2": "w18",
+        "file_2": "w18.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6820734,
+          10.7602412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w1",
+        "file_1": "w1.geojson",
+        "way_2": "w2",
+        "file_2": "w2.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819955,
+          10.7604247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w1",
+        "file_1": "w1.geojson",
+        "way_2": "w2",
+        "file_2": "w2.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.548,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819264,
+          10.7605901
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w1",
+        "file_1": "w1.geojson",
+        "way_2": "w2",
+        "file_2": "w2.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6820632,
+          10.760249
         ]
       }
     },
@@ -29,13 +637,450 @@
         "file_2": "w3.geojson",
         "connection_type": "crossing",
         "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819955,
+          10.7604247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w1",
+        "file_1": "w1.geojson",
+        "way_2": "w3",
+        "file_2": "w3.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.548,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819264,
+          10.7605901
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w1",
+        "file_1": "w1.geojson",
+        "way_2": "w3",
+        "file_2": "w3.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6820721,
+          10.7602408
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w1",
+        "file_1": "w1.geojson",
+        "way_2": "w4",
+        "file_2": "w4.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819955,
+          10.7604247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w1",
+        "file_1": "w1.geojson",
+        "way_2": "w4",
+        "file_2": "w4.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.548,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819264,
+          10.7605901
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w1",
+        "file_1": "w1.geojson",
+        "way_2": "w4",
+        "file_2": "w4.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682072,
+          10.7602407
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w1",
+        "file_1": "w1.geojson",
+        "way_2": "w5",
+        "file_2": "w5.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819955,
+          10.7604247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w1",
+        "file_1": "w1.geojson",
+        "way_2": "w5",
+        "file_2": "w5.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.548,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819264,
+          10.7605901
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w1",
+        "file_1": "w1.geojson",
+        "way_2": "w5",
+        "file_2": "w5.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682072,
+          10.7602407
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w1",
+        "file_1": "w1.geojson",
+        "way_2": "w5_2",
+        "file_2": "w5.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
         "confirmed_connected": "REVIEW"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          106.682067,
-          10.760239
+          106.6819955,
+          10.7604247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w1",
+        "file_1": "w1.geojson",
+        "way_2": "w5_2",
+        "file_2": "w5.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.548,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819264,
+          10.7605901
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w1",
+        "file_1": "w1.geojson",
+        "way_2": "w5_2",
+        "file_2": "w5.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682072,
+          10.7602407
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w1",
+        "file_1": "w1.geojson",
+        "way_2": "w6",
+        "file_2": "w6.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819955,
+          10.7604247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w1",
+        "file_1": "w1.geojson",
+        "way_2": "w6",
+        "file_2": "w6.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.548,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819264,
+          10.7605901
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w1",
+        "file_1": "w1.geojson",
+        "way_2": "w6",
+        "file_2": "w6.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6820721,
+          10.7602408
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w1",
+        "file_1": "w1.geojson",
+        "way_2": "w7",
+        "file_2": "w7.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819955,
+          10.7604247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w1",
+        "file_1": "w1.geojson",
+        "way_2": "w7",
+        "file_2": "w7.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.548,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819264,
+          10.7605901
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w1",
+        "file_1": "w1.geojson",
+        "way_2": "w7",
+        "file_2": "w7.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6820721,
+          10.7602408
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w1",
+        "file_1": "w1.geojson",
+        "way_2": "w8",
+        "file_2": "w8.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6820373,
+          10.760316
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w1",
+        "file_1": "w1.geojson",
+        "way_2": "w8",
+        "file_2": "w8.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.549,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819263,
+          10.7605902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w1",
+        "file_1": "w1.geojson",
+        "way_2": "w8",
+        "file_2": "w8.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6820683,
+          10.7602395
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w1",
+        "file_1": "w1.geojson",
+        "way_2": "w9",
+        "file_2": "w9.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819955,
+          10.7604247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w1",
+        "file_1": "w1.geojson",
+        "way_2": "w9",
+        "file_2": "w9.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.548,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819264,
+          10.7605901
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w1",
+        "file_1": "w1.geojson",
+        "way_2": "w9",
+        "file_2": "w9.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682072,
+          10.7602407
         ]
       }
     },
@@ -48,13 +1093,89 @@
         "file_2": "w11.geojson",
         "connection_type": "crossing",
         "gap_m": 0.0,
-        "confirmed_connected": "REVIEW"
+        "confirmed_connected": "yes"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          106.682853,
-          10.759586
+          106.68216,
+          10.760043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w10",
+        "file_1": "w10.geojson",
+        "way_2": "w11",
+        "file_2": "w11.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682212,
+          10.759913
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w10",
+        "file_1": "w10.geojson",
+        "way_2": "w11",
+        "file_2": "w11.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682484,
+          10.760017
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w10",
+        "file_1": "w10.geojson",
+        "way_2": "w11",
+        "file_2": "w11.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682611,
+          10.760038
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w10",
+        "file_1": "w10.geojson",
+        "way_2": "w11",
+        "file_2": "w11.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682647,
+          10.759986
         ]
       }
     },
@@ -67,13 +1188,13 @@
         "file_2": "w12.geojson",
         "connection_type": "crossing",
         "gap_m": 0.0,
-        "confirmed_connected": "REVIEW"
+        "confirmed_connected": "yes"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          106.682853,
-          10.759586
+          106.68216,
+          10.760043
         ]
       }
     },
@@ -86,13 +1207,13 @@
         "file_2": "w13.geojson",
         "connection_type": "crossing",
         "gap_m": 0.0,
-        "confirmed_connected": "REVIEW"
+        "confirmed_connected": "yes"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          106.682853,
-          10.759586
+          106.68216,
+          10.760043
         ]
       }
     },
@@ -103,15 +1224,15 @@
         "file_1": "w10.geojson",
         "way_2": "w14",
         "file_2": "w14.geojson",
-        "connection_type": "endpoint_near_interior",
-        "gap_m": 0.143,
-        "confirmed_connected": "REVIEW"
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          106.6823975,
-          10.7594122
+          106.68216,
+          10.760043
         ]
       }
     },
@@ -122,15 +1243,34 @@
         "file_1": "w10.geojson",
         "way_2": "w15",
         "file_2": "w15.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68216,
+          10.760043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w10",
+        "file_1": "w10.geojson",
+        "way_2": "w16_2",
+        "file_2": "w16.geojson",
         "connection_type": "endpoint_near_interior",
-        "gap_m": 0.143,
+        "gap_m": 0.915,
         "confirmed_connected": "REVIEW"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          106.6823975,
-          10.7594122
+          106.6821668,
+          10.760026
         ]
       }
     },
@@ -148,8 +1288,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          106.6828513,
-          10.7595853
+          106.6820298,
+          10.760348
         ]
       }
     },
@@ -161,14 +1301,14 @@
         "way_2": "w17",
         "file_2": "w17.geojson",
         "connection_type": "endpoint_near_interior",
-        "gap_m": 0.676,
+        "gap_m": 0.447,
         "confirmed_connected": "REVIEW"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          106.6823988,
-          10.7594127
+          106.6819292,
+          10.7605834
         ]
       }
     },
@@ -177,8 +1317,2041 @@
       "properties": {
         "way_1": "w10",
         "file_1": "w10.geojson",
-        "way_2": "w9",
-        "file_2": "w9.geojson",
+        "way_2": "w18",
+        "file_2": "w18.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6820298,
+          10.760348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w10",
+        "file_1": "w10.geojson",
+        "way_2": "w18",
+        "file_2": "w18.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.447,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819292,
+          10.7605834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w10",
+        "file_1": "w10.geojson",
+        "way_2": "w3",
+        "file_2": "w3.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.915,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6821668,
+          10.760026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w10",
+        "file_1": "w10.geojson",
+        "way_2": "w6",
+        "file_2": "w6.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68249,
+          10.760018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w10",
+        "file_1": "w10.geojson",
+        "way_2": "w7",
+        "file_2": "w7.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68249,
+          10.760018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w11",
+        "file_1": "w11.geojson",
+        "way_2": "w12",
+        "file_2": "w12.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68216,
+          10.760043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w11",
+        "file_1": "w11.geojson",
+        "way_2": "w13",
+        "file_2": "w13.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68216,
+          10.760043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w11",
+        "file_1": "w11.geojson",
+        "way_2": "w14",
+        "file_2": "w14.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68216,
+          10.760043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w11",
+        "file_1": "w11.geojson",
+        "way_2": "w14",
+        "file_2": "w14.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68284,
+          10.7595732
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w11",
+        "file_1": "w11.geojson",
+        "way_2": "w14",
+        "file_2": "w14.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6828465,
+          10.7595712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w11",
+        "file_1": "w11.geojson",
+        "way_2": "w15",
+        "file_2": "w15.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68216,
+          10.760043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w11",
+        "file_1": "w11.geojson",
+        "way_2": "w15",
+        "file_2": "w15.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68284,
+          10.7595732
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w11",
+        "file_1": "w11.geojson",
+        "way_2": "w15",
+        "file_2": "w15.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6828465,
+          10.7595712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w11",
+        "file_1": "w11.geojson",
+        "way_2": "w16_2",
+        "file_2": "w16.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.915,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6821668,
+          10.760026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w11",
+        "file_1": "w11.geojson",
+        "way_2": "w17",
+        "file_2": "w17.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6820298,
+          10.760348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w11",
+        "file_1": "w11.geojson",
+        "way_2": "w17",
+        "file_2": "w17.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.447,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819292,
+          10.7605834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w11",
+        "file_1": "w11.geojson",
+        "way_2": "w18",
+        "file_2": "w18.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6820298,
+          10.760348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w11",
+        "file_1": "w11.geojson",
+        "way_2": "w18",
+        "file_2": "w18.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.447,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819292,
+          10.7605834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w11",
+        "file_1": "w11.geojson",
+        "way_2": "w3",
+        "file_2": "w3.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.915,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6821668,
+          10.760026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w11",
+        "file_1": "w11.geojson",
+        "way_2": "w6",
+        "file_2": "w6.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68249,
+          10.760018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w11",
+        "file_1": "w11.geojson",
+        "way_2": "w7",
+        "file_2": "w7.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68249,
+          10.760018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w12",
+        "file_1": "w12.geojson",
+        "way_2": "w13",
+        "file_2": "w13.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68216,
+          10.760043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w12",
+        "file_1": "w12.geojson",
+        "way_2": "w14",
+        "file_2": "w14.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68216,
+          10.760043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w12",
+        "file_1": "w12.geojson",
+        "way_2": "w14",
+        "file_2": "w14.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6823999,
+          10.7594158
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w12",
+        "file_1": "w12.geojson",
+        "way_2": "w15",
+        "file_2": "w15.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68216,
+          10.760043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w12",
+        "file_1": "w12.geojson",
+        "way_2": "w15",
+        "file_2": "w15.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6823999,
+          10.7594158
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w12",
+        "file_1": "w12.geojson",
+        "way_2": "w16_2",
+        "file_2": "w16.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.884,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6821666,
+          10.7600258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w12",
+        "file_1": "w12.geojson",
+        "way_2": "w17",
+        "file_2": "w17.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6820298,
+          10.760348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w12",
+        "file_1": "w12.geojson",
+        "way_2": "w17",
+        "file_2": "w17.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.447,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819292,
+          10.7605834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w12",
+        "file_1": "w12.geojson",
+        "way_2": "w17",
+        "file_2": "w17.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6823417,
+          10.7595679
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w12",
+        "file_1": "w12.geojson",
+        "way_2": "w18",
+        "file_2": "w18.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6820298,
+          10.760348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w12",
+        "file_1": "w12.geojson",
+        "way_2": "w18",
+        "file_2": "w18.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.447,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819292,
+          10.7605834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w12",
+        "file_1": "w12.geojson",
+        "way_2": "w18",
+        "file_2": "w18.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.623,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6823417,
+          10.759568
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w12",
+        "file_1": "w12.geojson",
+        "way_2": "w18",
+        "file_2": "w18.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682211,
+          10.7599098
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w12",
+        "file_1": "w12.geojson",
+        "way_2": "w3",
+        "file_2": "w3.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.884,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6821666,
+          10.7600258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w12",
+        "file_1": "w12.geojson",
+        "way_2": "w5",
+        "file_2": "w5.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6822742,
+          10.7597445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w12",
+        "file_1": "w12.geojson",
+        "way_2": "w5_2",
+        "file_2": "w5.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6822742,
+          10.7597445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w12",
+        "file_1": "w12.geojson",
+        "way_2": "w6",
+        "file_2": "w6.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6822122,
+          10.7599065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w12",
+        "file_1": "w12.geojson",
+        "way_2": "w7",
+        "file_2": "w7.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6822122,
+          10.7599065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w12",
+        "file_1": "w12.geojson",
+        "way_2": "w8",
+        "file_2": "w8.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.138,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6823442,
+          10.7595614
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w13",
+        "file_1": "w13.geojson",
+        "way_2": "w14",
+        "file_2": "w14.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68216,
+          10.760043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w13",
+        "file_1": "w13.geojson",
+        "way_2": "w14",
+        "file_2": "w14.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682395,
+          10.759414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w13",
+        "file_1": "w13.geojson",
+        "way_2": "w15",
+        "file_2": "w15.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68216,
+          10.760043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w13",
+        "file_1": "w13.geojson",
+        "way_2": "w15",
+        "file_2": "w15.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682395,
+          10.759414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w13",
+        "file_1": "w13.geojson",
+        "way_2": "w16",
+        "file_2": "w16.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6823672,
+          10.7594883
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w13",
+        "file_1": "w13.geojson",
+        "way_2": "w16",
+        "file_2": "w16.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682014,
+          10.7592592
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w13",
+        "file_1": "w13.geojson",
+        "way_2": "w16_2",
+        "file_2": "w16.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.869,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6821665,
+          10.7600257
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w13",
+        "file_1": "w13.geojson",
+        "way_2": "w17",
+        "file_2": "w17.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6820298,
+          10.760348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w13",
+        "file_1": "w13.geojson",
+        "way_2": "w17",
+        "file_2": "w17.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.447,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819292,
+          10.7605834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w13",
+        "file_1": "w13.geojson",
+        "way_2": "w17",
+        "file_2": "w17.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 1.055,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6823379,
+          10.7595667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w13",
+        "file_1": "w13.geojson",
+        "way_2": "w17",
+        "file_2": "w17.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6823381,
+          10.7595664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w13",
+        "file_1": "w13.geojson",
+        "way_2": "w18",
+        "file_2": "w18.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6820298,
+          10.760348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w13",
+        "file_1": "w13.geojson",
+        "way_2": "w18",
+        "file_2": "w18.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.447,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819292,
+          10.7605834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w13",
+        "file_1": "w13.geojson",
+        "way_2": "w18",
+        "file_2": "w18.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 1.055,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6823379,
+          10.7595667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w13",
+        "file_1": "w13.geojson",
+        "way_2": "w18",
+        "file_2": "w18.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6822099,
+          10.7599094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w13",
+        "file_1": "w13.geojson",
+        "way_2": "w3",
+        "file_2": "w3.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.869,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6821665,
+          10.7600257
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w13",
+        "file_1": "w13.geojson",
+        "way_2": "w5",
+        "file_2": "w5.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6822718,
+          10.7597437
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w13",
+        "file_1": "w13.geojson",
+        "way_2": "w5_2",
+        "file_2": "w5.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6822718,
+          10.7597437
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w13",
+        "file_1": "w13.geojson",
+        "way_2": "w6",
+        "file_2": "w6.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6822112,
+          10.7599061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w13",
+        "file_1": "w13.geojson",
+        "way_2": "w7",
+        "file_2": "w7.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6822112,
+          10.7599061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w13",
+        "file_1": "w13.geojson",
+        "way_2": "w8",
+        "file_2": "w8.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6823052,
+          10.7596545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w13",
+        "file_1": "w13.geojson",
+        "way_2": "w8",
+        "file_2": "w8.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.299,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6823404,
+          10.7595601
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w14",
+        "file_1": "w14.geojson",
+        "way_2": "w15",
+        "file_2": "w15.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68216,
+          10.760043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w14",
+        "file_1": "w14.geojson",
+        "way_2": "w15",
+        "file_2": "w15.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682395,
+          10.759414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w14",
+        "file_1": "w14.geojson",
+        "way_2": "w15",
+        "file_2": "w15.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682845,
+          10.759575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w14",
+        "file_1": "w14.geojson",
+        "way_2": "w15",
+        "file_2": "w15.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68292,
+          10.759393
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w14",
+        "file_1": "w14.geojson",
+        "way_2": "w15",
+        "file_2": "w15.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.683401,
+          10.759568
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w14",
+        "file_1": "w14.geojson",
+        "way_2": "w16",
+        "file_2": "w16.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6823672,
+          10.7594883
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w14",
+        "file_1": "w14.geojson",
+        "way_2": "w16",
+        "file_2": "w16.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6823959,
+          10.7594143
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w14",
+        "file_1": "w14.geojson",
+        "way_2": "w16_2",
+        "file_2": "w16.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.869,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6821665,
+          10.7600257
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w14",
+        "file_1": "w14.geojson",
+        "way_2": "w17",
+        "file_2": "w17.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6820298,
+          10.760348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w14",
+        "file_1": "w14.geojson",
+        "way_2": "w17",
+        "file_2": "w17.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.447,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819292,
+          10.7605834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w14",
+        "file_1": "w14.geojson",
+        "way_2": "w17",
+        "file_2": "w17.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 1.055,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6823379,
+          10.7595667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w14",
+        "file_1": "w14.geojson",
+        "way_2": "w17",
+        "file_2": "w17.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6823381,
+          10.7595664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w14",
+        "file_1": "w14.geojson",
+        "way_2": "w18",
+        "file_2": "w18.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6820298,
+          10.760348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w14",
+        "file_1": "w14.geojson",
+        "way_2": "w18",
+        "file_2": "w18.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.447,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819292,
+          10.7605834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w14",
+        "file_1": "w14.geojson",
+        "way_2": "w18",
+        "file_2": "w18.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 1.055,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6823379,
+          10.7595667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w14",
+        "file_1": "w14.geojson",
+        "way_2": "w18",
+        "file_2": "w18.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6822099,
+          10.7599094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w14",
+        "file_1": "w14.geojson",
+        "way_2": "w3",
+        "file_2": "w3.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.869,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6821665,
+          10.7600257
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w14",
+        "file_1": "w14.geojson",
+        "way_2": "w5",
+        "file_2": "w5.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6822718,
+          10.7597437
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w14",
+        "file_1": "w14.geojson",
+        "way_2": "w5_2",
+        "file_2": "w5.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6822718,
+          10.7597437
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w14",
+        "file_1": "w14.geojson",
+        "way_2": "w6",
+        "file_2": "w6.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6822112,
+          10.7599061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w14",
+        "file_1": "w14.geojson",
+        "way_2": "w7",
+        "file_2": "w7.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6822112,
+          10.7599061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w14",
+        "file_1": "w14.geojson",
+        "way_2": "w8",
+        "file_2": "w8.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6823052,
+          10.7596545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w14",
+        "file_1": "w14.geojson",
+        "way_2": "w8",
+        "file_2": "w8.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.299,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6823404,
+          10.7595601
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w15",
+        "file_1": "w15.geojson",
+        "way_2": "w16",
+        "file_2": "w16.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6823672,
+          10.7594883
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w15",
+        "file_1": "w15.geojson",
+        "way_2": "w16",
+        "file_2": "w16.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6823959,
+          10.7594143
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w15",
+        "file_1": "w15.geojson",
+        "way_2": "w16_2",
+        "file_2": "w16.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.869,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6821665,
+          10.7600257
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w15",
+        "file_1": "w15.geojson",
+        "way_2": "w17",
+        "file_2": "w17.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6820298,
+          10.760348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w15",
+        "file_1": "w15.geojson",
+        "way_2": "w17",
+        "file_2": "w17.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.447,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819292,
+          10.7605834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w15",
+        "file_1": "w15.geojson",
+        "way_2": "w17",
+        "file_2": "w17.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 1.055,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6823379,
+          10.7595667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w15",
+        "file_1": "w15.geojson",
+        "way_2": "w17",
+        "file_2": "w17.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6823381,
+          10.7595664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w15",
+        "file_1": "w15.geojson",
+        "way_2": "w18",
+        "file_2": "w18.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6820298,
+          10.760348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w15",
+        "file_1": "w15.geojson",
+        "way_2": "w18",
+        "file_2": "w18.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.447,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819292,
+          10.7605834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w15",
+        "file_1": "w15.geojson",
+        "way_2": "w18",
+        "file_2": "w18.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 1.055,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6823379,
+          10.7595667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w15",
+        "file_1": "w15.geojson",
+        "way_2": "w18",
+        "file_2": "w18.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6822099,
+          10.7599094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w15",
+        "file_1": "w15.geojson",
+        "way_2": "w3",
+        "file_2": "w3.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.869,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6821665,
+          10.7600257
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w15",
+        "file_1": "w15.geojson",
+        "way_2": "w5",
+        "file_2": "w5.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6822718,
+          10.7597437
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w15",
+        "file_1": "w15.geojson",
+        "way_2": "w5_2",
+        "file_2": "w5.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6822718,
+          10.7597437
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w15",
+        "file_1": "w15.geojson",
+        "way_2": "w6",
+        "file_2": "w6.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6822112,
+          10.7599061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w15",
+        "file_1": "w15.geojson",
+        "way_2": "w7",
+        "file_2": "w7.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6822112,
+          10.7599061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w15",
+        "file_1": "w15.geojson",
+        "way_2": "w8",
+        "file_2": "w8.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6823052,
+          10.7596545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w15",
+        "file_1": "w15.geojson",
+        "way_2": "w8",
+        "file_2": "w8.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.299,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6823404,
+          10.7595601
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w16",
+        "file_1": "w16.geojson",
+        "way_2": "w16_2",
+        "file_2": "w16.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682068,
+          10.760251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w16",
+        "file_1": "w16.geojson",
+        "way_2": "w16_2",
+        "file_2": "w16.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.033,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6821587,
+          10.7600229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w16",
+        "file_1": "w16.geojson",
+        "way_2": "w17",
+        "file_2": "w17.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.454,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819292,
+          10.7605834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w16",
+        "file_1": "w16.geojson",
+        "way_2": "w17",
+        "file_2": "w17.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6822047,
+          10.7599074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w16",
+        "file_1": "w16.geojson",
+        "way_2": "w17",
+        "file_2": "w17.geojson",
         "connection_type": "crossing",
         "gap_m": 0.0,
         "confirmed_connected": "REVIEW"
@@ -187,558 +3360,7 @@
         "type": "Point",
         "coordinates": [
           106.6823371,
-          10.7595677
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "way_1": "w11",
-        "file_1": "w11.geojson",
-        "way_2": "w12",
-        "file_2": "w12.geojson",
-        "connection_type": "crossing",
-        "gap_m": 0.0,
-        "confirmed_connected": "REVIEW"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          106.682755,
-          10.759737
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "way_1": "w11",
-        "file_1": "w11.geojson",
-        "way_2": "w12",
-        "file_2": "w12.geojson",
-        "connection_type": "crossing",
-        "gap_m": 0.0,
-        "confirmed_connected": "REVIEW"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          106.682798,
-          10.759626
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "way_1": "w11",
-        "file_1": "w11.geojson",
-        "way_2": "w12",
-        "file_2": "w12.geojson",
-        "connection_type": "crossing",
-        "gap_m": 0.0,
-        "confirmed_connected": "REVIEW"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          106.682832,
-          10.75964
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "way_1": "w11",
-        "file_1": "w11.geojson",
-        "way_2": "w13",
-        "file_2": "w13.geojson",
-        "connection_type": "crossing",
-        "gap_m": 0.0,
-        "confirmed_connected": "REVIEW"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          106.682755,
-          10.759737
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "way_1": "w11",
-        "file_1": "w11.geojson",
-        "way_2": "w13",
-        "file_2": "w13.geojson",
-        "connection_type": "crossing",
-        "gap_m": 0.0,
-        "confirmed_connected": "REVIEW"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          106.682798,
-          10.759626
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "way_1": "w11",
-        "file_1": "w11.geojson",
-        "way_2": "w13",
-        "file_2": "w13.geojson",
-        "connection_type": "crossing",
-        "gap_m": 0.0,
-        "confirmed_connected": "REVIEW"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          106.682832,
-          10.75964
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "way_1": "w11",
-        "file_1": "w11.geojson",
-        "way_2": "w17",
-        "file_2": "w17.geojson",
-        "connection_type": "endpoint_near_interior",
-        "gap_m": 0.203,
-        "confirmed_connected": "REVIEW"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          106.6828513,
-          10.7595853
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "way_1": "w11",
-        "file_1": "w11.geojson",
-        "way_2": "w17",
-        "file_2": "w17.geojson",
-        "connection_type": "endpoint_near_interior",
-        "gap_m": 0.204,
-        "confirmed_connected": "REVIEW"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          106.6828527,
-          10.7595867
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "way_1": "w11",
-        "file_1": "w11.geojson",
-        "way_2": "w19",
-        "file_2": "w19.geojson",
-        "connection_type": "endpoint_near_interior",
-        "gap_m": 0.241,
-        "confirmed_connected": "REVIEW"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          106.6828271,
-          10.759638
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "way_1": "w11",
-        "file_1": "w11.geojson",
-        "way_2": "w19",
-        "file_2": "w19.geojson",
-        "connection_type": "crossing",
-        "gap_m": 0.0,
-        "confirmed_connected": "REVIEW"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          106.6828328,
-          10.759638
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "way_1": "w11",
-        "file_1": "w11.geojson",
-        "way_2": "w9",
-        "file_2": "w9.geojson",
-        "connection_type": "crossing",
-        "gap_m": 0.0,
-        "confirmed_connected": "REVIEW"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          106.6825742,
-          10.7596712
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "way_1": "w11",
-        "file_1": "w11.geojson",
-        "way_2": "w9",
-        "file_2": "w9.geojson",
-        "connection_type": "endpoint_near_interior",
-        "gap_m": 1.211,
-        "confirmed_connected": "REVIEW"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          106.6825751,
-          10.7596599
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "way_1": "w12",
-        "file_1": "w12.geojson",
-        "way_2": "w13",
-        "file_2": "w13.geojson",
-        "connection_type": "crossing",
-        "gap_m": 0.0,
-        "confirmed_connected": "REVIEW"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          106.682635,
-          10.7599811
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "way_1": "w12",
-        "file_1": "w12.geojson",
-        "way_2": "w13",
-        "file_2": "w13.geojson",
-        "connection_type": "crossing",
-        "gap_m": 0.0,
-        "confirmed_connected": "REVIEW"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          106.682657,
-          10.759989
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "way_1": "w12",
-        "file_1": "w12.geojson",
-        "way_2": "w13",
-        "file_2": "w13.geojson",
-        "connection_type": "crossing",
-        "gap_m": 0.0,
-        "confirmed_connected": "REVIEW"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          106.682755,
-          10.759737
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "way_1": "w12",
-        "file_1": "w12.geojson",
-        "way_2": "w13",
-        "file_2": "w13.geojson",
-        "connection_type": "crossing",
-        "gap_m": 0.0,
-        "confirmed_connected": "REVIEW"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          106.682798,
-          10.759626
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "way_1": "w12",
-        "file_1": "w12.geojson",
-        "way_2": "w13",
-        "file_2": "w13.geojson",
-        "connection_type": "crossing",
-        "gap_m": 0.0,
-        "confirmed_connected": "REVIEW"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          106.682832,
-          10.75964
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "way_1": "w12",
-        "file_1": "w12.geojson",
-        "way_2": "w17",
-        "file_2": "w17.geojson",
-        "connection_type": "endpoint_near_interior",
-        "gap_m": 0.203,
-        "confirmed_connected": "REVIEW"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          106.6828513,
-          10.7595853
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "way_1": "w12",
-        "file_1": "w12.geojson",
-        "way_2": "w17",
-        "file_2": "w17.geojson",
-        "connection_type": "endpoint_near_interior",
-        "gap_m": 0.204,
-        "confirmed_connected": "REVIEW"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          106.6828527,
-          10.7595867
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "way_1": "w12",
-        "file_1": "w12.geojson",
-        "way_2": "w19",
-        "file_2": "w19.geojson",
-        "connection_type": "endpoint_near_interior",
-        "gap_m": 0.241,
-        "confirmed_connected": "REVIEW"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          106.6828271,
-          10.759638
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "way_1": "w12",
-        "file_1": "w12.geojson",
-        "way_2": "w19",
-        "file_2": "w19.geojson",
-        "connection_type": "crossing",
-        "gap_m": 0.0,
-        "confirmed_connected": "REVIEW"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          106.6828328,
-          10.759638
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "way_1": "w12",
-        "file_1": "w12.geojson",
-        "way_2": "w9",
-        "file_2": "w9.geojson",
-        "connection_type": "endpoint_near_interior",
-        "gap_m": 1.097,
-        "confirmed_connected": "REVIEW"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          106.6825072,
-          10.7599457
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "way_1": "w13",
-        "file_1": "w13.geojson",
-        "way_2": "w17",
-        "file_2": "w17.geojson",
-        "connection_type": "endpoint_near_interior",
-        "gap_m": 0.203,
-        "confirmed_connected": "REVIEW"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          106.6828513,
-          10.7595853
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "way_1": "w13",
-        "file_1": "w13.geojson",
-        "way_2": "w17",
-        "file_2": "w17.geojson",
-        "connection_type": "endpoint_near_interior",
-        "gap_m": 0.204,
-        "confirmed_connected": "REVIEW"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          106.6828527,
-          10.7595867
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "way_1": "w13",
-        "file_1": "w13.geojson",
-        "way_2": "w19",
-        "file_2": "w19.geojson",
-        "connection_type": "endpoint_near_interior",
-        "gap_m": 0.241,
-        "confirmed_connected": "REVIEW"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          106.6828271,
-          10.759638
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "way_1": "w13",
-        "file_1": "w13.geojson",
-        "way_2": "w19",
-        "file_2": "w19.geojson",
-        "connection_type": "crossing",
-        "gap_m": 0.0,
-        "confirmed_connected": "REVIEW"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          106.6828328,
-          10.759638
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "way_1": "w13",
-        "file_1": "w13.geojson",
-        "way_2": "w9",
-        "file_2": "w9.geojson",
-        "connection_type": "crossing",
-        "gap_m": 0.0,
-        "confirmed_connected": "REVIEW"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          106.6824998,
-          10.7600018
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "way_1": "w15",
-        "file_1": "w15.geojson",
-        "way_2": "w16",
-        "file_2": "w16.geojson",
-        "connection_type": "endpoint_near_interior",
-        "gap_m": 0.505,
-        "confirmed_connected": "REVIEW"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          106.6820162,
-          10.7592389
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "way_1": "w15",
-        "file_1": "w15.geojson",
-        "way_2": "w16",
-        "file_2": "w16.geojson",
-        "connection_type": "crossing",
-        "gap_m": 0.0,
-        "confirmed_connected": "REVIEW"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          106.6820151,
-          10.7592291
+          10.759566
         ]
       }
     },
@@ -747,17 +3369,17 @@
       "properties": {
         "way_1": "w16",
         "file_1": "w16.geojson",
-        "way_2": "w17",
-        "file_2": "w17.geojson",
+        "way_2": "w18",
+        "file_2": "w18.geojson",
         "connection_type": "endpoint_near_interior",
-        "gap_m": 0.913,
+        "gap_m": 0.454,
         "confirmed_connected": "REVIEW"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          106.68248,
-          10.7592257
+          106.6819292,
+          10.7605834
         ]
       }
     },
@@ -766,8 +3388,27 @@
       "properties": {
         "way_1": "w16",
         "file_1": "w16.geojson",
-        "way_2": "w20",
-        "file_2": "w20.geojson",
+        "way_2": "w18",
+        "file_2": "w18.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 1.169,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682337,
+          10.7595663
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w16",
+        "file_1": "w16.geojson",
+        "way_2": "w2",
+        "file_2": "w2.geojson",
         "connection_type": "crossing",
         "gap_m": 0.0,
         "confirmed_connected": "REVIEW"
@@ -775,8 +3416,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          106.6824696,
-          10.7592134
+          106.682068,
+          10.760251
         ]
       }
     },
@@ -785,17 +3426,625 @@
       "properties": {
         "way_1": "w16",
         "file_1": "w16.geojson",
-        "way_2": "w20",
-        "file_2": "w20.geojson",
-        "connection_type": "endpoint_near_interior",
-        "gap_m": 1.379,
+        "way_2": "w3",
+        "file_2": "w3.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
         "confirmed_connected": "REVIEW"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          106.6824698,
-          10.7592135
+          106.682068,
+          10.760251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w16",
+        "file_1": "w16.geojson",
+        "way_2": "w3",
+        "file_2": "w3.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.033,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6821587,
+          10.7600229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w16",
+        "file_1": "w16.geojson",
+        "way_2": "w4",
+        "file_2": "w4.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682068,
+          10.760251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w16",
+        "file_1": "w16.geojson",
+        "way_2": "w5",
+        "file_2": "w5.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682068,
+          10.760251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w16",
+        "file_1": "w16.geojson",
+        "way_2": "w5",
+        "file_2": "w5.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6822686,
+          10.7597426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w16",
+        "file_1": "w16.geojson",
+        "way_2": "w5_2",
+        "file_2": "w5.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682068,
+          10.760251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w16",
+        "file_1": "w16.geojson",
+        "way_2": "w5_2",
+        "file_2": "w5.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6822686,
+          10.7597426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w16",
+        "file_1": "w16.geojson",
+        "way_2": "w6",
+        "file_2": "w6.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682068,
+          10.760251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w16",
+        "file_1": "w16.geojson",
+        "way_2": "w6",
+        "file_2": "w6.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682206,
+          10.759904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w16",
+        "file_1": "w16.geojson",
+        "way_2": "w7",
+        "file_2": "w7.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682068,
+          10.760251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w16",
+        "file_1": "w16.geojson",
+        "way_2": "w7",
+        "file_2": "w7.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682206,
+          10.759904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w16",
+        "file_1": "w16.geojson",
+        "way_2": "w8",
+        "file_2": "w8.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6822486,
+          10.7597941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w16",
+        "file_1": "w16.geojson",
+        "way_2": "w8",
+        "file_2": "w8.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.404,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6823395,
+          10.7595597
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w16",
+        "file_1": "w16.geojson",
+        "way_2": "w9",
+        "file_2": "w9.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682068,
+          10.760251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w16_2",
+        "file_1": "w16.geojson",
+        "way_2": "w17",
+        "file_2": "w17.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.35,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682162,
+          10.7600242
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w16_2",
+        "file_1": "w16.geojson",
+        "way_2": "w17",
+        "file_2": "w17.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.454,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819292,
+          10.7605834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w16_2",
+        "file_1": "w16.geojson",
+        "way_2": "w18",
+        "file_2": "w18.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.35,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682162,
+          10.7600242
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w16_2",
+        "file_1": "w16.geojson",
+        "way_2": "w18",
+        "file_2": "w18.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.454,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819292,
+          10.7605834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w16_2",
+        "file_1": "w16.geojson",
+        "way_2": "w2",
+        "file_2": "w2.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682068,
+          10.760251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w16_2",
+        "file_1": "w16.geojson",
+        "way_2": "w3",
+        "file_2": "w3.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682068,
+          10.760251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w16_2",
+        "file_1": "w16.geojson",
+        "way_2": "w4",
+        "file_2": "w4.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682068,
+          10.760251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w16_2",
+        "file_1": "w16.geojson",
+        "way_2": "w4",
+        "file_2": "w4.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.19,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6821574,
+          10.7600224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w16_2",
+        "file_1": "w16.geojson",
+        "way_2": "w5",
+        "file_2": "w5.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682068,
+          10.760251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w16_2",
+        "file_1": "w16.geojson",
+        "way_2": "w5",
+        "file_2": "w5.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.19,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6821574,
+          10.7600224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w16_2",
+        "file_1": "w16.geojson",
+        "way_2": "w5_2",
+        "file_2": "w5.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682068,
+          10.760251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w16_2",
+        "file_1": "w16.geojson",
+        "way_2": "w5_2",
+        "file_2": "w5.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.19,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6821574,
+          10.7600224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w16_2",
+        "file_1": "w16.geojson",
+        "way_2": "w6",
+        "file_2": "w6.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682068,
+          10.760251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w16_2",
+        "file_1": "w16.geojson",
+        "way_2": "w6",
+        "file_2": "w6.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.033,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6821587,
+          10.7600229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w16_2",
+        "file_1": "w16.geojson",
+        "way_2": "w7",
+        "file_2": "w7.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682068,
+          10.760251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w16_2",
+        "file_1": "w16.geojson",
+        "way_2": "w7",
+        "file_2": "w7.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.033,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6821587,
+          10.7600229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w16_2",
+        "file_1": "w16.geojson",
+        "way_2": "w8",
+        "file_2": "w8.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.309,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6821564,
+          10.760022
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w16_2",
+        "file_1": "w16.geojson",
+        "way_2": "w9",
+        "file_2": "w9.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682068,
+          10.760251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w16_2",
+        "file_1": "w16.geojson",
+        "way_2": "w9",
+        "file_2": "w9.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.19,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6821574,
+          10.7600224
         ]
       }
     },
@@ -806,15 +4055,15 @@
         "file_1": "w17.geojson",
         "way_2": "w18",
         "file_2": "w18.geojson",
-        "connection_type": "endpoint_near_interior",
-        "gap_m": 0.671,
+        "connection_type": "crossing",
+        "gap_m": 0.0,
         "confirmed_connected": "REVIEW"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          106.6829263,
-          10.7593978
+          106.682209,
+          10.759909
         ]
       }
     },
@@ -823,17 +4072,397 @@
       "properties": {
         "way_1": "w17",
         "file_1": "w17.geojson",
-        "way_2": "w20",
-        "file_2": "w20.geojson",
+        "way_2": "w18",
+        "file_2": "w18.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682347,
+          10.75957
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w17",
+        "file_1": "w17.geojson",
+        "way_2": "w2",
+        "file_2": "w2.geojson",
         "connection_type": "endpoint_near_interior",
-        "gap_m": 0.736,
+        "gap_m": 0.454,
         "confirmed_connected": "REVIEW"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          106.6824713,
-          10.7592274
+          106.6819292,
+          10.7605834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w17",
+        "file_1": "w17.geojson",
+        "way_2": "w3",
+        "file_2": "w3.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.454,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819292,
+          10.7605834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w17",
+        "file_1": "w17.geojson",
+        "way_2": "w3",
+        "file_2": "w3.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.35,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682162,
+          10.7600242
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w17",
+        "file_1": "w17.geojson",
+        "way_2": "w4",
+        "file_2": "w4.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.454,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819292,
+          10.7605834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w17",
+        "file_1": "w17.geojson",
+        "way_2": "w4",
+        "file_2": "w4.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6822026,
+          10.7599066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w17",
+        "file_1": "w17.geojson",
+        "way_2": "w4",
+        "file_2": "w4.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6820221,
+          10.7596608
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w17",
+        "file_1": "w17.geojson",
+        "way_2": "w5",
+        "file_2": "w5.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.454,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819292,
+          10.7605834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w17",
+        "file_1": "w17.geojson",
+        "way_2": "w5",
+        "file_2": "w5.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6822026,
+          10.7599066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w17",
+        "file_1": "w17.geojson",
+        "way_2": "w5_2",
+        "file_2": "w5.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.454,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819292,
+          10.7605834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w17",
+        "file_1": "w17.geojson",
+        "way_2": "w5_2",
+        "file_2": "w5.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6822026,
+          10.7599066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w17",
+        "file_1": "w17.geojson",
+        "way_2": "w6",
+        "file_2": "w6.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.454,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819292,
+          10.7605834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w17",
+        "file_1": "w17.geojson",
+        "way_2": "w6",
+        "file_2": "w6.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6822047,
+          10.7599074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w17",
+        "file_1": "w17.geojson",
+        "way_2": "w7",
+        "file_2": "w7.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.454,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819292,
+          10.7605834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w17",
+        "file_1": "w17.geojson",
+        "way_2": "w7",
+        "file_2": "w7.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6822047,
+          10.7599074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w17",
+        "file_1": "w17.geojson",
+        "way_2": "w8",
+        "file_2": "w8.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.464,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819291,
+          10.7605835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w17",
+        "file_1": "w17.geojson",
+        "way_2": "w8",
+        "file_2": "w8.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6823404,
+          10.7595673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w17",
+        "file_1": "w17.geojson",
+        "way_2": "w8",
+        "file_2": "w8.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682203,
+          10.7599067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w17",
+        "file_1": "w17.geojson",
+        "way_2": "w9",
+        "file_2": "w9.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.454,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819292,
+          10.7605834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w17",
+        "file_1": "w17.geojson",
+        "way_2": "w9",
+        "file_2": "w9.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6822026,
+          10.7599066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w17",
+        "file_1": "w17.geojson",
+        "way_2": "w9",
+        "file_2": "w9.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6820221,
+          10.759661
         ]
       }
     },
@@ -842,17 +4471,17 @@
       "properties": {
         "way_1": "w18",
         "file_1": "w18.geojson",
-        "way_2": "w19",
-        "file_2": "w19.geojson",
-        "connection_type": "crossing",
-        "gap_m": 0.0,
+        "way_2": "w2",
+        "file_2": "w2.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.454,
         "confirmed_connected": "REVIEW"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          106.6833939,
-          10.7595806
+          106.6819292,
+          10.7605834
         ]
       }
     },
@@ -861,8 +4490,84 @@
       "properties": {
         "way_1": "w18",
         "file_1": "w18.geojson",
-        "way_2": "w19",
-        "file_2": "w19.geojson",
+        "way_2": "w3",
+        "file_2": "w3.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.454,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819292,
+          10.7605834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w18",
+        "file_1": "w18.geojson",
+        "way_2": "w3",
+        "file_2": "w3.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.35,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682162,
+          10.7600242
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w18",
+        "file_1": "w18.geojson",
+        "way_2": "w4",
+        "file_2": "w4.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.454,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819292,
+          10.7605834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w18",
+        "file_1": "w18.geojson",
+        "way_2": "w5",
+        "file_2": "w5.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.454,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819292,
+          10.7605834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w18",
+        "file_1": "w18.geojson",
+        "way_2": "w5",
+        "file_2": "w5.geojson",
         "connection_type": "crossing",
         "gap_m": 0.0,
         "confirmed_connected": "REVIEW"
@@ -870,8 +4575,217 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          106.683376,
-          10.759627
+          106.6825146,
+          10.7598279
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w18",
+        "file_1": "w18.geojson",
+        "way_2": "w5_2",
+        "file_2": "w5.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.454,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819292,
+          10.7605834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w18",
+        "file_1": "w18.geojson",
+        "way_2": "w5_2",
+        "file_2": "w5.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6825146,
+          10.7598279
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w18",
+        "file_1": "w18.geojson",
+        "way_2": "w6",
+        "file_2": "w6.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.454,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819292,
+          10.7605834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w18",
+        "file_1": "w18.geojson",
+        "way_2": "w6",
+        "file_2": "w6.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6824466,
+          10.7600006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w18",
+        "file_1": "w18.geojson",
+        "way_2": "w7",
+        "file_2": "w7.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.454,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819292,
+          10.7605834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w18",
+        "file_1": "w18.geojson",
+        "way_2": "w7",
+        "file_2": "w7.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6824466,
+          10.7600006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w18",
+        "file_1": "w18.geojson",
+        "way_2": "w7",
+        "file_2": "w7.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6825262,
+          10.7597986
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w18",
+        "file_1": "w18.geojson",
+        "way_2": "w7",
+        "file_2": "w7.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6825529,
+          10.7597307
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w18",
+        "file_1": "w18.geojson",
+        "way_2": "w8",
+        "file_2": "w8.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.464,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819291,
+          10.7605835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w18",
+        "file_1": "w18.geojson",
+        "way_2": "w8",
+        "file_2": "w8.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.776,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6823404,
+          10.7595674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w18",
+        "file_1": "w18.geojson",
+        "way_2": "w9",
+        "file_2": "w9.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.454,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6819292,
+          10.7605834
         ]
       }
     },
@@ -884,13 +4798,488 @@
         "file_2": "w3.geojson",
         "connection_type": "crossing",
         "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682068,
+          10.760251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w2",
+        "file_1": "w2.geojson",
+        "way_2": "w4",
+        "file_2": "w4.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682068,
+          10.760251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w2",
+        "file_1": "w2.geojson",
+        "way_2": "w5",
+        "file_2": "w5.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682068,
+          10.760251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w2",
+        "file_1": "w2.geojson",
+        "way_2": "w5_2",
+        "file_2": "w5.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
         "confirmed_connected": "REVIEW"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          106.682067,
-          10.760239
+          106.682068,
+          10.760251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w2",
+        "file_1": "w2.geojson",
+        "way_2": "w6",
+        "file_2": "w6.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682068,
+          10.760251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w2",
+        "file_1": "w2.geojson",
+        "way_2": "w7",
+        "file_2": "w7.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682068,
+          10.760251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w2",
+        "file_1": "w2.geojson",
+        "way_2": "w8",
+        "file_2": "w8.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6820643,
+          10.7602494
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w2",
+        "file_1": "w2.geojson",
+        "way_2": "w9",
+        "file_2": "w9.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682068,
+          10.760251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w3",
+        "file_1": "w3.geojson",
+        "way_2": "w4",
+        "file_2": "w4.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682068,
+          10.760251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w3",
+        "file_1": "w3.geojson",
+        "way_2": "w4",
+        "file_2": "w4.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.19,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6821574,
+          10.7600224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w3",
+        "file_1": "w3.geojson",
+        "way_2": "w5",
+        "file_2": "w5.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682068,
+          10.760251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w3",
+        "file_1": "w3.geojson",
+        "way_2": "w5",
+        "file_2": "w5.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.19,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6821574,
+          10.7600224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w3",
+        "file_1": "w3.geojson",
+        "way_2": "w5_2",
+        "file_2": "w5.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682068,
+          10.760251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w3",
+        "file_1": "w3.geojson",
+        "way_2": "w5_2",
+        "file_2": "w5.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.19,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6821574,
+          10.7600224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w3",
+        "file_1": "w3.geojson",
+        "way_2": "w6",
+        "file_2": "w6.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682068,
+          10.760251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w3",
+        "file_1": "w3.geojson",
+        "way_2": "w6",
+        "file_2": "w6.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.033,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6821587,
+          10.7600229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w3",
+        "file_1": "w3.geojson",
+        "way_2": "w7",
+        "file_2": "w7.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682068,
+          10.760251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w3",
+        "file_1": "w3.geojson",
+        "way_2": "w7",
+        "file_2": "w7.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.033,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6821587,
+          10.7600229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w3",
+        "file_1": "w3.geojson",
+        "way_2": "w8",
+        "file_2": "w8.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.309,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6821564,
+          10.760022
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w3",
+        "file_1": "w3.geojson",
+        "way_2": "w9",
+        "file_2": "w9.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682068,
+          10.760251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w3",
+        "file_1": "w3.geojson",
+        "way_2": "w9",
+        "file_2": "w9.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.19,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6821574,
+          10.7600224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w4",
+        "file_1": "w4.geojson",
+        "way_2": "w5",
+        "file_2": "w5.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682068,
+          10.760251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w4",
+        "file_1": "w4.geojson",
+        "way_2": "w5",
+        "file_2": "w5.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682267,
+          10.759742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w4",
+        "file_1": "w4.geojson",
+        "way_2": "w5_2",
+        "file_2": "w5.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682068,
+          10.760251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w4",
+        "file_1": "w4.geojson",
+        "way_2": "w5_2",
+        "file_2": "w5.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682267,
+          10.759742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w4",
+        "file_1": "w4.geojson",
+        "way_2": "w6",
+        "file_2": "w6.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682068,
+          10.760251
         ]
       }
     },
@@ -901,15 +5290,15 @@
         "file_1": "w4.geojson",
         "way_2": "w7",
         "file_2": "w7.geojson",
-        "connection_type": "endpoint_near_interior",
-        "gap_m": 0.148,
-        "confirmed_connected": "REVIEW"
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          106.6818873,
-          10.7596215
+          106.682068,
+          10.760251
         ]
       }
     },
@@ -918,17 +5307,188 @@
       "properties": {
         "way_1": "w4",
         "file_1": "w4.geojson",
-        "way_2": "w7",
-        "file_2": "w7.geojson",
-        "connection_type": "endpoint_near_interior",
-        "gap_m": 0.206,
+        "way_2": "w8",
+        "file_2": "w8.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6821904,
+          10.7599379
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w4",
+        "file_1": "w4.geojson",
+        "way_2": "w9",
+        "file_2": "w9.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
         "confirmed_connected": "REVIEW"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          106.6818372,
-          10.7597443
+          106.682068,
+          10.760251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w4",
+        "file_1": "w4.geojson",
+        "way_2": "w9",
+        "file_2": "w9.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.035,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6818869,
+          10.7596163
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w4",
+        "file_1": "w4.geojson",
+        "way_2": "w9",
+        "file_2": "w9.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.102,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6818861,
+          10.7596157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w4",
+        "file_1": "w4.geojson",
+        "way_2": "w9",
+        "file_2": "w9.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682267,
+          10.759742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w5",
+        "file_1": "w5.geojson",
+        "way_2": "w5_2",
+        "file_2": "w5.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682068,
+          10.760251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w5",
+        "file_1": "w5.geojson",
+        "way_2": "w5_2",
+        "file_2": "w5.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682267,
+          10.759742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w5",
+        "file_1": "w5.geojson",
+        "way_2": "w6",
+        "file_2": "w6.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682068,
+          10.760251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w5",
+        "file_1": "w5.geojson",
+        "way_2": "w7",
+        "file_2": "w7.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682068,
+          10.760251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w5",
+        "file_1": "w5.geojson",
+        "way_2": "w7",
+        "file_2": "w7.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6825149,
+          10.759828
         ]
       }
     },
@@ -939,15 +5499,34 @@
         "file_1": "w5.geojson",
         "way_2": "w8",
         "file_2": "w8.geojson",
-        "connection_type": "endpoint_near_interior",
-        "gap_m": 0.137,
-        "confirmed_connected": "REVIEW"
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          106.6822058,
-          10.7599095
+          106.6821904,
+          10.7599379
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w5",
+        "file_1": "w5.geojson",
+        "way_2": "w8",
+        "file_2": "w8.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6822694,
+          10.7597428
         ]
       }
     },
@@ -958,15 +5537,300 @@
         "file_1": "w5.geojson",
         "way_2": "w9",
         "file_2": "w9.geojson",
-        "connection_type": "endpoint_near_interior",
-        "gap_m": 1.316,
+        "connection_type": "crossing",
+        "gap_m": 0.0,
         "confirmed_connected": "REVIEW"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          106.6822059,
-          10.7599094
+          106.682068,
+          10.760251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w5",
+        "file_1": "w5.geojson",
+        "way_2": "w9",
+        "file_2": "w9.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682267,
+          10.759742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w5_2",
+        "file_1": "w5.geojson",
+        "way_2": "w6",
+        "file_2": "w6.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682068,
+          10.760251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w5_2",
+        "file_1": "w5.geojson",
+        "way_2": "w7",
+        "file_2": "w7.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682068,
+          10.760251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w5_2",
+        "file_1": "w5.geojson",
+        "way_2": "w7",
+        "file_2": "w7.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6825149,
+          10.759828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w5_2",
+        "file_1": "w5.geojson",
+        "way_2": "w8",
+        "file_2": "w8.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6821904,
+          10.7599379
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w5_2",
+        "file_1": "w5.geojson",
+        "way_2": "w8",
+        "file_2": "w8.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6822694,
+          10.7597428
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w5_2",
+        "file_1": "w5.geojson",
+        "way_2": "w9",
+        "file_2": "w9.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682068,
+          10.760251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w5_2",
+        "file_1": "w5.geojson",
+        "way_2": "w9",
+        "file_2": "w9.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682267,
+          10.759742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w6",
+        "file_1": "w6.geojson",
+        "way_2": "w7",
+        "file_2": "w7.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682068,
+          10.760251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w6",
+        "file_1": "w6.geojson",
+        "way_2": "w7",
+        "file_2": "w7.geojson",
+        "connection_type": "endpoint_near_interior",
+        "gap_m": 0.132,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6825111,
+          10.7599674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w6",
+        "file_1": "w6.geojson",
+        "way_2": "w7",
+        "file_2": "w7.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682206,
+          10.759904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w6",
+        "file_1": "w6.geojson",
+        "way_2": "w7",
+        "file_2": "w7.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.68249,
+          10.760018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w6",
+        "file_1": "w6.geojson",
+        "way_2": "w9",
+        "file_2": "w9.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682068,
+          10.760251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w7",
+        "file_1": "w7.geojson",
+        "way_2": "w9",
+        "file_2": "w9.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.682068,
+          10.760251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "way_1": "w8",
+        "file_1": "w8.geojson",
+        "way_2": "w9",
+        "file_2": "w9.geojson",
+        "connection_type": "crossing",
+        "gap_m": 0.0,
+        "confirmed_connected": "REVIEW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6821904,
+          10.7599379
         ]
       }
     }
