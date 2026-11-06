@@ -32,34 +32,34 @@
         "IX087",
         "IX098",
         "IX101",
-        "IX118",
-        "IX122",
-        "IX141",
+        "IX120",
+        "IX124",
         "IX145",
-        "IX159",
+        "IX149",
         "IX163",
-        "IX176",
-        "IX179",
-        "IX196",
-        "IX198",
-        "IX217",
-        "IX218",
-        "IX220",
+        "IX167",
+        "IX180",
+        "IX183",
+        "IX201",
+        "IX203",
+        "IX222",
         "IX223",
         "IX225",
-        "IX227",
-        "IX229",
-        "IX231",
+        "IX228",
+        "IX230",
+        "IX232",
         "IX234",
-        "IX237",
-        "IX238",
-        "IX240",
-        "IX241",
+        "IX236",
+        "IX239",
+        "IX242",
         "IX243",
         "IX245",
-        "IX247",
-        "IX251",
-        "IX253",
+        "IX246",
+        "IX248",
+        "IX250",
+        "IX252",
+        "IX256",
+        "IX258",
         "w10:start",
         "w11:start",
         "w12:start",
@@ -150,59 +150,59 @@
         "IX030"
       ]
     },
-    "N026": {
+    "N018": {
       "coordinates": [
         106.6820679,
         10.7602509
       ],
       "endpoint_refs": [
         "IX034",
-        "IX174",
-        "IX181",
-        "IX182",
-        "IX184",
-        "IX185",
+        "IX178",
+        "IX186",
         "IX187",
         "IX189",
-        "IX191",
-        "IX195",
+        "IX190",
+        "IX192",
+        "IX194",
+        "IX196",
         "IX200",
-        "IX201",
-        "IX202",
-        "IX204",
+        "IX205",
         "IX206",
-        "IX208",
-        "IX210",
+        "IX207",
+        "IX209",
+        "IX211",
         "IX213",
-        "IX254",
-        "IX255",
-        "IX256",
-        "IX257",
-        "IX258",
-        "IX259",
-        "IX260",
+        "IX215",
+        "IX218",
         "IX261",
         "IX262",
+        "IX263",
         "IX264",
+        "IX265",
         "IX266",
+        "IX267",
         "IX268",
-        "IX270",
+        "IX269",
+        "IX271",
         "IX273",
         "IX275",
         "IX277",
-        "IX279",
         "IX280",
+        "IX282",
         "IX284",
         "IX286",
-        "IX288",
-        "IX289",
+        "IX287",
+        "IX291",
         "IX293",
         "IX295",
         "IX296",
         "IX300",
         "IX302",
-        "IX306",
+        "IX303",
         "IX307",
+        "IX309",
+        "IX313",
+        "IX314",
         "w16:v1",
         "w16_2:v1",
         "w2:v1",
@@ -242,9 +242,9 @@
         "IX092",
         "IX093",
         "IX095",
-        "IX111",
         "IX113",
-        "IX133",
+        "IX115",
+        "IX137",
         "w10:v1",
         "w11:v1",
         "w12:v1",
@@ -253,7 +253,7 @@
         "w15:v1"
       ]
     },
-    "N018": {
+    "N023": {
       "coordinates": [
         106.6822109,
         10.7599085
@@ -261,18 +261,18 @@
       "endpoint_refs": [
         "IX060",
         "IX103",
-        "IX108",
-        "IX109",
-        "IX124",
-        "IX129",
-        "IX130",
-        "IX147",
-        "IX152",
-        "IX153",
-        "IX165",
-        "IX170",
-        "IX171",
-        "IX215",
+        "IX110",
+        "IX111",
+        "IX126",
+        "IX133",
+        "IX134",
+        "IX151",
+        "IX156",
+        "IX157",
+        "IX169",
+        "IX174",
+        "IX175",
+        "IX220",
         "w10:v2",
         "w11:v2",
         "w17:v1",
@@ -312,7 +312,7 @@
         "w11:v5"
       ]
     },
-    "N023": {
+    "N026": {
       "coordinates": [
         106.6821615,
         10.7600239
@@ -323,33 +323,33 @@
         "IX084",
         "IX089",
         "IX097",
-        "IX105",
-        "IX117",
-        "IX126",
-        "IX140",
-        "IX149",
-        "IX158",
-        "IX167",
-        "IX175",
-        "IX183",
-        "IX197",
-        "IX199",
-        "IX203",
-        "IX205",
-        "IX207",
-        "IX209",
-        "IX211",
+        "IX107",
+        "IX119",
+        "IX130",
+        "IX144",
+        "IX153",
+        "IX162",
+        "IX171",
+        "IX179",
+        "IX188",
+        "IX202",
+        "IX204",
+        "IX208",
+        "IX210",
         "IX212",
         "IX214",
+        "IX216",
+        "IX217",
         "IX219",
-        "IX239",
-        "IX263",
-        "IX265",
-        "IX267",
-        "IX269",
-        "IX271",
+        "IX224",
+        "IX244",
+        "IX270",
         "IX272",
         "IX274",
+        "IX276",
+        "IX278",
+        "IX279",
+        "IX281",
         "w16_2:end",
         "w3:end"
       ]
@@ -366,12 +366,12 @@
         "IX088",
         "IX099",
         "IX102",
-        "IX119",
-        "IX123",
-        "IX142",
+        "IX121",
+        "IX125",
         "IX146",
-        "IX160",
-        "IX164"
+        "IX150",
+        "IX164",
+        "IX168"
       ]
     },
     "N093": {
@@ -384,7 +384,7 @@
         "IX075",
         "IX090",
         "IX091",
-        "IX304",
+        "IX311",
         "w7:v3"
       ]
     },
@@ -398,7 +398,7 @@
         "IX082"
       ]
     },
-    "N136": {
+    "N091": {
       "coordinates": [
         106.682846,
         10.7595725
@@ -406,10 +406,10 @@
       "endpoint_refs": [
         "IX080",
         "IX083",
-        "IX135"
+        "IX139"
       ]
     },
-    "N091": {
+    "N089": {
       "coordinates": [
         106.6823962,
         10.7594144
@@ -417,17 +417,17 @@
       "endpoint_refs": [
         "IX094",
         "IX096",
-        "IX112",
         "IX114",
-        "IX134",
-        "IX139",
-        "IX157",
+        "IX116",
+        "IX138",
+        "IX143",
+        "IX161",
         "w13:v2",
         "w14:v2",
         "w15:v2"
       ]
     },
-    "N089": {
+    "N073": {
       "coordinates": [
         106.6823404,
         10.7595656
@@ -435,107 +435,130 @@
       "endpoint_refs": [
         "IX100",
         "IX104",
-        "IX110",
-        "IX120",
-        "IX121",
-        "IX125",
-        "IX132",
-        "IX143",
-        "IX144",
+        "IX112",
+        "IX122",
+        "IX123",
+        "IX127",
+        "IX136",
+        "IX147",
         "IX148",
-        "IX155",
-        "IX161",
-        "IX162",
+        "IX152",
+        "IX159",
+        "IX165",
         "IX166",
-        "IX173",
-        "IX178",
-        "IX180",
-        "IX194",
-        "IX216",
-        "IX233",
-        "IX252",
+        "IX170",
+        "IX177",
+        "IX182",
+        "IX184",
+        "IX199",
+        "IX221",
+        "IX238",
+        "IX257",
         "w17:end",
         "w18:end",
         "w8:end"
       ]
     },
-    "N073": {
+    "N159": {
+      "coordinates": [
+        106.6824744,
+        10.759221
+      ],
+      "endpoint_refs": [
+        "IX105"
+      ]
+    },
+    "N102": {
+      "coordinates": [
+        106.6825042,
+        10.7591506
+      ],
+      "endpoint_refs": [
+        "IX106",
+        "w12:end",
+        "w19:end"
+      ]
+    },
+    "N117": {
       "coordinates": [
         106.6822693,
         10.7597428
       ],
       "endpoint_refs": [
-        "IX106",
-        "IX107",
-        "IX127",
-        "IX128",
-        "IX150",
-        "IX151",
-        "IX168",
-        "IX169",
-        "IX186",
-        "IX188",
-        "IX276",
-        "IX278",
+        "IX108",
+        "IX109",
+        "IX131",
+        "IX132",
+        "IX154",
+        "IX155",
+        "IX172",
+        "IX173",
+        "IX191",
+        "IX193",
+        "IX283",
         "IX285",
-        "IX287",
         "IX292",
         "IX294",
         "IX299",
         "IX301",
+        "IX306",
+        "IX308",
         "w4:v2",
         "w5:v2",
         "w5_2:v2",
         "w9:v2"
       ]
     },
-    "N137": {
+    "N160": {
       "coordinates": [
-        106.682014,
-        10.7592592
+        106.6820135,
+        10.7592601
       ],
       "endpoint_refs": [
-        "IX115"
+        "IX117",
+        "IX128",
+        "IX129",
+        "IX185"
       ]
     },
-    "N138": {
+    "N161": {
       "coordinates": [
         106.6823672,
         10.7594883
       ],
       "endpoint_refs": [
-        "IX116",
-        "IX138",
-        "IX156"
+        "IX118",
+        "IX142",
+        "IX160"
       ]
     },
-    "N139": {
+    "N136": {
       "coordinates": [
         106.6823052,
         10.7596545
       ],
       "endpoint_refs": [
-        "IX131",
-        "IX154",
-        "IX172"
+        "IX135",
+        "IX158",
+        "IX176"
       ]
     },
-    "N097": {
+    "N162": {
       "coordinates": [
         106.68292,
         10.759393
       ],
       "endpoint_refs": [
-        "IX136"
+        "IX140"
       ]
     },
-    "N140": {
+    "N163": {
       "coordinates": [
         106.683401,
         10.759568
       ],
       "endpoint_refs": [
-        "IX137"
+        "IX141"
       ]
     },
     "N082": {
@@ -544,39 +567,39 @@
         10.7599057
       ],
       "endpoint_refs": [
-        "IX177",
-        "IX190",
-        "IX192",
-        "IX222",
-        "IX224",
-        "IX226",
-        "IX228",
-        "IX230",
-        "IX232",
-        "IX236",
-        "IX303",
+        "IX181",
+        "IX195",
+        "IX197",
+        "IX227",
+        "IX229",
+        "IX231",
+        "IX233",
+        "IX235",
+        "IX237",
+        "IX241",
+        "IX310",
         "w16:v2",
         "w6:v2",
         "w7:v2"
       ]
     },
-    "N141": {
+    "N164": {
       "coordinates": [
         106.6822486,
         10.7597941
       ],
       "endpoint_refs": [
-        "IX193"
+        "IX198"
       ]
     },
-    "N142": {
+    "N165": {
       "coordinates": [
         106.6820221,
         10.7596609
       ],
       "endpoint_refs": [
-        "IX221",
-        "IX235"
+        "IX226",
+        "IX240"
       ]
     },
     "N118": {
@@ -585,40 +608,61 @@
         10.759828
       ],
       "endpoint_refs": [
-        "IX242",
-        "IX244",
-        "IX290",
+        "IX247",
+        "IX249",
         "IX297",
+        "IX304",
         "w5:end",
         "w5_2:end"
       ]
     },
-    "N143": {
+    "N166": {
       "coordinates": [
         106.6824466,
         10.7600006
       ],
       "endpoint_refs": [
-        "IX246",
-        "IX248"
+        "IX251",
+        "IX253"
       ]
     },
-    "N144": {
+    "N167": {
       "coordinates": [
         106.6825262,
         10.7597986
       ],
       "endpoint_refs": [
-        "IX249"
+        "IX254"
       ]
     },
-    "N145": {
+    "N168": {
       "coordinates": [
         106.6825529,
         10.7597307
       ],
       "endpoint_refs": [
-        "IX250"
+        "IX255"
+      ]
+    },
+    "N169": {
+      "coordinates": [
+        106.6818857,
+        10.7596156
+      ],
+      "endpoint_refs": [
+        "IX259",
+        "IX289",
+        "IX290",
+        "w4:end"
+      ]
+    },
+    "N170": {
+      "coordinates": [
+        106.6819281,
+        10.7594918
+      ],
+      "endpoint_refs": [
+        "IX260"
       ]
     },
     "N146": {
@@ -627,21 +671,10 @@
         10.7599379
       ],
       "endpoint_refs": [
-        "IX281",
-        "IX291",
+        "IX288",
         "IX298",
-        "IX308"
-      ]
-    },
-    "N117": {
-      "coordinates": [
-        106.6818867,
-        10.759616
-      ],
-      "endpoint_refs": [
-        "IX282",
-        "IX283",
-        "w4:end"
+        "IX305",
+        "IX315"
       ]
     },
     "N147": {
@@ -650,7 +683,7 @@
         10.7599672
       ],
       "endpoint_refs": [
-        "IX305",
+        "IX312",
         "w6:end"
       ]
     },
@@ -688,15 +721,6 @@
       ],
       "endpoint_refs": [
         "w11:v6"
-      ]
-    },
-    "N102": {
-      "coordinates": [
-        106.6825009,
-        10.7591517
-      ],
-      "endpoint_refs": [
-        "w12:end"
       ]
     },
     "N103": {
@@ -897,6 +921,42 @@
         "w18:v4"
       ]
     },
+    "N155": {
+      "coordinates": [
+        106.681395,
+        10.759761
+      ],
+      "endpoint_refs": [
+        "w19:start"
+      ]
+    },
+    "N156": {
+      "coordinates": [
+        106.681774,
+        10.75991
+      ],
+      "endpoint_refs": [
+        "w19:v1"
+      ]
+    },
+    "N157": {
+      "coordinates": [
+        106.682085,
+        10.759066
+      ],
+      "endpoint_refs": [
+        "w19:v2"
+      ]
+    },
+    "N158": {
+      "coordinates": [
+        106.682477,
+        10.759222
+      ],
+      "endpoint_refs": [
+        "w19:v3"
+      ]
+    },
     "N015": {
       "coordinates": [
         106.682388,
@@ -1093,7 +1153,7 @@
       "way_id": "w1",
       "file": "w1.geojson",
       "from": "N087",
-      "to": "N026",
+      "to": "N018",
       "length_m": 7.97,
       "coordinates": [
         [
@@ -1110,7 +1170,7 @@
       "edge_id": "w1_part07",
       "way_id": "w1",
       "file": "w1.geojson",
-      "from": "N026",
+      "from": "N018",
       "to": "N115",
       "length_m": 1.19,
       "coordinates": [
@@ -1345,7 +1405,7 @@
       "way_id": "w10",
       "file": "w10.geojson",
       "from": "N020",
-      "to": "N023",
+      "to": "N026",
       "length_m": 2.03,
       "coordinates": [
         [
@@ -1362,8 +1422,8 @@
       "edge_id": "w10_part08",
       "way_id": "w10",
       "file": "w10.geojson",
-      "from": "N023",
-      "to": "N018",
+      "from": "N026",
+      "to": "N023",
       "length_m": 13.5,
       "coordinates": [
         [
@@ -1380,7 +1440,7 @@
       "edge_id": "w10_part09",
       "way_id": "w10",
       "file": "w10.geojson",
-      "from": "N018",
+      "from": "N023",
       "to": "N036",
       "length_m": 31.88,
       "coordinates": [
@@ -1597,7 +1657,7 @@
       "way_id": "w11",
       "file": "w11.geojson",
       "from": "N020",
-      "to": "N023",
+      "to": "N026",
       "length_m": 2.03,
       "coordinates": [
         [
@@ -1614,8 +1674,8 @@
       "edge_id": "w11_part08",
       "way_id": "w11",
       "file": "w11.geojson",
-      "from": "N023",
-      "to": "N018",
+      "from": "N026",
+      "to": "N023",
       "length_m": 13.5,
       "coordinates": [
         [
@@ -1632,7 +1692,7 @@
       "edge_id": "w11_part09",
       "way_id": "w11",
       "file": "w11.geojson",
-      "from": "N018",
+      "from": "N023",
       "to": "N036",
       "length_m": 31.88,
       "coordinates": [
@@ -1741,7 +1801,7 @@
       "way_id": "w11",
       "file": "w11.geojson",
       "from": "N101",
-      "to": "N136",
+      "to": "N091",
       "length_m": 0.6,
       "coordinates": [
         [
@@ -1758,7 +1818,7 @@
       "edge_id": "w11_part16",
       "way_id": "w11",
       "file": "w11.geojson",
-      "from": "N136",
+      "from": "N091",
       "to": "N100",
       "length_m": 9.46,
       "coordinates": [
@@ -1885,7 +1945,7 @@
       "way_id": "w12",
       "file": "w12.geojson",
       "from": "N020",
-      "to": "N023",
+      "to": "N026",
       "length_m": 2.04,
       "coordinates": [
         [
@@ -1902,8 +1962,8 @@
       "edge_id": "w12_part08",
       "way_id": "w12",
       "file": "w12.geojson",
-      "from": "N023",
-      "to": "N018",
+      "from": "N026",
+      "to": "N023",
       "length_m": 13.78,
       "coordinates": [
         [
@@ -1920,8 +1980,8 @@
       "edge_id": "w12_part09",
       "way_id": "w12",
       "file": "w12.geojson",
-      "from": "N018",
-      "to": "N018",
+      "from": "N023",
+      "to": "N023",
       "length_m": 0.39,
       "coordinates": [
         [
@@ -1938,8 +1998,8 @@
       "edge_id": "w12_part10",
       "way_id": "w12",
       "file": "w12.geojson",
-      "from": "N018",
-      "to": "N073",
+      "from": "N023",
+      "to": "N117",
       "length_m": 19.24,
       "coordinates": [
         [
@@ -1956,8 +2016,8 @@
       "edge_id": "w12_part11",
       "way_id": "w12",
       "file": "w12.geojson",
-      "from": "N073",
-      "to": "N089",
+      "from": "N117",
+      "to": "N073",
       "length_m": 20.97,
       "coordinates": [
         [
@@ -1974,8 +2034,8 @@
       "edge_id": "w12_part12",
       "way_id": "w12",
       "file": "w12.geojson",
-      "from": "N089",
-      "to": "N089",
+      "from": "N073",
+      "to": "N073",
       "length_m": 0.01,
       "coordinates": [
         [
@@ -1992,8 +2052,8 @@
       "edge_id": "w12_part13",
       "way_id": "w12",
       "file": "w12.geojson",
-      "from": "N089",
-      "to": "N089",
+      "from": "N073",
+      "to": "N073",
       "length_m": 0.77,
       "coordinates": [
         [
@@ -2010,8 +2070,8 @@
       "edge_id": "w12_part14",
       "way_id": "w12",
       "file": "w12.geojson",
-      "from": "N089",
-      "to": "N091",
+      "from": "N073",
+      "to": "N089",
       "length_m": 17.3,
       "coordinates": [
         [
@@ -2028,13 +2088,31 @@
       "edge_id": "w12_part15",
       "way_id": "w12",
       "file": "w12.geojson",
-      "from": "N091",
-      "to": "N102",
-      "length_m": 31.37,
+      "from": "N089",
+      "to": "N159",
+      "length_m": 23.14,
       "coordinates": [
         [
           106.68239988978509,
           10.75941579622923
+        ],
+        [
+          106.68247439516291,
+          10.759220998214415
+        ]
+      ]
+    },
+    {
+      "edge_id": "w12_part16",
+      "way_id": "w12",
+      "file": "w12.geojson",
+      "from": "N159",
+      "to": "N102",
+      "length_m": 8.23,
+      "coordinates": [
+        [
+          106.68247439516291,
+          10.759220998214415
         ],
         [
           106.6825009,
@@ -2155,7 +2233,7 @@
       "way_id": "w13",
       "file": "w13.geojson",
       "from": "N020",
-      "to": "N023",
+      "to": "N026",
       "length_m": 2.05,
       "coordinates": [
         [
@@ -2172,8 +2250,8 @@
       "edge_id": "w13_part08",
       "way_id": "w13",
       "file": "w13.geojson",
-      "from": "N023",
-      "to": "N018",
+      "from": "N026",
+      "to": "N023",
       "length_m": 13.77,
       "coordinates": [
         [
@@ -2190,8 +2268,8 @@
       "edge_id": "w13_part09",
       "way_id": "w13",
       "file": "w13.geojson",
-      "from": "N018",
-      "to": "N018",
+      "from": "N023",
+      "to": "N023",
       "length_m": 0.39,
       "coordinates": [
         [
@@ -2208,8 +2286,8 @@
       "edge_id": "w13_part10",
       "way_id": "w13",
       "file": "w13.geojson",
-      "from": "N018",
-      "to": "N073",
+      "from": "N023",
+      "to": "N117",
       "length_m": 19.23,
       "coordinates": [
         [
@@ -2226,8 +2304,8 @@
       "edge_id": "w13_part11",
       "way_id": "w13",
       "file": "w13.geojson",
-      "from": "N073",
-      "to": "N139",
+      "from": "N117",
+      "to": "N136",
       "length_m": 10.57,
       "coordinates": [
         [
@@ -2244,8 +2322,8 @@
       "edge_id": "w13_part12",
       "way_id": "w13",
       "file": "w13.geojson",
-      "from": "N139",
-      "to": "N089",
+      "from": "N136",
+      "to": "N073",
       "length_m": 10.4,
       "coordinates": [
         [
@@ -2262,8 +2340,8 @@
       "edge_id": "w13_part13",
       "way_id": "w13",
       "file": "w13.geojson",
-      "from": "N089",
-      "to": "N089",
+      "from": "N073",
+      "to": "N073",
       "length_m": 0.04,
       "coordinates": [
         [
@@ -2280,8 +2358,8 @@
       "edge_id": "w13_part14",
       "way_id": "w13",
       "file": "w13.geojson",
-      "from": "N089",
-      "to": "N089",
+      "from": "N073",
+      "to": "N073",
       "length_m": 0.74,
       "coordinates": [
         [
@@ -2298,8 +2376,8 @@
       "edge_id": "w13_part15",
       "way_id": "w13",
       "file": "w13.geojson",
-      "from": "N089",
-      "to": "N138",
+      "from": "N073",
+      "to": "N161",
       "length_m": 8.5,
       "coordinates": [
         [
@@ -2316,8 +2394,8 @@
       "edge_id": "w13_part16",
       "way_id": "w13",
       "file": "w13.geojson",
-      "from": "N138",
-      "to": "N091",
+      "from": "N161",
+      "to": "N089",
       "length_m": 8.8,
       "coordinates": [
         [
@@ -2334,13 +2412,31 @@
       "edge_id": "w13_part17",
       "way_id": "w13",
       "file": "w13.geojson",
-      "from": "N091",
-      "to": "N048",
-      "length_m": 45.23,
+      "from": "N089",
+      "to": "N160",
+      "length_m": 45.04,
       "coordinates": [
         [
           106.68239500000001,
           10.759414
+        ],
+        [
+          106.68201258823848,
+          10.759262628677725
+        ]
+      ]
+    },
+    {
+      "edge_id": "w13_part18",
+      "way_id": "w13",
+      "file": "w13.geojson",
+      "from": "N160",
+      "to": "N048",
+      "length_m": 0.19,
+      "coordinates": [
+        [
+          106.68201258823848,
+          10.759262628677725
         ],
         [
           106.682011,
@@ -2349,16 +2445,34 @@
       ]
     },
     {
-      "edge_id": "w13_part18",
+      "edge_id": "w13_part19",
       "way_id": "w13",
       "file": "w13.geojson",
       "from": "N048",
-      "to": "N137",
-      "length_m": 0.45,
+      "to": "N160",
+      "length_m": 0.41,
       "coordinates": [
         [
           106.682011,
           10.759262
+        ],
+        [
+          106.68201370923317,
+          10.759259509694777
+        ]
+      ]
+    },
+    {
+      "edge_id": "w13_part20",
+      "way_id": "w13",
+      "file": "w13.geojson",
+      "from": "N160",
+      "to": "N160",
+      "length_m": 0.05,
+      "coordinates": [
+        [
+          106.68201370923317,
+          10.759259509694777
         ],
         [
           106.68201402154405,
@@ -2367,10 +2481,10 @@
       ]
     },
     {
-      "edge_id": "w13_part19",
+      "edge_id": "w13_part21",
       "way_id": "w13",
       "file": "w13.geojson",
-      "from": "N137",
+      "from": "N160",
       "to": "N103",
       "length_m": 14.36,
       "coordinates": [
@@ -2497,7 +2611,7 @@
       "way_id": "w14",
       "file": "w14.geojson",
       "from": "N020",
-      "to": "N023",
+      "to": "N026",
       "length_m": 2.05,
       "coordinates": [
         [
@@ -2514,8 +2628,8 @@
       "edge_id": "w14_part08",
       "way_id": "w14",
       "file": "w14.geojson",
-      "from": "N023",
-      "to": "N018",
+      "from": "N026",
+      "to": "N023",
       "length_m": 13.77,
       "coordinates": [
         [
@@ -2532,8 +2646,8 @@
       "edge_id": "w14_part09",
       "way_id": "w14",
       "file": "w14.geojson",
-      "from": "N018",
-      "to": "N018",
+      "from": "N023",
+      "to": "N023",
       "length_m": 0.39,
       "coordinates": [
         [
@@ -2550,8 +2664,8 @@
       "edge_id": "w14_part10",
       "way_id": "w14",
       "file": "w14.geojson",
-      "from": "N018",
-      "to": "N073",
+      "from": "N023",
+      "to": "N117",
       "length_m": 19.23,
       "coordinates": [
         [
@@ -2568,8 +2682,8 @@
       "edge_id": "w14_part11",
       "way_id": "w14",
       "file": "w14.geojson",
-      "from": "N073",
-      "to": "N139",
+      "from": "N117",
+      "to": "N136",
       "length_m": 10.57,
       "coordinates": [
         [
@@ -2586,8 +2700,8 @@
       "edge_id": "w14_part12",
       "way_id": "w14",
       "file": "w14.geojson",
-      "from": "N139",
-      "to": "N089",
+      "from": "N136",
+      "to": "N073",
       "length_m": 10.4,
       "coordinates": [
         [
@@ -2604,8 +2718,8 @@
       "edge_id": "w14_part13",
       "way_id": "w14",
       "file": "w14.geojson",
-      "from": "N089",
-      "to": "N089",
+      "from": "N073",
+      "to": "N073",
       "length_m": 0.04,
       "coordinates": [
         [
@@ -2622,8 +2736,8 @@
       "edge_id": "w14_part14",
       "way_id": "w14",
       "file": "w14.geojson",
-      "from": "N089",
-      "to": "N089",
+      "from": "N073",
+      "to": "N073",
       "length_m": 0.74,
       "coordinates": [
         [
@@ -2640,8 +2754,8 @@
       "edge_id": "w14_part15",
       "way_id": "w14",
       "file": "w14.geojson",
-      "from": "N089",
-      "to": "N138",
+      "from": "N073",
+      "to": "N161",
       "length_m": 8.5,
       "coordinates": [
         [
@@ -2658,8 +2772,8 @@
       "edge_id": "w14_part16",
       "way_id": "w14",
       "file": "w14.geojson",
-      "from": "N138",
-      "to": "N091",
+      "from": "N161",
+      "to": "N089",
       "length_m": 8.8,
       "coordinates": [
         [
@@ -2676,8 +2790,8 @@
       "edge_id": "w14_part17",
       "way_id": "w14",
       "file": "w14.geojson",
-      "from": "N091",
-      "to": "N091",
+      "from": "N089",
+      "to": "N089",
       "length_m": 0.1,
       "coordinates": [
         [
@@ -2694,8 +2808,8 @@
       "edge_id": "w14_part18",
       "way_id": "w14",
       "file": "w14.geojson",
-      "from": "N091",
-      "to": "N091",
+      "from": "N089",
+      "to": "N089",
       "length_m": 0.47,
       "coordinates": [
         [
@@ -2712,7 +2826,7 @@
       "edge_id": "w14_part19",
       "way_id": "w14",
       "file": "w14.geojson",
-      "from": "N091",
+      "from": "N089",
       "to": "N090",
       "length_m": 51.16,
       "coordinates": [
@@ -2731,7 +2845,7 @@
       "way_id": "w14",
       "file": "w14.geojson",
       "from": "N090",
-      "to": "N136",
+      "to": "N091",
       "length_m": 0.58,
       "coordinates": [
         [
@@ -2748,8 +2862,8 @@
       "edge_id": "w14_part21",
       "way_id": "w14",
       "file": "w14.geojson",
-      "from": "N136",
-      "to": "N136",
+      "from": "N091",
+      "to": "N091",
       "length_m": 0.45,
       "coordinates": [
         [
@@ -2766,8 +2880,8 @@
       "edge_id": "w14_part22",
       "way_id": "w14",
       "file": "w14.geojson",
-      "from": "N136",
-      "to": "N097",
+      "from": "N091",
+      "to": "N162",
       "length_m": 21.38,
       "coordinates": [
         [
@@ -2784,8 +2898,8 @@
       "edge_id": "w14_part23",
       "way_id": "w14",
       "file": "w14.geojson",
-      "from": "N097",
-      "to": "N140",
+      "from": "N162",
+      "to": "N163",
       "length_m": 56.03,
       "coordinates": [
         [
@@ -2802,7 +2916,7 @@
       "edge_id": "w14_part24",
       "way_id": "w14",
       "file": "w14.geojson",
-      "from": "N140",
+      "from": "N163",
       "to": "N006",
       "length_m": 8.66,
       "coordinates": [
@@ -2929,7 +3043,7 @@
       "way_id": "w15",
       "file": "w15.geojson",
       "from": "N020",
-      "to": "N023",
+      "to": "N026",
       "length_m": 2.05,
       "coordinates": [
         [
@@ -2946,8 +3060,8 @@
       "edge_id": "w15_part08",
       "way_id": "w15",
       "file": "w15.geojson",
-      "from": "N023",
-      "to": "N018",
+      "from": "N026",
+      "to": "N023",
       "length_m": 13.77,
       "coordinates": [
         [
@@ -2964,8 +3078,8 @@
       "edge_id": "w15_part09",
       "way_id": "w15",
       "file": "w15.geojson",
-      "from": "N018",
-      "to": "N018",
+      "from": "N023",
+      "to": "N023",
       "length_m": 0.39,
       "coordinates": [
         [
@@ -2982,8 +3096,8 @@
       "edge_id": "w15_part10",
       "way_id": "w15",
       "file": "w15.geojson",
-      "from": "N018",
-      "to": "N073",
+      "from": "N023",
+      "to": "N117",
       "length_m": 19.23,
       "coordinates": [
         [
@@ -3000,8 +3114,8 @@
       "edge_id": "w15_part11",
       "way_id": "w15",
       "file": "w15.geojson",
-      "from": "N073",
-      "to": "N139",
+      "from": "N117",
+      "to": "N136",
       "length_m": 10.57,
       "coordinates": [
         [
@@ -3018,8 +3132,8 @@
       "edge_id": "w15_part12",
       "way_id": "w15",
       "file": "w15.geojson",
-      "from": "N139",
-      "to": "N089",
+      "from": "N136",
+      "to": "N073",
       "length_m": 10.4,
       "coordinates": [
         [
@@ -3036,8 +3150,8 @@
       "edge_id": "w15_part13",
       "way_id": "w15",
       "file": "w15.geojson",
-      "from": "N089",
-      "to": "N089",
+      "from": "N073",
+      "to": "N073",
       "length_m": 0.04,
       "coordinates": [
         [
@@ -3054,8 +3168,8 @@
       "edge_id": "w15_part14",
       "way_id": "w15",
       "file": "w15.geojson",
-      "from": "N089",
-      "to": "N089",
+      "from": "N073",
+      "to": "N073",
       "length_m": 0.74,
       "coordinates": [
         [
@@ -3072,8 +3186,8 @@
       "edge_id": "w15_part15",
       "way_id": "w15",
       "file": "w15.geojson",
-      "from": "N089",
-      "to": "N138",
+      "from": "N073",
+      "to": "N161",
       "length_m": 8.5,
       "coordinates": [
         [
@@ -3090,8 +3204,8 @@
       "edge_id": "w15_part16",
       "way_id": "w15",
       "file": "w15.geojson",
-      "from": "N138",
-      "to": "N091",
+      "from": "N161",
+      "to": "N089",
       "length_m": 8.8,
       "coordinates": [
         [
@@ -3108,8 +3222,8 @@
       "edge_id": "w15_part17",
       "way_id": "w15",
       "file": "w15.geojson",
-      "from": "N091",
-      "to": "N091",
+      "from": "N089",
+      "to": "N089",
       "length_m": 0.1,
       "coordinates": [
         [
@@ -3126,8 +3240,8 @@
       "edge_id": "w15_part18",
       "way_id": "w15",
       "file": "w15.geojson",
-      "from": "N091",
-      "to": "N091",
+      "from": "N089",
+      "to": "N089",
       "length_m": 0.47,
       "coordinates": [
         [
@@ -3144,7 +3258,7 @@
       "edge_id": "w15_part19",
       "way_id": "w15",
       "file": "w15.geojson",
-      "from": "N091",
+      "from": "N089",
       "to": "N090",
       "length_m": 51.16,
       "coordinates": [
@@ -3163,7 +3277,7 @@
       "way_id": "w15",
       "file": "w15.geojson",
       "from": "N090",
-      "to": "N136",
+      "to": "N091",
       "length_m": 0.58,
       "coordinates": [
         [
@@ -3180,8 +3294,8 @@
       "edge_id": "w15_part21",
       "way_id": "w15",
       "file": "w15.geojson",
-      "from": "N136",
-      "to": "N136",
+      "from": "N091",
+      "to": "N091",
       "length_m": 0.45,
       "coordinates": [
         [
@@ -3198,8 +3312,8 @@
       "edge_id": "w15_part22",
       "way_id": "w15",
       "file": "w15.geojson",
-      "from": "N136",
-      "to": "N097",
+      "from": "N091",
+      "to": "N162",
       "length_m": 21.38,
       "coordinates": [
         [
@@ -3216,8 +3330,8 @@
       "edge_id": "w15_part23",
       "way_id": "w15",
       "file": "w15.geojson",
-      "from": "N097",
-      "to": "N140",
+      "from": "N162",
+      "to": "N163",
       "length_m": 56.03,
       "coordinates": [
         [
@@ -3234,7 +3348,7 @@
       "edge_id": "w15_part24",
       "way_id": "w15",
       "file": "w15.geojson",
-      "from": "N140",
+      "from": "N163",
       "to": "N107",
       "length_m": 7.38,
       "coordinates": [
@@ -3325,7 +3439,7 @@
       "way_id": "w16",
       "file": "w16.geojson",
       "from": "N004",
-      "to": "N026",
+      "to": "N018",
       "length_m": 20.88,
       "coordinates": [
         [
@@ -3342,7 +3456,7 @@
       "edge_id": "w16_part05",
       "way_id": "w16",
       "file": "w16.geojson",
-      "from": "N026",
+      "from": "N018",
       "to": "N012",
       "length_m": 1.22,
       "coordinates": [
@@ -3361,7 +3475,7 @@
       "way_id": "w16",
       "file": "w16.geojson",
       "from": "N012",
-      "to": "N023",
+      "to": "N026",
       "length_m": 26.01,
       "coordinates": [
         [
@@ -3378,7 +3492,7 @@
       "edge_id": "w16_part07",
       "way_id": "w16",
       "file": "w16.geojson",
-      "from": "N023",
+      "from": "N026",
       "to": "N082",
       "length_m": 13.79,
       "coordinates": [
@@ -3415,7 +3529,7 @@
       "way_id": "w16",
       "file": "w16.geojson",
       "from": "N082",
-      "to": "N141",
+      "to": "N164",
       "length_m": 13.08,
       "coordinates": [
         [
@@ -3432,8 +3546,8 @@
       "edge_id": "w16_part10",
       "way_id": "w16",
       "file": "w16.geojson",
-      "from": "N141",
-      "to": "N073",
+      "from": "N164",
+      "to": "N117",
       "length_m": 6.13,
       "coordinates": [
         [
@@ -3450,8 +3564,8 @@
       "edge_id": "w16_part11",
       "way_id": "w16",
       "file": "w16.geojson",
-      "from": "N073",
-      "to": "N089",
+      "from": "N117",
+      "to": "N073",
       "length_m": 20.98,
       "coordinates": [
         [
@@ -3468,8 +3582,8 @@
       "edge_id": "w16_part12",
       "way_id": "w16",
       "file": "w16.geojson",
-      "from": "N089",
-      "to": "N089",
+      "from": "N073",
+      "to": "N073",
       "length_m": 0.04,
       "coordinates": [
         [
@@ -3486,8 +3600,8 @@
       "edge_id": "w16_part13",
       "way_id": "w16",
       "file": "w16.geojson",
-      "from": "N089",
-      "to": "N089",
+      "from": "N073",
+      "to": "N073",
       "length_m": 0.75,
       "coordinates": [
         [
@@ -3504,8 +3618,8 @@
       "edge_id": "w16_part14",
       "way_id": "w16",
       "file": "w16.geojson",
-      "from": "N089",
-      "to": "N138",
+      "from": "N073",
+      "to": "N161",
       "length_m": 8.5,
       "coordinates": [
         [
@@ -3522,8 +3636,8 @@
       "edge_id": "w16_part15",
       "way_id": "w16",
       "file": "w16.geojson",
-      "from": "N138",
-      "to": "N091",
+      "from": "N161",
+      "to": "N089",
       "length_m": 8.81,
       "coordinates": [
         [
@@ -3540,7 +3654,7 @@
       "edge_id": "w16_part16",
       "way_id": "w16",
       "file": "w16.geojson",
-      "from": "N091",
+      "from": "N089",
       "to": "N108",
       "length_m": 0.63,
       "coordinates": [
@@ -3577,7 +3691,7 @@
       "way_id": "w16",
       "file": "w16.geojson",
       "from": "N109",
-      "to": "N137",
+      "to": "N160",
       "length_m": 0.14,
       "coordinates": [
         [
@@ -3594,13 +3708,31 @@
       "edge_id": "w16_part19",
       "way_id": "w16",
       "file": "w16.geojson",
-      "from": "N137",
-      "to": "N110",
-      "length_m": 9.47,
+      "from": "N160",
+      "to": "N160",
+      "length_m": 0.02,
       "coordinates": [
         [
           106.68201401799547,
           10.759259179220088
+        ],
+        [
+          106.68201390974757,
+          10.759259088744225
+        ]
+      ]
+    },
+    {
+      "edge_id": "w16_part20",
+      "way_id": "w16",
+      "file": "w16.geojson",
+      "from": "N160",
+      "to": "N110",
+      "length_m": 9.45,
+      "coordinates": [
+        [
+          106.68201390974757,
+          10.759259088744225
         ],
         [
           106.681948,
@@ -3609,7 +3741,7 @@
       ]
     },
     {
-      "edge_id": "w16_part20",
+      "edge_id": "w16_part21",
       "way_id": "w16",
       "file": "w16.geojson",
       "from": "N110",
@@ -3627,7 +3759,7 @@
       ]
     },
     {
-      "edge_id": "w16_part21",
+      "edge_id": "w16_part22",
       "way_id": "w16",
       "file": "w16.geojson",
       "from": "N111",
@@ -3703,7 +3835,7 @@
       "way_id": "w16_2",
       "file": "w16.geojson",
       "from": "N004",
-      "to": "N026",
+      "to": "N018",
       "length_m": 20.88,
       "coordinates": [
         [
@@ -3720,7 +3852,7 @@
       "edge_id": "w16_2_part05",
       "way_id": "w16_2",
       "file": "w16.geojson",
-      "from": "N026",
+      "from": "N018",
       "to": "N012",
       "length_m": 1.22,
       "coordinates": [
@@ -3739,7 +3871,7 @@
       "way_id": "w16_2",
       "file": "w16.geojson",
       "from": "N012",
-      "to": "N023",
+      "to": "N026",
       "length_m": 26.01,
       "coordinates": [
         [
@@ -3811,7 +3943,7 @@
       "way_id": "w17",
       "file": "w17.geojson",
       "from": "N012",
-      "to": "N023",
+      "to": "N026",
       "length_m": 26.0,
       "coordinates": [
         [
@@ -3828,8 +3960,8 @@
       "edge_id": "w17_part05",
       "way_id": "w17",
       "file": "w17.geojson",
-      "from": "N023",
-      "to": "N018",
+      "from": "N026",
+      "to": "N023",
       "length_m": 13.8,
       "coordinates": [
         [
@@ -3846,7 +3978,7 @@
       "edge_id": "w17_part06",
       "way_id": "w17",
       "file": "w17.geojson",
-      "from": "N018",
+      "from": "N023",
       "to": "N082",
       "length_m": 0.5,
       "coordinates": [
@@ -3919,7 +4051,7 @@
       "way_id": "w17",
       "file": "w17.geojson",
       "from": "N148",
-      "to": "N142",
+      "to": "N165",
       "length_m": 18.43,
       "coordinates": [
         [
@@ -3936,8 +4068,8 @@
       "edge_id": "w17_part11",
       "way_id": "w17",
       "file": "w17.geojson",
-      "from": "N142",
-      "to": "N142",
+      "from": "N165",
+      "to": "N165",
       "length_m": 0.02,
       "coordinates": [
         [
@@ -3954,7 +4086,7 @@
       "edge_id": "w17_part12",
       "way_id": "w17",
       "file": "w17.geojson",
-      "from": "N142",
+      "from": "N165",
       "to": "N149",
       "length_m": 22.9,
       "coordinates": [
@@ -3973,7 +4105,7 @@
       "way_id": "w17",
       "file": "w17.geojson",
       "from": "N149",
-      "to": "N089",
+      "to": "N073",
       "length_m": 28.85,
       "coordinates": [
         [
@@ -3990,8 +4122,8 @@
       "edge_id": "w17_part14",
       "way_id": "w17",
       "file": "w17.geojson",
-      "from": "N089",
-      "to": "N089",
+      "from": "N073",
+      "to": "N073",
       "length_m": 0.12,
       "coordinates": [
         [
@@ -4008,8 +4140,8 @@
       "edge_id": "w17_part15",
       "way_id": "w17",
       "file": "w17.geojson",
-      "from": "N089",
-      "to": "N089",
+      "from": "N073",
+      "to": "N073",
       "length_m": 0.27,
       "coordinates": [
         [
@@ -4026,8 +4158,8 @@
       "edge_id": "w17_part16",
       "way_id": "w17",
       "file": "w17.geojson",
-      "from": "N089",
-      "to": "N089",
+      "from": "N073",
+      "to": "N073",
       "length_m": 0.16,
       "coordinates": [
         [
@@ -4044,8 +4176,8 @@
       "edge_id": "w17_part17",
       "way_id": "w17",
       "file": "w17.geojson",
-      "from": "N089",
-      "to": "N089",
+      "from": "N073",
+      "to": "N073",
       "length_m": 0.62,
       "coordinates": [
         [
@@ -4117,7 +4249,7 @@
       "way_id": "w18",
       "file": "w18.geojson",
       "from": "N012",
-      "to": "N023",
+      "to": "N026",
       "length_m": 26.0,
       "coordinates": [
         [
@@ -4134,8 +4266,8 @@
       "edge_id": "w18_part05",
       "way_id": "w18",
       "file": "w18.geojson",
-      "from": "N023",
-      "to": "N018",
+      "from": "N026",
+      "to": "N023",
       "length_m": 13.8,
       "coordinates": [
         [
@@ -4152,8 +4284,8 @@
       "edge_id": "w18_part06",
       "way_id": "w18",
       "file": "w18.geojson",
-      "from": "N018",
-      "to": "N018",
+      "from": "N023",
+      "to": "N023",
       "length_m": 0.11,
       "coordinates": [
         [
@@ -4170,8 +4302,8 @@
       "edge_id": "w18_part07",
       "way_id": "w18",
       "file": "w18.geojson",
-      "from": "N018",
-      "to": "N018",
+      "from": "N023",
+      "to": "N023",
       "length_m": 0.13,
       "coordinates": [
         [
@@ -4188,7 +4320,7 @@
       "edge_id": "w18_part08",
       "way_id": "w18",
       "file": "w18.geojson",
-      "from": "N018",
+      "from": "N023",
       "to": "N151",
       "length_m": 27.64,
       "coordinates": [
@@ -4207,7 +4339,7 @@
       "way_id": "w18",
       "file": "w18.geojson",
       "from": "N151",
-      "to": "N143",
+      "to": "N166",
       "length_m": 0.17,
       "coordinates": [
         [
@@ -4224,7 +4356,7 @@
       "edge_id": "w18_part10",
       "way_id": "w18",
       "file": "w18.geojson",
-      "from": "N143",
+      "from": "N166",
       "to": "N118",
       "length_m": 20.59,
       "coordinates": [
@@ -4243,7 +4375,7 @@
       "way_id": "w18",
       "file": "w18.geojson",
       "from": "N118",
-      "to": "N144",
+      "to": "N167",
       "length_m": 3.5,
       "coordinates": [
         [
@@ -4260,8 +4392,8 @@
       "edge_id": "w18_part12",
       "way_id": "w18",
       "file": "w18.geojson",
-      "from": "N144",
-      "to": "N145",
+      "from": "N167",
+      "to": "N168",
       "length_m": 8.09,
       "coordinates": [
         [
@@ -4278,7 +4410,7 @@
       "edge_id": "w18_part13",
       "way_id": "w18",
       "file": "w18.geojson",
-      "from": "N145",
+      "from": "N168",
       "to": "N152",
       "length_m": 8.19,
       "coordinates": [
@@ -4297,7 +4429,7 @@
       "way_id": "w18",
       "file": "w18.geojson",
       "from": "N152",
-      "to": "N089",
+      "to": "N073",
       "length_m": 27.43,
       "coordinates": [
         [
@@ -4307,6 +4439,204 @@
         [
           106.682347,
           10.75957
+        ]
+      ]
+    },
+    {
+      "edge_id": "w19_part01",
+      "way_id": "w19",
+      "file": "w19.geojson",
+      "from": "N155",
+      "to": "N156",
+      "length_m": 44.59,
+      "coordinates": [
+        [
+          106.681395,
+          10.759761
+        ],
+        [
+          106.681774,
+          10.75991
+        ]
+      ]
+    },
+    {
+      "edge_id": "w19_part02",
+      "way_id": "w19",
+      "file": "w19.geojson",
+      "from": "N156",
+      "to": "N169",
+      "length_m": 34.95,
+      "coordinates": [
+        [
+          106.681774,
+          10.75991
+        ],
+        [
+          106.68188288837217,
+          10.759614495864657
+        ]
+      ]
+    },
+    {
+      "edge_id": "w19_part03",
+      "way_id": "w19",
+      "file": "w19.geojson",
+      "from": "N169",
+      "to": "N170",
+      "length_m": 14.51,
+      "coordinates": [
+        [
+          106.68188288837217,
+          10.759614495864657
+        ],
+        [
+          106.68192809979051,
+          10.759491799925497
+        ]
+      ]
+    },
+    {
+      "edge_id": "w19_part04",
+      "way_id": "w19",
+      "file": "w19.geojson",
+      "from": "N170",
+      "to": "N160",
+      "length_m": 27.11,
+      "coordinates": [
+        [
+          106.68192809979051,
+          10.759491799925497
+        ],
+        [
+          106.68201256124051,
+          10.759262586215524
+        ]
+      ]
+    },
+    {
+      "edge_id": "w19_part05",
+      "way_id": "w19",
+      "file": "w19.geojson",
+      "from": "N160",
+      "to": "N160",
+      "length_m": 0.37,
+      "coordinates": [
+        [
+          106.68201256124051,
+          10.759262586215524
+        ],
+        [
+          106.6820136986382,
+          10.759259499515688
+        ]
+      ]
+    },
+    {
+      "edge_id": "w19_part06",
+      "way_id": "w19",
+      "file": "w19.geojson",
+      "from": "N160",
+      "to": "N160",
+      "length_m": 0.05,
+      "coordinates": [
+        [
+          106.6820136986382,
+          10.759259499515688
+        ],
+        [
+          106.68201385212679,
+          10.759259082974305
+        ]
+      ]
+    },
+    {
+      "edge_id": "w19_part07",
+      "way_id": "w19",
+      "file": "w19.geojson",
+      "from": "N160",
+      "to": "N157",
+      "length_m": 22.83,
+      "coordinates": [
+        [
+          106.68201385212679,
+          10.759259082974305
+        ],
+        [
+          106.682085,
+          10.759066
+        ]
+      ]
+    },
+    {
+      "edge_id": "w19_part08",
+      "way_id": "w19",
+      "file": "w19.geojson",
+      "from": "N157",
+      "to": "N159",
+      "length_m": 45.9,
+      "coordinates": [
+        [
+          106.682085,
+          10.759066
+        ],
+        [
+          106.68247441228884,
+          10.75922097019658
+        ]
+      ]
+    },
+    {
+      "edge_id": "w19_part09",
+      "way_id": "w19",
+      "file": "w19.geojson",
+      "from": "N159",
+      "to": "N158",
+      "length_m": 0.3,
+      "coordinates": [
+        [
+          106.68247441228884,
+          10.75922097019658
+        ],
+        [
+          106.682477,
+          10.759222
+        ]
+      ]
+    },
+    {
+      "edge_id": "w19_part10",
+      "way_id": "w19",
+      "file": "w19.geojson",
+      "from": "N158",
+      "to": "N102",
+      "length_m": 8.23,
+      "coordinates": [
+        [
+          106.682477,
+          10.759222
+        ],
+        [
+          106.6825045653507,
+          10.759153086623305
+        ]
+      ]
+    },
+    {
+      "edge_id": "w19_part11",
+      "way_id": "w19",
+      "file": "w19.geojson",
+      "from": "N102",
+      "to": "N102",
+      "length_m": 0.73,
+      "coordinates": [
+        [
+          106.6825045653507,
+          10.759153086623305
+        ],
+        [
+          106.682507,
+          10.759147
         ]
       ]
     },
@@ -4369,7 +4699,7 @@
       "way_id": "w2",
       "file": "w2.geojson",
       "from": "N004",
-      "to": "N026",
+      "to": "N018",
       "length_m": 20.88,
       "coordinates": [
         [
@@ -4386,8 +4716,8 @@
       "edge_id": "w2_part05",
       "way_id": "w2",
       "file": "w2.geojson",
-      "from": "N026",
-      "to": "N026",
+      "from": "N018",
+      "to": "N018",
       "length_m": 0.44,
       "coordinates": [
         [
@@ -4404,8 +4734,8 @@
       "edge_id": "w2_part06",
       "way_id": "w2",
       "file": "w2.geojson",
-      "from": "N026",
-      "to": "N026",
+      "from": "N018",
+      "to": "N018",
       "length_m": 0.13,
       "coordinates": [
         [
@@ -4422,7 +4752,7 @@
       "edge_id": "w2_part07",
       "way_id": "w2",
       "file": "w2.geojson",
-      "from": "N026",
+      "from": "N018",
       "to": "N116",
       "length_m": 21.03,
       "coordinates": [
@@ -4495,7 +4825,7 @@
       "way_id": "w3",
       "file": "w3.geojson",
       "from": "N004",
-      "to": "N026",
+      "to": "N018",
       "length_m": 20.88,
       "coordinates": [
         [
@@ -4512,7 +4842,7 @@
       "edge_id": "w3_part05",
       "way_id": "w3",
       "file": "w3.geojson",
-      "from": "N026",
+      "from": "N018",
       "to": "N012",
       "length_m": 1.22,
       "coordinates": [
@@ -4531,7 +4861,7 @@
       "way_id": "w3",
       "file": "w3.geojson",
       "from": "N012",
-      "to": "N023",
+      "to": "N026",
       "length_m": 26.01,
       "coordinates": [
         [
@@ -4603,7 +4933,7 @@
       "way_id": "w4",
       "file": "w4.geojson",
       "from": "N004",
-      "to": "N026",
+      "to": "N018",
       "length_m": 20.88,
       "coordinates": [
         [
@@ -4620,7 +4950,7 @@
       "edge_id": "w4_part05",
       "way_id": "w4",
       "file": "w4.geojson",
-      "from": "N026",
+      "from": "N018",
       "to": "N012",
       "length_m": 1.23,
       "coordinates": [
@@ -4639,7 +4969,7 @@
       "way_id": "w4",
       "file": "w4.geojson",
       "from": "N012",
-      "to": "N023",
+      "to": "N026",
       "length_m": 26.0,
       "coordinates": [
         [
@@ -4656,7 +4986,7 @@
       "edge_id": "w4_part07",
       "way_id": "w4",
       "file": "w4.geojson",
-      "from": "N023",
+      "from": "N026",
       "to": "N146",
       "length_m": 10.06,
       "coordinates": [
@@ -4693,7 +5023,7 @@
       "way_id": "w4",
       "file": "w4.geojson",
       "from": "N082",
-      "to": "N073",
+      "to": "N117",
       "length_m": 19.61,
       "coordinates": [
         [
@@ -4710,8 +5040,8 @@
       "edge_id": "w4_part10",
       "way_id": "w4",
       "file": "w4.geojson",
-      "from": "N073",
-      "to": "N142",
+      "from": "N117",
+      "to": "N165",
       "length_m": 28.24,
       "coordinates": [
         [
@@ -4728,8 +5058,8 @@
       "edge_id": "w4_part11",
       "way_id": "w4",
       "file": "w4.geojson",
-      "from": "N142",
-      "to": "N117",
+      "from": "N165",
+      "to": "N169",
       "length_m": 15.58,
       "coordinates": [
         [
@@ -4801,7 +5131,7 @@
       "way_id": "w5",
       "file": "w5.geojson",
       "from": "N004",
-      "to": "N026",
+      "to": "N018",
       "length_m": 20.88,
       "coordinates": [
         [
@@ -4818,7 +5148,7 @@
       "edge_id": "w5_part05",
       "way_id": "w5",
       "file": "w5.geojson",
-      "from": "N026",
+      "from": "N018",
       "to": "N012",
       "length_m": 1.23,
       "coordinates": [
@@ -4837,7 +5167,7 @@
       "way_id": "w5",
       "file": "w5.geojson",
       "from": "N012",
-      "to": "N023",
+      "to": "N026",
       "length_m": 26.0,
       "coordinates": [
         [
@@ -4854,7 +5184,7 @@
       "edge_id": "w5_part07",
       "way_id": "w5",
       "file": "w5.geojson",
-      "from": "N023",
+      "from": "N026",
       "to": "N146",
       "length_m": 10.06,
       "coordinates": [
@@ -4891,7 +5221,7 @@
       "way_id": "w5",
       "file": "w5.geojson",
       "from": "N082",
-      "to": "N073",
+      "to": "N117",
       "length_m": 19.61,
       "coordinates": [
         [
@@ -4908,8 +5238,8 @@
       "edge_id": "w5_part10",
       "way_id": "w5",
       "file": "w5.geojson",
-      "from": "N073",
-      "to": "N073",
+      "from": "N117",
+      "to": "N117",
       "length_m": 0.19,
       "coordinates": [
         [
@@ -4926,8 +5256,8 @@
       "edge_id": "w5_part11",
       "way_id": "w5",
       "file": "w5.geojson",
-      "from": "N073",
-      "to": "N073",
+      "from": "N117",
+      "to": "N117",
       "length_m": 0.09,
       "coordinates": [
         [
@@ -4944,8 +5274,8 @@
       "edge_id": "w5_part12",
       "way_id": "w5",
       "file": "w5.geojson",
-      "from": "N073",
-      "to": "N073",
+      "from": "N117",
+      "to": "N117",
       "length_m": 0.28,
       "coordinates": [
         [
@@ -4962,8 +5292,8 @@
       "edge_id": "w5_part13",
       "way_id": "w5",
       "file": "w5.geojson",
-      "from": "N073",
-      "to": "N073",
+      "from": "N117",
+      "to": "N117",
       "length_m": 0.28,
       "coordinates": [
         [
@@ -4980,7 +5310,7 @@
       "edge_id": "w5_part14",
       "way_id": "w5",
       "file": "w5.geojson",
-      "from": "N073",
+      "from": "N117",
       "to": "N118",
       "length_m": 27.85,
       "coordinates": [
@@ -5071,7 +5401,7 @@
       "way_id": "w5_2",
       "file": "w5.geojson",
       "from": "N004",
-      "to": "N026",
+      "to": "N018",
       "length_m": 20.88,
       "coordinates": [
         [
@@ -5088,7 +5418,7 @@
       "edge_id": "w5_2_part05",
       "way_id": "w5_2",
       "file": "w5.geojson",
-      "from": "N026",
+      "from": "N018",
       "to": "N012",
       "length_m": 1.23,
       "coordinates": [
@@ -5107,7 +5437,7 @@
       "way_id": "w5_2",
       "file": "w5.geojson",
       "from": "N012",
-      "to": "N023",
+      "to": "N026",
       "length_m": 26.0,
       "coordinates": [
         [
@@ -5124,7 +5454,7 @@
       "edge_id": "w5_2_part07",
       "way_id": "w5_2",
       "file": "w5.geojson",
-      "from": "N023",
+      "from": "N026",
       "to": "N146",
       "length_m": 10.06,
       "coordinates": [
@@ -5161,7 +5491,7 @@
       "way_id": "w5_2",
       "file": "w5.geojson",
       "from": "N082",
-      "to": "N073",
+      "to": "N117",
       "length_m": 19.61,
       "coordinates": [
         [
@@ -5178,8 +5508,8 @@
       "edge_id": "w5_2_part10",
       "way_id": "w5_2",
       "file": "w5.geojson",
-      "from": "N073",
-      "to": "N073",
+      "from": "N117",
+      "to": "N117",
       "length_m": 0.19,
       "coordinates": [
         [
@@ -5196,8 +5526,8 @@
       "edge_id": "w5_2_part11",
       "way_id": "w5_2",
       "file": "w5.geojson",
-      "from": "N073",
-      "to": "N073",
+      "from": "N117",
+      "to": "N117",
       "length_m": 0.09,
       "coordinates": [
         [
@@ -5214,8 +5544,8 @@
       "edge_id": "w5_2_part12",
       "way_id": "w5_2",
       "file": "w5.geojson",
-      "from": "N073",
-      "to": "N073",
+      "from": "N117",
+      "to": "N117",
       "length_m": 0.28,
       "coordinates": [
         [
@@ -5232,8 +5562,8 @@
       "edge_id": "w5_2_part13",
       "way_id": "w5_2",
       "file": "w5.geojson",
-      "from": "N073",
-      "to": "N073",
+      "from": "N117",
+      "to": "N117",
       "length_m": 0.28,
       "coordinates": [
         [
@@ -5250,7 +5580,7 @@
       "edge_id": "w5_2_part14",
       "way_id": "w5_2",
       "file": "w5.geojson",
-      "from": "N073",
+      "from": "N117",
       "to": "N118",
       "length_m": 27.85,
       "coordinates": [
@@ -5341,7 +5671,7 @@
       "way_id": "w6",
       "file": "w6.geojson",
       "from": "N004",
-      "to": "N026",
+      "to": "N018",
       "length_m": 20.88,
       "coordinates": [
         [
@@ -5358,7 +5688,7 @@
       "edge_id": "w6_part05",
       "way_id": "w6",
       "file": "w6.geojson",
-      "from": "N026",
+      "from": "N018",
       "to": "N012",
       "length_m": 1.22,
       "coordinates": [
@@ -5377,7 +5707,7 @@
       "way_id": "w6",
       "file": "w6.geojson",
       "from": "N012",
-      "to": "N023",
+      "to": "N026",
       "length_m": 26.01,
       "coordinates": [
         [
@@ -5394,7 +5724,7 @@
       "edge_id": "w6_part07",
       "way_id": "w6",
       "file": "w6.geojson",
-      "from": "N023",
+      "from": "N026",
       "to": "N082",
       "length_m": 13.79,
       "coordinates": [
@@ -5431,7 +5761,7 @@
       "way_id": "w6",
       "file": "w6.geojson",
       "from": "N082",
-      "to": "N018",
+      "to": "N023",
       "length_m": 0.61,
       "coordinates": [
         [
@@ -5448,8 +5778,8 @@
       "edge_id": "w6_part10",
       "way_id": "w6",
       "file": "w6.geojson",
-      "from": "N018",
-      "to": "N018",
+      "from": "N023",
+      "to": "N023",
       "length_m": 0.12,
       "coordinates": [
         [
@@ -5466,8 +5796,8 @@
       "edge_id": "w6_part11",
       "way_id": "w6",
       "file": "w6.geojson",
-      "from": "N018",
-      "to": "N143",
+      "from": "N023",
+      "to": "N166",
       "length_m": 27.66,
       "coordinates": [
         [
@@ -5484,7 +5814,7 @@
       "edge_id": "w6_part12",
       "way_id": "w6",
       "file": "w6.geojson",
-      "from": "N143",
+      "from": "N166",
       "to": "N093",
       "length_m": 5.12,
       "coordinates": [
@@ -5575,7 +5905,7 @@
       "way_id": "w7",
       "file": "w7.geojson",
       "from": "N004",
-      "to": "N026",
+      "to": "N018",
       "length_m": 20.88,
       "coordinates": [
         [
@@ -5592,7 +5922,7 @@
       "edge_id": "w7_part05",
       "way_id": "w7",
       "file": "w7.geojson",
-      "from": "N026",
+      "from": "N018",
       "to": "N012",
       "length_m": 1.22,
       "coordinates": [
@@ -5611,7 +5941,7 @@
       "way_id": "w7",
       "file": "w7.geojson",
       "from": "N012",
-      "to": "N023",
+      "to": "N026",
       "length_m": 26.01,
       "coordinates": [
         [
@@ -5628,7 +5958,7 @@
       "edge_id": "w7_part07",
       "way_id": "w7",
       "file": "w7.geojson",
-      "from": "N023",
+      "from": "N026",
       "to": "N082",
       "length_m": 13.79,
       "coordinates": [
@@ -5665,7 +5995,7 @@
       "way_id": "w7",
       "file": "w7.geojson",
       "from": "N082",
-      "to": "N018",
+      "to": "N023",
       "length_m": 0.61,
       "coordinates": [
         [
@@ -5682,8 +6012,8 @@
       "edge_id": "w7_part10",
       "way_id": "w7",
       "file": "w7.geojson",
-      "from": "N018",
-      "to": "N018",
+      "from": "N023",
+      "to": "N023",
       "length_m": 0.12,
       "coordinates": [
         [
@@ -5700,8 +6030,8 @@
       "edge_id": "w7_part11",
       "way_id": "w7",
       "file": "w7.geojson",
-      "from": "N018",
-      "to": "N143",
+      "from": "N023",
+      "to": "N166",
       "length_m": 27.66,
       "coordinates": [
         [
@@ -5718,7 +6048,7 @@
       "edge_id": "w7_part12",
       "way_id": "w7",
       "file": "w7.geojson",
-      "from": "N143",
+      "from": "N166",
       "to": "N093",
       "length_m": 5.12,
       "coordinates": [
@@ -5809,7 +6139,7 @@
       "way_id": "w7",
       "file": "w7.geojson",
       "from": "N118",
-      "to": "N144",
+      "to": "N167",
       "length_m": 3.49,
       "coordinates": [
         [
@@ -5826,7 +6156,7 @@
       "edge_id": "w7_part18",
       "way_id": "w7",
       "file": "w7.geojson",
-      "from": "N144",
+      "from": "N167",
       "to": "N123",
       "length_m": 8.03,
       "coordinates": [
@@ -5845,7 +6175,7 @@
       "way_id": "w7",
       "file": "w7.geojson",
       "from": "N123",
-      "to": "N145",
+      "to": "N168",
       "length_m": 0.1,
       "coordinates": [
         [
@@ -5862,7 +6192,7 @@
       "edge_id": "w7_part20",
       "way_id": "w7",
       "file": "w7.geojson",
-      "from": "N145",
+      "from": "N168",
       "to": "N120",
       "length_m": 5.82,
       "coordinates": [
@@ -5935,7 +6265,7 @@
       "way_id": "w8",
       "file": "w8.geojson",
       "from": "N087",
-      "to": "N026",
+      "to": "N018",
       "length_m": 7.97,
       "coordinates": [
         [
@@ -5952,7 +6282,7 @@
       "edge_id": "w8_part05",
       "way_id": "w8",
       "file": "w8.geojson",
-      "from": "N026",
+      "from": "N018",
       "to": "N012",
       "length_m": 1.18,
       "coordinates": [
@@ -5971,7 +6301,7 @@
       "way_id": "w8",
       "file": "w8.geojson",
       "from": "N012",
-      "to": "N023",
+      "to": "N026",
       "length_m": 26.03,
       "coordinates": [
         [
@@ -5988,7 +6318,7 @@
       "edge_id": "w8_part07",
       "way_id": "w8",
       "file": "w8.geojson",
-      "from": "N023",
+      "from": "N026",
       "to": "N146",
       "length_m": 10.06,
       "coordinates": [
@@ -6025,7 +6355,7 @@
       "way_id": "w8",
       "file": "w8.geojson",
       "from": "N082",
-      "to": "N141",
+      "to": "N164",
       "length_m": 13.48,
       "coordinates": [
         [
@@ -6042,8 +6372,8 @@
       "edge_id": "w8_part10",
       "way_id": "w8",
       "file": "w8.geojson",
-      "from": "N141",
-      "to": "N073",
+      "from": "N164",
+      "to": "N117",
       "length_m": 6.14,
       "coordinates": [
         [
@@ -6060,8 +6390,8 @@
       "edge_id": "w8_part11",
       "way_id": "w8",
       "file": "w8.geojson",
-      "from": "N073",
-      "to": "N139",
+      "from": "N117",
+      "to": "N136",
       "length_m": 10.57,
       "coordinates": [
         [
@@ -6078,8 +6408,8 @@
       "edge_id": "w8_part12",
       "way_id": "w8",
       "file": "w8.geojson",
-      "from": "N139",
-      "to": "N089",
+      "from": "N136",
+      "to": "N073",
       "length_m": 10.42,
       "coordinates": [
         [
@@ -6096,8 +6426,8 @@
       "edge_id": "w8_part13",
       "way_id": "w8",
       "file": "w8.geojson",
-      "from": "N089",
-      "to": "N089",
+      "from": "N073",
+      "to": "N073",
       "length_m": 0.01,
       "coordinates": [
         [
@@ -6114,8 +6444,8 @@
       "edge_id": "w8_part14",
       "way_id": "w8",
       "file": "w8.geojson",
-      "from": "N089",
-      "to": "N089",
+      "from": "N073",
+      "to": "N073",
       "length_m": 0.76,
       "coordinates": [
         [
@@ -6187,7 +6517,7 @@
       "way_id": "w9",
       "file": "w9.geojson",
       "from": "N004",
-      "to": "N026",
+      "to": "N018",
       "length_m": 20.88,
       "coordinates": [
         [
@@ -6204,7 +6534,7 @@
       "edge_id": "w9_part05",
       "way_id": "w9",
       "file": "w9.geojson",
-      "from": "N026",
+      "from": "N018",
       "to": "N012",
       "length_m": 1.23,
       "coordinates": [
@@ -6223,7 +6553,7 @@
       "way_id": "w9",
       "file": "w9.geojson",
       "from": "N012",
-      "to": "N023",
+      "to": "N026",
       "length_m": 26.0,
       "coordinates": [
         [
@@ -6240,7 +6570,7 @@
       "edge_id": "w9_part07",
       "way_id": "w9",
       "file": "w9.geojson",
-      "from": "N023",
+      "from": "N026",
       "to": "N146",
       "length_m": 10.06,
       "coordinates": [
@@ -6277,7 +6607,7 @@
       "way_id": "w9",
       "file": "w9.geojson",
       "from": "N082",
-      "to": "N073",
+      "to": "N117",
       "length_m": 19.61,
       "coordinates": [
         [
@@ -6294,8 +6624,8 @@
       "edge_id": "w9_part10",
       "way_id": "w9",
       "file": "w9.geojson",
-      "from": "N073",
-      "to": "N142",
+      "from": "N117",
+      "to": "N165",
       "length_m": 28.23,
       "coordinates": [
         [
@@ -6312,8 +6642,8 @@
       "edge_id": "w9_part11",
       "way_id": "w9",
       "file": "w9.geojson",
-      "from": "N142",
-      "to": "N117",
+      "from": "N165",
+      "to": "N169",
       "length_m": 15.58,
       "coordinates": [
         [
@@ -6330,7 +6660,7 @@
       "edge_id": "w9_part12",
       "way_id": "w9",
       "file": "w9.geojson",
-      "from": "N117",
+      "from": "N169",
       "to": "N074",
       "length_m": 0.1,
       "coordinates": [
@@ -6349,7 +6679,7 @@
       "way_id": "w9",
       "file": "w9.geojson",
       "from": "N074",
-      "to": "N117",
+      "to": "N169",
       "length_m": 0.04,
       "coordinates": [
         [
@@ -6366,7 +6696,7 @@
       "edge_id": "w9_part14",
       "way_id": "w9",
       "file": "w9.geojson",
-      "from": "N117",
+      "from": "N169",
       "to": "N075",
       "length_m": 14.51,
       "coordinates": [
@@ -6385,12 +6715,30 @@
       "way_id": "w9",
       "file": "w9.geojson",
       "from": "N075",
-      "to": "N124",
-      "length_m": 36.69,
+      "to": "N170",
+      "length_m": 0.69,
       "coordinates": [
         [
           106.681934,
           10.759494
+        ],
+        [
+          106.68192809946254,
+          10.759491801392093
+        ]
+      ]
+    },
+    {
+      "edge_id": "w9_part16",
+      "way_id": "w9",
+      "file": "w9.geojson",
+      "from": "N170",
+      "to": "N124",
+      "length_m": 36.0,
+      "coordinates": [
+        [
+          106.68192809946254,
+          10.759491801392093
         ],
         [
           106.68162,
